@@ -1,0 +1,50 @@
+.collegeBackground {
+    background-image: url("../../assets/cet.jpg");
+    background-image: url("../../assets/cet.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+
+.tint {
+    display: flex;
+    align-items: center;
+}
+
+.collegeInsignia {
+    width: 100%;
+    margin: 10vw;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.collegeInsignia .collegeText {
+    /* padding: 10vw 10vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+.collegeInsignia img {
+    width: 30vw;
+}
+
+.collegeInsignia h1 {
+    line-height: 0%;
+}
+
+/* collegeInfo.tsx */
+
+.collegeInfoContainer {
+    height: 100vh;
+    display: flex;
+    @media screen and (max-width: 781px) {
+        display: block;
+    }
+    background: white;
+    padding: 10vh 10vw;
+    h1 {
+        color: blue;
+        margin-bottom: 5vh;
+    }
+}

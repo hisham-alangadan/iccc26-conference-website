@@ -3,7 +3,6 @@ import Home from "./components/home";
 import WelcomePage from "./components/welcomePage";
 import ConferenceInfo from "./components/conferenceInfo";
 import ConferenceHighlights from "./components/conferenceHighlights";
-
 import './App.css'
 
 function App() {

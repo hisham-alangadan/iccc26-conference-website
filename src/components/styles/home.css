@@ -10,6 +10,11 @@
 
 .tint {
   height: 100%;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  align-content: center;
+  text-align: center;
   background-color: blue;
   opacity: 60%;
 }
@@ -18,12 +23,15 @@
   /* text-align: center; */
   /* margin: 0 0 0 50vh; */
   padding: 25vh 25vw;
+  text-align: center;
   font-size: 1.5em;
+  opacity: 100%;
 }
 
 .content h1 {
   /* font-size: 48px; */
   margin-bottom: 20px;
+  
 }
 
 .content p {

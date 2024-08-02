@@ -14,7 +14,11 @@
     }
   }
   
-  .logo {display: flex; place-content: center; align-items: center;}
+  .logo {
+    display: flex;
+    place-content: center;
+    align-items: center;
+  }
 
   .logo img {
     height: 5vh;
