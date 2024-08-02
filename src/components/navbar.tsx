@@ -7,6 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <img src={logo} alt="Conference Logo" />
+        <h3> College of Engineering Trivandrum </h3>
       </div>
       <ul className="nav-links">
         <li><a href="#">Home</a></li>

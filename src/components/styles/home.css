@@ -1,5 +1,5 @@
 .home {
-  background-image: url("../../assets/cet.png");
+  background-image: url("../../assets/cet.jpg");
   background-size: cover;
   color: white;
   height: 100vh;
@@ -8,11 +8,17 @@
   /* filter: hue-rotate(300deg) brightness(1); */
 }
 
+.tint {
+  height: 100%;
+  background-color: blue;
+  opacity: 60%;
+}
+
 .content {
   /* text-align: center; */
-  margin: 0 0 0 20em;
-  padding: 8em 0 0 0;
-  font-size: 2em;
+  /* margin: 0 0 0 50vh; */
+  padding: 25vh 25vw;
+  font-size: 1.5em;
 }
 
 .content h1 {
@@ -30,7 +36,7 @@
   background-color: rgba(0, 0, 0, 0);
   border: white 2px solid;
   color: white;
-  margin: 2em auto 0 7.5em;
+  margin: 1vh auto;
   padding: 10px 20px;
   text-decoration: none;
   /* font-size: 18px; */

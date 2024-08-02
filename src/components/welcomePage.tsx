@@ -1,5 +1,5 @@
 // import React from 'react';
-import ieeeLogo from '../assets/ieeeLogo.svg';
+import ieeeLogo from '../assets/ieee mb blue.png';
 import conferenceLogo from '../assets/conference-logo.svg';
 import './styles/welcomePage.css';
 
