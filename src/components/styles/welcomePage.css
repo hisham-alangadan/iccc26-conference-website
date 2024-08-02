@@ -1,0 +1,63 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(to bottom, #ffffff, #8f8ffa);
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .welcome-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .ieee-logo {
+    height: 80px;
+  }
+  
+  .welcome-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 100px;
+  }
+
+  /* .welcome-content { */
+    /* text-align: center; */
+    /* max-width: 800px; */
+    /* margin: auto; */
+  /* } */
+  
+  .welcome-content h1 {
+    font-size: 5rem;
+    color: #00008B;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-content h2 {
+    font-size: 3rem;
+    color: #00008B;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-content p {
+    font-size: 2.4rem;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-content p em {
+    color: #00008B;
+  }
+  
+  .conference-logo {
+    height: 24rem;
+    margin-top: 20px;
+  }
+  
