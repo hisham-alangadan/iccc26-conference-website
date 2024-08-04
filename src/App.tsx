@@ -3,8 +3,10 @@ import Home from "./components/home";
 import WelcomePage from "./components/welcomePage";
 import ConferenceInfo from "./components/conferenceInfo";
 import ConferenceHighlights from "./components/conferenceHighlights";
+import Venue from './pages/Venue';
+import AboutUs from './pages/AboutUs';
 import './App.css'
-
+// added Venue and about pages temporarily.
 function App() {
 
   return (
@@ -14,6 +16,8 @@ function App() {
       <WelcomePage />
       <ConferenceInfo />
       <ConferenceHighlights />
+      <Venue />
+      <AboutUs />
     </>
   )
 }
