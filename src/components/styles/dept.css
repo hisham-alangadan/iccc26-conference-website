@@ -1,5 +1,5 @@
 .departments-container {
-    background: #00008B;
+    background: #000033;
     color: #ffffff;
     padding: 5vh 5vw;
     min-height: 100vh;
@@ -31,6 +31,12 @@
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.department-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
 }
 
 .department-content {
@@ -42,6 +48,11 @@
     margin-bottom: 15px;
     font-size: 1.8rem;
     color: #FFD700;
+    transition: color 0.3s ease;
+}
+
+.department-section:hover .department-content h2 {
+    color: #FFA500;
 }
 
 .department-content p {
@@ -60,7 +71,6 @@
     height: auto;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .department-section:nth-child(even) {
