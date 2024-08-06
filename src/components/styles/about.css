@@ -1,0 +1,74 @@
+.AboutUs-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    padding: 5vh 5vw;
+    gap: 100px;
+    @media screen and (max-width: 781px) {
+      flex-direction: column;
+    }
+}
+
+.About-content{
+    display: block;
+}
+
+.About-content > h1 {
+    font-size: 3rem;
+    color: #00008B;
+    margin-bottom: 10px;
+}
+
+.About-content h2 {
+    font-size: 2rem;
+    color: #00008B;
+    margin-bottom: 20px;
+}
+
+.About-content p {
+    font-size: 1.0rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+    margin-top: 20px;
+    padding-left: 20px; 
+    padding-bottom: 20px;
+}
+
+.college-pic {
+    width: 117%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    box-shadow: -20px 20px 0 #0000A0;
+    right: 40px ;
+}
+
+
+.rectangle-bottom {
+    position: relative;
+    height: 20px;
+    background-color: #0000A0;
+    bottom: 45px;
+}
+
+.rectangle-left {
+    position: relative;
+    width: 20px;
+    background-color: #0000A0;
+    bottom: 45px; 
+}
+
+@media screen and (max-width: 781px) {
+    .image-container {
+        width: 60vw;
+        margin-top: 5vw;
+    }
+  }
