@@ -1,7 +1,6 @@
 // import React from 'react';
 import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
 import './styles/navbar.css';
-import Venue from '../pages/Venue'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -57,7 +56,7 @@ const Navbar = () => {
           <a href="#">Speakers</a>
         </div>
         <div className="nav-link">
-          <a href="#">Venue</a>
+          <Link to="venue">Venue</Link>
           <div className="dropdown">
             <div>
               <a href="#">Accomodation</a>
