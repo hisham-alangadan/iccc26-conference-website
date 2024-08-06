@@ -12,7 +12,7 @@ function Venue() {
       <College />
       <CollegeInfo />
       <City />
-      <CityHelp />
+      {/* <CityHelp /> */}
     </>
   )
 }

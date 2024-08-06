@@ -29,8 +29,8 @@
     width: 30vw;
 }
 
-.collegeInsignia h1 {
-    line-height: 0%;
+.collegeText h1 {
+    margin-bottom: -1vw;
 }
 
 /* collegeInfo.tsx */
@@ -43,8 +43,4 @@
     }
     background: white;
     padding: 10vh 10vw;
-    h1 {
-        color: blue;
-        margin-bottom: 5vh;
-    }
 }

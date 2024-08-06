@@ -5,7 +5,6 @@ import ConferenceInfo from "./components/conferenceInfo";
 import ConferenceHighlights from "./components/conferenceHighlights";
 import Venue from './pages/Venue';
 import AboutUs from './pages/AboutUs';
-import OrgCommittee from './pages/Committee.tsx';
 import './App.css'
 // added Venue and about pages temporarily.
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <ConferenceHighlights />
       <Venue />
       <AboutUs />
-      <OrgCommittee />
     </>
   )
 }
