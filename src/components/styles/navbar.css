@@ -1,54 +1,78 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(8px);
-    position: fixed;
-    z-index: 2;
-    height: 5vh;
-    width: 98vw;
-    @media screen and (max-width: 781px) {
-      height: 10vh;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  z-index: 2;
+  height: 5vh;
+  width: 98vw;
+
+  @media screen and (max-width: 781px) {
+    height: 10vh;
   }
-  
-  .logo {
-    display: flex;
-    place-content: center;
-    align-items: center;
+}
+
+.logo {
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 5vh;
+
+  @media screen and (max-width: 781px) {
+    height: 10vh;
   }
 
-  .logo img {
-    height: 5vh;
-    @media screen and (max-width: 781px) {
-      height: 10vh;
-    }
+  padding: 10px;
+}
+
+.logo h3 {
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0 20px 0 0;
+
+  @media screen and (max-width: 781px) {
+    display: none;
+  }
+}
+
+.nav-links .nav-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.nav-links .nav-link a:hover {
+  color: #ddd;
+}
+
+.dropdown {
+  display: none;
+  background-color: blue;
+  /* opacity: 40%; */
+  padding: 10px;
+  position: fixed;
+  margin-top: 2.5vh;
+  color: white;
+  div {
     padding: 10px;
   }
-  
-  .logo h3 {
-    color: white;
-  }
-  
-  .nav-links {
-    list-style: none;
+}
+
+.nav-link:hover, .nav-link>a:hover {
+  .dropdown {
     display: flex;
-    gap: 3em;
-    margin: 0 20px 0 0;
-    @media screen and (max-width: 781px) {
-      visibility: hidden;
-    }
+    flex-direction: column;
   }
-  
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: color 0.3s;
-  }
-  
-  .nav-links li a:hover {
-    color: #ddd;
-  }  
+}

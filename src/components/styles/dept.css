@@ -73,9 +73,9 @@
     border-radius: 5px;
 }
 
-.department-section:nth-child(even) {
+/* .department-section:nth-child(even) {
     flex-direction: row-reverse;
-}
+} */
 
 @media screen and (max-width: 781px) {
     .departments-container > h1 {
@@ -93,6 +93,6 @@
 
     .department-image {
         flex: 0 0 100%;
-        max-width: 100%;
+        width: 75vw;
     }
 }
