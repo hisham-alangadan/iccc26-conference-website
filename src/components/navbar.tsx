@@ -1,6 +1,8 @@
 // import React from 'react';
 import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
 import './styles/navbar.css';
+import Venue from '../pages/Venue'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
