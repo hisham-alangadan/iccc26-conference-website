@@ -1,3 +1,4 @@
+import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import WelcomePage from "./components/welcomePage";
@@ -10,15 +11,19 @@ import './App.css'
 function App() {
 
   return (
-    <>
-      <Navbar />
-      <Home />
-      <WelcomePage />
-      <ConferenceInfo />
-      <ConferenceHighlights />
-      <Venue />
-      <AboutUs />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<>
+          <Navbar />
+          <Home />
+          <WelcomePage />
+          <ConferenceInfo />
+          <ConferenceHighlights />
+          </>}></Route>
+        <Route path="/venue" element={<Venue/>}></Route>
+        <Route path="/aboutus" element={<AboutUs/>}></Route>
+      </Routes>
+    </Router>
   )
 }
 
