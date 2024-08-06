@@ -1,7 +1,7 @@
 {
   "name": "iccc25-conference-website",
-  "homepage": "https://hisham-alangadan.github.io/iccc26-conference-website/",
-  "private": true,
+  "homepage": "https://hisham-alangadan.github.io/iccc26-conference-website",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
