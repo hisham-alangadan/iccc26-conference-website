@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
+        {/* <h3>ICCC</h3> */}
         <img src={logo} alt="Conference Logo" />
         <h3> College of Engineering Trivandrum </h3>
       </div>
