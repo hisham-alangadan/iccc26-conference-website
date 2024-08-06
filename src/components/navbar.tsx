@@ -3,6 +3,8 @@ import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is c
 import './styles/navbar.css';
 import Venue from '../pages/Venue'
 import { Link } from 'react-router-dom';
+import Venue from '../pages/Venue'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -14,10 +16,10 @@ const Navbar = () => {
       </div>
       <div className="nav-links">
         <div className="nav-link">
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </div>
         <div className="nav-link">
-          <a href="#">About Us</a>
+          <Link to="/aboutus">About Us</Link>
         </div>
         <div className="nav-link">
           <a href="#">Committee</a>
