@@ -1,12 +1,24 @@
 .cameraready-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: white;
+    /* background: linear-gradient(135deg, #000033, #000066);
+    color: white; */
     padding: 10vh 5vw;
     min-height: 100vh;
+    font-weight: 600;
+    text-align: justify;
 
     @media screen and (max-width: 781px) {
         padding-top: 15vh;
     }
+
+
+    p, li {
+        font-size: 18px;
+        line-height: 200%;
+    }
+
+    h2 { color: blue; font-size: 30px; }
+
+    h3 { color: blue; font-size: 24px;}
 
     a {
         color: rgb(51, 193, 211);

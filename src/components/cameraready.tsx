@@ -4,9 +4,10 @@ const CameraReadyComponent = () => {
     return (
         <div className="cameraready-container">
             <h2>Camera Ready Paper Submission Instructions</h2>
-            <p>Camera Ready Paper Submission Deadline: March 30, 2025.</p>
-            <p>For camera ready submission, no change in title of the paper and authors are allowed.</p>
-
+            <ul>
+            <li>Camera Ready Paper Submission Deadline: <span style={{"color":"red"}}>March 30, 2025</span>.</li>
+            <li>For camera ready submission, no change in title of the paper and authors are allowed.</li>
+            </ul>
             <h3>Step 1: Final Camera Ready Paper and Reviewer Response Preparation</h3>
             <ol>
                 <li>Please follow IEEE two column A4 size standard conference format for preparing your final manuscript. For more details please visit: <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE Templates page</a>.</li>

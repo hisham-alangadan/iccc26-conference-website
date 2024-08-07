@@ -30,10 +30,10 @@ const Navbar = () => {
           <Link to="/committee/organizing">Committee</Link>
           <div className="dropdown">
             <div>
-              <a href="#">Organizing Committee</a>
+              <Link to="/committee/organizing">Organizing Committee</Link>
             </div>
             <div>
-              <a href="#">Advisory Committee</a>
+              <Link to="/committee/organizing">Advisory Committee</Link>
             </div>
           </div>
         </div>
@@ -67,18 +67,21 @@ const Navbar = () => {
           <Link to="/Venue">Venue</Link>
           <div className="dropdown">
             <div>
-              <a href="#">Accomodation</a>
+              <a href="#">Conference Venue</a>
             </div>
             <div>
-              <a href="#">Conference Venue</a>
+              <a href="#">Accomodation</a>
             </div>
             <div>
               <a href="#">How to Reach</a>
             </div>
+            <div>
+              <a href="#">Tourism</a>
+            </div>
           </div>
         </div>
         <div className="nav-link">
-          <a href="#">Contact</a>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </nav>

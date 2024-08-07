@@ -3,24 +3,27 @@ import "../components/styles/tracks.css"
 const TracksComponent = () => {
     return (
         <div className="tracks-container">
-            <h1> Technical tracks at ICCC 2025 </h1>
+            <h1> Technical Tracks at ICCC 2025 </h1>
             <p>Technical papers are solicited on the topics pertaining to the scope of the Conference will include, but are not limited to the following.</p>
             <div className="tracks-box">
                 <div>
                     <table>
                         <header> Track 1 </header>
-                        <tr>Control Theory and Applications</tr>
-                        <tr>Intelligent Autonomous Systems</tr>
-                        <tr>Architectures for Intelligent Control</tr>
-                        <tr>Networked Control Systems</tr>
-                        <tr>Automotive Control Systems</tr>
-                        <tr>Industrial Process Control & Automation</tr>
-                        <tr>Manufacturing Systems Control</tr>
-                        <tr>Control of Constrained Systems</tr>
-                        <tr>Power System Operation and Control</tr>Control of Electric Drives
-                        <tr>Robotics and Aerospace Applications</tr>
-                        <tr>Renewable Energy and Smart Grid</tr>
-                        <tr>Navigation, Guidance and Control</tr>
+                        <ul>
+                            <li>Control Theory and Applications</li>
+                            <li>Intelligent Autonomous Systems</li>
+                            <li>Architectures for Intelligent Control</li>
+                            <li>Networked Control Systems</li>
+                            <li>Automotive Control Systems</li>
+                            <li>Industrial Process Control & Automation</li>
+                            <li>Manufacturing Systems Control</li>
+                            <li>Control of Constrained Systems</li>
+                            <li>Power System Operation and Control</li>
+                            <li>Control of Electric Drives</li>
+                            <li>Robotics and Aerospace Applications</li>
+                            <li>Renewable Energy and Smart Grid</li>
+                            <li>Navigation, Guidance and Control</li>
+                        </ul>
                     </table>
                 </div>
                 <div>
@@ -28,20 +31,21 @@ const TracksComponent = () => {
                         <header>
                             Track 2
                         </header>
-                        <tr>                        Wireless Communication and Sensor Networks</tr>
-                        <tr>                        RF and Microwave Systems</tr>
-                        <tr>                        Automation Robotics and Control</tr>
-                        <tr>                        Power Electronics and Instrumentation</tr>
-                        <tr>                        Signal Processing</tr>
-                        <tr>                        MEMS/NEMS</tr>
-                        <tr>                        Optoelectronics and Lightwave Systems</tr>
-                        <tr>                        VLSI and Embedded Systems</tr>
-                        <tr>                        Biomedical Engineering</tr>
-                        <tr>                        Reliability Engineering</tr>
-                        <tr>                        Network Systems and Protocols</tr>
-                        <tr>                        Nanoelectronics</tr>
-                        <tr>Computer Networks</tr>
-
+                        <ul>
+                            <li>Wireless Communication and Sensor Networks</li>
+                            <li>RF and Microwave Systems</li>
+                            <li>Automation Robotics and Control</li>
+                            <li>Power Electronics and Instrumentation</li>
+                            <li>Signal Processing</li>
+                            <li>MEMS/NEMS</li>
+                            <li>Optoelectronics and Lightwave Systems</li>
+                            <li>VLSI and Embedded Systems</li>
+                            <li>Biomedical Engineering</li>
+                            <li>Reliability Engineering</li>
+                            <li>Network Systems and Protocols</li>
+                            <li>Nanoelectronics</li>
+                            <li>Computer Networks</li>
+                        </ul>
                     </table>
                 </div>
                 <div>
@@ -49,20 +53,21 @@ const TracksComponent = () => {
                         <header>
                             Track 3
                         </header>
-<tr>                        Parallel and Distributed Computing</tr>
-<tr>Advanced Algorithms</tr>
-<tr>Computational Geometry and Computer Graphics</tr>
-<tr>Software Engineering and Formal Methods</tr>
-<tr>Data Mining and Information Retrieval</tr>
-<tr>Security and Privacy</tr>
-<tr>System Software Design and Implementation</tr>
-<tr>Natural Language Processing</tr>
-<tr>Block Chain Technologies</tr>
-<tr>Machine Learning</tr>
-<tr>Cloud Computing and IoT</tr>
-<tr>Digital Image Processing and Computer Vision</tr>
-<tr>Cyber Physical Systems</tr>
-
+                        <ul>
+                            <li>Parallel and Distributed Computing</li>
+                            <li>Advanced Algorithms</li>
+                            <li>Computational Geometry and Computer Graphics</li>
+                            <li>Software Engineering and Formal Methods</li>
+                            <li>Data Mining and Information Retrieval</li>
+                            <li>Security and Privacy</li>
+                            <li>System Software Design and Implementation</li>
+                            <li>Natural Language Processing</li>
+                            <li>Block Chain Technologies</li>
+                            <li>Machine Learning</li>
+                            <li>Cloud Computing and IoT</li>
+                            <li>Digital Image Processing and Computer Vision</li>
+                            <li>Cyber Physical Systems</li>
+                        </ul>
                     </table>
                 </div>
             </div>

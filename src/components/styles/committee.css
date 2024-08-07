@@ -1,11 +1,12 @@
 .organizing-committee-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: #ffffff;
+    /* background: linear-gradient(135deg, #000033, #000066); */
+    /* color: #ffffff; */
     padding: 5vh 5vw;
     min-height: 100vh;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
+
 
 .organizing-committee-container h1 {
     font-size: 3rem;

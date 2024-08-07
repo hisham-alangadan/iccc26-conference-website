@@ -1,6 +1,11 @@
 .presentation-container {
     padding: 10vh 5vw;
     min-height: 100vh;
+    font-weight: 600;
+    ul li {
+        font-size: 18px;
+        line-height: 200%;
+    }
     @media screen and (max-width: 781px) {
         padding-top: 15vh;   
     }

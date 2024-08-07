@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px 60px;
-    background: linear-gradient(to bottom, #ffffff, #8f8ffa);
+    /* background: linear-gradient(to bottom, #ffffff, #8f8ffa); */
     min-height: 100vh;
     box-sizing: border-box;
   }

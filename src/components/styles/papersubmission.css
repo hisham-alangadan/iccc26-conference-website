@@ -1,6 +1,7 @@
 .paper-submission-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: white;
+    /* background: linear-gradient(135deg, #000033, #000066);
+    color: white; */
+    background-color: white; color: black; font-weight: 600;
     min-height: 100vh;
     padding: 10vh 5vw;
 
@@ -52,10 +53,11 @@ li {
 
 .instructions-table {
     /* place-content: center; */
-    text-align: center;
+    /* text-align: center; */
 
     tr.head {
         /* background-color: gray; color: white; font-weight: 900; */
+        text-align: center;
         border: 1px blue solid;
     }
 

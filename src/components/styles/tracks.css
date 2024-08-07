@@ -1,6 +1,6 @@
 .tracks-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: #ffffff;
+    /* background: linear-gradient(135deg, #000033, #000066);
+    color: #ffffff; */
     padding: 10vh 5vw;
     min-height: 100vh;
 
@@ -34,21 +34,23 @@
         /* background-color: lightblue; */
         padding: 10px;
         width: 100%;
-        min-height: 60vh;
+        min-height: 90vh;
         border: 2px blue solid;
-        text-align: center;
-
+        /* text-align: center; */
+        
         header {
             font-weight: 900;
             /* height: 100%; width: 100%; */
+            text-align: center;
+            font-size: 24px;
             background-color: blue;
             color: white;
             padding: 1vh 1vw;
         }
 
-        tr {
-            line-height: 150%;
-
+        li {
+            line-height: 200%;
+            font-weight: 600;
         }
 
         /* margin: 0 100px; */

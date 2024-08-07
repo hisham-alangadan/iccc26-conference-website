@@ -28,6 +28,9 @@ function App() {
           <WelcomePage />
           <ConferenceInfo />
           <ConferenceHighlights />
+          <div style={{ "background": "linear-gradient(0BCFE6, #FFFFFF)", "height" : "15vh"}}>
+
+  </div>
           </>}></Route>
         <Route path="/venue" element={<Venue/>}></Route>
         <Route path="/aboutus" element={<AboutUs/>}></Route>

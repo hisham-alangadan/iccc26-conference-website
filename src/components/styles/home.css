@@ -16,15 +16,15 @@
   align-content: center;
   text-align: center;
   /* background-color: blue; */
-  background-color: rgba(0, 0, 255, 0.2);
+  /* background-color: rgba(0, 0, 255, 0.2); */
   /* opacity: 60%; */
 }
 
 .content {
   /* text-align: center; */
   /* margin: 0 0 0 50vh; */
-  padding: 25vh 25vw;
-  text-align: center;
+  padding: 25vh 0 25vh 100vh;
+  /* text-align: center; */
   font-size: 1.5em;
   width: 50%;
   opacity: 100%;
@@ -41,6 +41,7 @@
 .content p {
   /* font-size: 24px; */
   margin-bottom: 10px;
+  /* size: 96px; */
 }
 
 .register-button {
