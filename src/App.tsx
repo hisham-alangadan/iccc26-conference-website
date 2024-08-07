@@ -1,6 +1,6 @@
 // import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import WelcomePage from "./components/welcomePage";
@@ -13,19 +13,21 @@ import './App.css'
 function App() {
 
   return (
-    <Router>
+    <>
+    {/* <Router>
       <Routes>
-        <Route path="/" element={<>
+        <Route path="/" element={<> */}
           <Navbar />
           <Home />
           <WelcomePage />
           <ConferenceInfo />
           <ConferenceHighlights />
-          </>}></Route>
-        <Route path="/venue" element={<Venue/>}></Route>
-        <Route path="/aboutus" element={<AboutUs/>}></Route>
-      </Routes>
-    </Router>
+           {/* </>}></Route>
+          <Route path="/venue" element={<Venue/>}></Route>
+         <Route path="/aboutus" element={<AboutUs/>}></Route>
+       </Routes>
+    </Router> */}
+    </>
   )
 }
 
