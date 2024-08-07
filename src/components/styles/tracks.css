@@ -1,28 +1,35 @@
 .tracks-container {
+    background: linear-gradient(135deg, #000033, #000066);
+    color: #ffffff;
     padding: 10vh 5vw;
     min-height: 100vh;
+
     @media screen and (max-width: 781px) {
         padding-top: 15vh;
-        
     }
 }
 
 .tracks-box {
     display: flex;
     flex-direction: row;
+
     @media screen and (max-width: 781px) {
         flex-direction: column;
     }
+
     place-content: center;
+
     div {
         width: 32%;
         margin: 10px;
+
         @media screen and (max-width: 781px) {
             width: 100%;
             margin-left: 0;
             margin-bottom: 5vh;
         }
     }
+
     table {
         /* background-color: lightblue; */
         padding: 10px;
@@ -30,6 +37,7 @@
         min-height: 60vh;
         border: 2px blue solid;
         text-align: center;
+
         header {
             font-weight: 900;
             /* height: 100%; width: 100%; */
@@ -37,10 +45,12 @@
             color: white;
             padding: 1vh 1vw;
         }
+
         tr {
             line-height: 150%;
 
         }
+
         /* margin: 0 100px; */
     }
 }

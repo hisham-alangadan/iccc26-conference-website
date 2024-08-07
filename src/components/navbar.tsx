@@ -11,15 +11,14 @@ const toggleClass = () => {
   setActive(!isActive);
 };
   return (
-    <nav className="navbar">
+    <nav className="navbar" onClick={toggleClass}>
       <div className="logo">
         {/* <h3>ICCC</h3> */}
         <img src={logo} alt="Conference Logo" />
         <h3> College of Engineering Trivandrum </h3>
       </div>
       <div
-        className={ isActive ? "nav-links nav-links-mobile" : "nav-links"}
-        onClick={toggleClass}>
+        className={ isActive ? "nav-links nav-links-mobile" : "nav-links"}>
         <div className="nav-link">
           <Link to="/">Home</Link>
         </div>
@@ -27,7 +26,7 @@ const toggleClass = () => {
           <Link to="/aboutus">About Us</Link>
         </div>
         <div className="nav-link">
-          <a href="#">Committee</a>
+          <Link to="/committee/organizing">Committee</Link>
           <div className="dropdown">
             <div>
               <a href="#">Organizing Committee</a>
@@ -61,7 +60,7 @@ const toggleClass = () => {
           <Link to="/tracks">Tracks</Link>
         </div>
         <div className="nav-link">
-          <a href="#">Speakers</a>
+          <Link to="/speakers">Speakers</Link>
         </div>
         <div className="nav-link">
           <Link to="/Venue">Venue</Link>

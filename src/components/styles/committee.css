@@ -40,11 +40,13 @@
     margin-right: auto;
 }
 
-.main-committee, .other-committees {
+.main-committee,
+.other-committees {
     margin-bottom: 50px;
 }
 
-.main-committee h2, .other-committees h2 {
+.main-committee h2,
+.other-committees h2 {
     font-size: 2.2rem;
     color: #FFD700;
     margin-bottom: 30px;

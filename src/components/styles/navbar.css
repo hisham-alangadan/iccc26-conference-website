@@ -66,25 +66,35 @@
   position: fixed;
   margin-top: 2.5vh;
   color: white;
+
   div {
     padding: 10px;
   }
 }
 
 .nav-link:hover, .nav-link>a:hover {
-  .dropdown {
-    display: flex;
-    flex-direction: column;
-  }
+    .dropdown {
+      display: flex;
+      flex-direction: column;
+    }
 }
 
+
 @media screen and (max-width: 781px) {
-    .nav-links-mobile {
-      display: flex;
-      background: inherit;
-      position: fixed;
-      margin-top: 100vh;
-      flex-direction: column;
-      .nav-link {padding: 2.5px 10px;}
+  .nav-links-mobile {
+    display: flex;
+    background: blue;
+    /* backdrop-filter: blur(20px); */
+    position: fixed;
+    margin-top: 100vh;
+    flex-direction: column;
+
+    .nav-link {
+      padding: 2.5px 10px;
     }
+  }
+
+  .navbar button {
+    visibility: visible;
+  }
 }

@@ -10,9 +10,12 @@ import OrgCommittee from './pages/Committee.tsx';
 import Tracks from './pages/Tracks.tsx';
 import PaperSubmission from "./pages/PaperSubmission.tsx";
 import Presentation from "./pages/Presentation.tsx";
-// import KeySpeakers from "./pages/KeynoteSpeakers.tsx";
+import KeySpeakers from "./pages/KeynoteSpeakers.tsx";
+import CameraReady from "./pages/CameraReady.tsx";
+
 import './App.css'
-import Organizing from "./pages/organizing.tsx";
+
+
 function App() {
 
   return (
@@ -31,6 +34,8 @@ function App() {
         <Route path="/tracks" element={<Tracks/>}></Route>
         <Route path="/authors/submission-guidelines" element={<PaperSubmission />}></Route>
         <Route path="/authors/presentation-guidelines" element={<Presentation/>}> </Route>
+        <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>
+        <Route path="/speakers" element={<KeySpeakers/>}></Route>
       </Routes>
     </Router>
   )

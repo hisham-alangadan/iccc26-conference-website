@@ -4,7 +4,7 @@ const OrganizingCommittee = () => {
     return (
         <div className="organizing-committee-container">
             <h1>Organizing Committee</h1>
-            
+
             <section className="introduction">
                 <p>The success of our conference is made possible by the dedicated efforts of our esteemed organizing committee. Comprising distinguished faculty members from various departments, this committee brings together a wealth of experience and expertise to ensure a high-quality, impactful event.</p>
             </section>
@@ -45,7 +45,7 @@ const OrganizingCommittee = () => {
 
             <section className="other-committees">
                 <h2>Other Committees</h2>
-                
+
                 {committees.map((committee, index) => (
                     <div key={index} className="committee">
                         <h3>{committee.name}</h3>
