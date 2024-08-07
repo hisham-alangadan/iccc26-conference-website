@@ -64,7 +64,7 @@
   backdrop-filter: blur(8px);
   padding: 10px;
   position: fixed;
-  margin-top: 1vh;
+  /* margin-top: 1vh; */
   color: white;
 
   div {
