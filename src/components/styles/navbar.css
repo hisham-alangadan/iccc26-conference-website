@@ -8,8 +8,9 @@
   position: fixed;
   z-index: 2;
   height: 5vh;
-  width: 98vw;
-
+  /* width: 98vw; */
+  width: 100%;
+  
   @media screen and (max-width: 781px) {
     height: 10vh;
   }
@@ -61,10 +62,9 @@
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(8px);
-  /* opacity: 40%; */
   padding: 10px;
   position: fixed;
-  margin-top: 2.5vh;
+  margin-top: 1vh;
   color: white;
 
   div {
@@ -72,13 +72,17 @@
   }
 }
 
-.nav-link:hover, .nav-link>a:hover {
-    .dropdown {
-      display: flex;
-      flex-direction: column;
-    }
+.nav-link:hover,
+.nav-link>a:hover {
+  .dropdown {
+    display: block;
+    /* flex-direction: column; */
+  }
 }
 
+.dropdown:hover {
+  display: block;
+}
 
 @media screen and (max-width: 781px) {
   .nav-links-mobile {

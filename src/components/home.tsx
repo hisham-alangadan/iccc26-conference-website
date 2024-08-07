@@ -12,7 +12,7 @@ const Home = () => {
         <p><i>Technical co-sponsor:</i> <br/> IEEE Kerala Section</p>
         
         <p>May 23 - 25, 2025</p>
-        <a href="#" className="register-button">Register Now</a>
+        {/* <a href="#" className="register-button">Register Now</a> */}
       </div>
       </div>
     </div>

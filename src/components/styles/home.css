@@ -15,8 +15,9 @@
   /* align-items: center; */
   align-content: center;
   text-align: center;
-  background-color: blue;
-  opacity: 60%;
+  /* background-color: blue; */
+  background-color: rgba(0, 0, 255, 0.2);
+  /* opacity: 60%; */
 }
 
 .content {
@@ -27,6 +28,8 @@
   font-size: 1.5em;
   width: 50%;
   opacity: 100%;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
 
 .content h1 {
