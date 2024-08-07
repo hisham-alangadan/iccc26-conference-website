@@ -6,6 +6,7 @@
   /* width: 100%; */
   /* margin: 0 -19em 0 -20em; */
   /* filter: hue-rotate(300deg) brightness(1); */
+  z-index: 2;
 }
 
 .tint {
@@ -18,28 +19,40 @@
   /* background-color: blue; */
   /* background-color: rgba(0, 0, 255, 0.2); */
   /* opacity: 60%; */
+
+  /* omitted as per sir's request */
+  display: none;
 }
 
 .content {
   /* text-align: center; */
   /* margin: 0 0 0 50vh; */
-  padding: 25vh 25vw;
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 55vh 3vw 20vh 0;
+  text-align: right;
   font-size: 1.5em;
-  width: 50%;
+  /* width: 50%; */
   opacity: 100%;
-  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
-             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+  text-shadow: 4px 0 #000, -4px 0 #000, 0 4px #000, 0 -4px #000,
+             2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;
+  z-index: 3;
 }
 
 .content h1 {
   /* font-size: 48px; */
   margin-bottom: 20px;
-  
+  color: white;
+  font-size: 96px;
+}
+
+h4 {
+  color: orange;
+  font-size: 30px;
 }
 
 .content p {
-  /* font-size: 24px; */
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
@@ -63,4 +76,5 @@
 .kerala-stuff {
   position: absolute;
   bottom: -6px;
+  z-index: 1;
 }
