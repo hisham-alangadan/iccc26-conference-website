@@ -6,9 +6,11 @@ import ConferenceInfo from "./components/conferenceInfo";
 import ConferenceHighlights from "./components/conferenceHighlights";
 import Venue from './pages/Venue';
 import AboutUs from './pages/AboutUs';
-// import OrgCommittee from './pages/Committee.tsx';
+import OrgCommittee from './pages/Committee.tsx';
+import Tracks from './pages/Tracks.tsx';
 // import KeySpeakers from "./pages/KeynoteSpeakers.tsx";
 import './App.css'
+import Organizing from "./pages/organizing.tsx";
 function App() {
 
   return (
@@ -23,6 +25,8 @@ function App() {
           </>}></Route>
         <Route path="/venue" element={<Venue/>}></Route>
         <Route path="/aboutus" element={<AboutUs/>}></Route>
+        <Route path="/committee/organizing" element={<OrgCommittee/>}></Route>
+        <Route path="/tracks" element={<Tracks/>}></Route>
       </Routes>
     </Router>
   )

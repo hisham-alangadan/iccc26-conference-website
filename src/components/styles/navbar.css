@@ -70,8 +70,8 @@
   }
 }
 
-.nav-link:hover, .nav-link>a:hover {
-  .dropdown {
+.nav-link:mousein, .nav-link>a:hover {
+  .dropdown-visible {
     display: flex;
     flex-direction: column;
   }

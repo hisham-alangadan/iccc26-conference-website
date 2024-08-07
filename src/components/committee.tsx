@@ -1,4 +1,4 @@
-import './styles/OrganizingCommittee.css';
+import './styles/committee.css';
 
 const OrganizingCommittee = () => {
     return (

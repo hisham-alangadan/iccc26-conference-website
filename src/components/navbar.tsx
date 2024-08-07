@@ -1,7 +1,6 @@
 // import React from 'react';
 import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
 import './styles/navbar.css';
-import Venue from '../pages/Venue'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -12,15 +11,68 @@ const Navbar = () => {
         <img src={logo} alt="Conference Logo" />
         <h3> College of Engineering Trivandrum </h3>
       </div>
-      <ul className="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Committee</a></li>
-        <li><a href="#">Authors</a></li>
-        <li><a href="#">KeyNote Speakers</a></li>
-        <li><a href="#">Paper Submission</a></li>
-        <li><a href="#">Venue</a></li>
-      </ul>
+      <div className="nav-links">
+        <div className="nav-link">
+          <Link to="/">Home</Link>
+        </div>
+        <div className="nav-link">
+          <Link to="/aboutus">About Us</Link>
+        </div>
+        <div className="nav-link">
+          <a href="#">Committee</a>
+          <div className="dropdown">
+            <div>
+              <a href="#">Organizing Committee</a>
+            </div>
+            <div>
+              <a href="#">Advisory Committee</a>
+            </div>
+          </div>
+        </div>
+        <div className="nav-link">
+          <a href="#">Authors</a>
+          <div className="dropdown">
+            <div>
+              <a href="#">Paper Submission Guidelines</a>
+            </div>
+            <div>
+              <a href="#">Camera Ready Paper Submission</a>
+            </div>
+            <div>
+              <a href="#">Presentation Guidelines</a>
+            </div>
+          </div>
+        </div>
+        <div className="nav-link">
+          <a href="#">Registration</a>
+        </div>
+        <div className="nav-link">
+          <a href="#">Event Details</a>
+        </div>
+        <div className="nav-link">
+          <Link to="/tracks">Tracks</Link>
+        </div>
+        <div className="nav-link">
+          <a href="#">Speakers</a>
+        </div>
+        <div className="nav-link">
+          <Link to="/Venue">Venue</Link>
+          <div className="dropdown">
+            <div>
+              <a href="#">Accomodation</a>
+            </div>
+            <div>
+              <a href="#">Conference Venue</a>
+            </div>
+            <div>
+              <a href="#">How to Reach</a>
+            </div>
+          </div>
+        </div>
+        <div className="nav-link">
+          <a href="#">Contact</a>
+        </div>
+      </div>
     </nav>
   );
 }

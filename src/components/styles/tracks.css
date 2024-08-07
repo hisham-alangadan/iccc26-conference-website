@@ -1,0 +1,37 @@
+.tracks-container {
+    padding: 5vh 5vw;
+    min-height: 100vh;
+}
+
+.tracks-box {
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: 781px) {
+        flex-direction: column;
+    }
+    place-content: center;
+    div {
+        width: 32%;
+        margin: 10px;
+        @media screen and (max-width: 781px) {
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 5vh;
+        }
+    }
+    table {
+        /* background-color: lightblue; */
+        padding: 10px;
+        width: 100%;
+        border: 2px blue solid;
+        text-align: center;
+        header {
+            font-weight: 900;
+            /* height: 100%; width: 100%; */
+            background-color: blue;
+            color: white;
+            padding: 1vh 1vw;
+        }
+        /* margin: 0 100px; */
+    }
+}
