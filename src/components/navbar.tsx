@@ -7,9 +7,10 @@ import { useState } from 'react';
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
 
-const toggleClass = () => {
-  setActive(!isActive);
-};
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
+
   return (
     <nav className="navbar" onClick={toggleClass}>
       <div className="logo">
@@ -18,7 +19,7 @@ const toggleClass = () => {
         <h3> College of Engineering Trivandrum </h3>
       </div>
       <div
-        className={ isActive ? "nav-links nav-links-mobile" : "nav-links"}>
+        className={isActive ? "nav-links nav-links-mobile" : "nav-links"}>
         <div className="nav-link">
           <Link to="/">Home</Link>
         </div>
@@ -40,13 +41,13 @@ const toggleClass = () => {
           <Link to="/authors/submission-guidelines">Authors</Link>
           <div className="dropdown">
             <div>
-            <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
+              <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
             </div>
             <div>
               <a href="#">Camera Ready Paper Submission</a>
             </div>
             <div>
-            <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
+              <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
             </div>
           </div>
         </div>
