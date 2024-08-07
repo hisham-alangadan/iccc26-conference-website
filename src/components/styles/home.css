@@ -15,8 +15,9 @@
   /* align-items: center; */
   align-content: center;
   text-align: center;
-  background-color: blue;
-  opacity: 60%;
+  /* background-color: blue; */
+  background-color: rgba(0, 0, 255, 0.2);
+  /* opacity: 60%; */
 }
 
 .content {
