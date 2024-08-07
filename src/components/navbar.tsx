@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-link">
-          <a href="#">Authors</a>
+          <Link to="/authors/submission-guidelines">Authors</Link>
           <div className="dropdown">
             <div>
               <a href="#">Paper Submission Guidelines</a>

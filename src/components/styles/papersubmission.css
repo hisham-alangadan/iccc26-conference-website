@@ -1,0 +1,21 @@
+.paper-submission-container {
+    height: 100vh;
+    padding: 5vh 5vw;
+}
+
+.gridlike {
+    display: flex;
+    flex-direction: row;
+}
+
+.instructions {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.instructions-table {
+    /* place-content: center; */
+    text-align: center;
+}
