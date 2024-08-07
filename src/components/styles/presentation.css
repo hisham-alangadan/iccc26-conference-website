@@ -1,0 +1,7 @@
+.presentation-container {
+    padding: 10vh 5vw;
+    min-height: 100vh;
+    @media screen and (max-width: 781px) {
+        padding-top: 15vh;   
+    }
+}

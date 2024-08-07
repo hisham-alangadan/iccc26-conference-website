@@ -2,8 +2,14 @@
 import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
 import './styles/navbar.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Navbar = () => {
+  const [isActive, setActive] = useState(false);
+
+const toggleClass = () => {
+  setActive(!isActive);
+};
   return (
     <nav className="navbar">
       <div className="logo">
@@ -11,7 +17,9 @@ const Navbar = () => {
         <img src={logo} alt="Conference Logo" />
         <h3> College of Engineering Trivandrum </h3>
       </div>
-      <div className="nav-links">
+      <div
+        className={ isActive ? "nav-links nav-links-mobile" : "nav-links"}
+        onClick={toggleClass}>
         <div className="nav-link">
           <Link to="/">Home</Link>
         </div>
@@ -33,13 +41,13 @@ const Navbar = () => {
           <Link to="/authors/submission-guidelines">Authors</Link>
           <div className="dropdown">
             <div>
-              <a href="#">Paper Submission Guidelines</a>
+            <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
             </div>
             <div>
               <a href="#">Camera Ready Paper Submission</a>
             </div>
             <div>
-              <a href="#">Presentation Guidelines</a>
+            <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
             </div>
           </div>
         </div>

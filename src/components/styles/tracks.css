@@ -1,6 +1,10 @@
 .tracks-container {
-    padding: 5vh 5vw;
+    padding: 10vh 5vw;
     min-height: 100vh;
+    @media screen and (max-width: 781px) {
+        padding-top: 15vh;
+        
+    }
 }
 
 .tracks-box {
@@ -23,6 +27,7 @@
         /* background-color: lightblue; */
         padding: 10px;
         width: 100%;
+        min-height: 60vh;
         border: 2px blue solid;
         text-align: center;
         header {
@@ -31,6 +36,10 @@
             background-color: blue;
             color: white;
             padding: 1vh 1vw;
+        }
+        tr {
+            line-height: 150%;
+
         }
         /* margin: 0 100px; */
     }

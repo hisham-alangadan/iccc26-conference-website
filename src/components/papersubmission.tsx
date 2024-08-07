@@ -16,7 +16,7 @@ const PaperSubmissionComponent = () => {
                 <div className="instructions instructions-table">
                         <h2>Important Deadlines for Authors</h2>
                         <table>
-                            <tr>
+                            <tr className="head">
                                 <th>Event</th>
                                 <th>Date</th>
                             </tr>

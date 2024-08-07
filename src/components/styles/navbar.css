@@ -77,3 +77,14 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 781px) {
+    .nav-links-mobile {
+      display: flex;
+      background: inherit;
+      position: fixed;
+      margin-top: 100vh;
+      flex-direction: column;
+      .nav-link {padding: 2.5px 10px;}
+    }
+}
