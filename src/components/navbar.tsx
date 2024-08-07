@@ -51,7 +51,7 @@ const toggleClass = () => {
           </div>
         </div>
         <div className="nav-link">
-          <a href="#">Registration</a>
+          <Link to="/registration">Registration</Link>
         </div>
         <div className="nav-link">
           <a href="#">Event Details</a>
