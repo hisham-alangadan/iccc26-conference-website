@@ -59,7 +59,8 @@
 
 .dropdown {
   display: none;
-  background-color: blue;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
   /* opacity: 40%; */
   padding: 10px;
   position: fixed;
@@ -70,8 +71,8 @@
   }
 }
 
-.nav-link:mousein, .nav-link>a:hover {
-  .dropdown-visible {
+.nav-link:hover, .nav-link>a:hover {
+  .dropdown {
     display: flex;
     flex-direction: column;
   }
