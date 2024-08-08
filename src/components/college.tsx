@@ -1,4 +1,4 @@
-import insignia from "../assets/cetLogo.svg";
+// import insignia from "../assets/cetLogo.svg";
 import cetlogo from "../assets/College_of_Engineering_Trivandrum_logo.png";
 import './styles/college.css';
 
