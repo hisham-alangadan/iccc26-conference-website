@@ -44,18 +44,18 @@
   gap: 2em;
   margin: 0 20px 0 0;
   height: 100%;
-  align-items: center;
+  vertical-align:middle;
 
   @media screen and (max-width: 781px) {
     display: none;
   }
 }
 
-.nav-links .nav-link{
+.nav-links .nav-link {
   vertical-align: center;
   height: 100%;
   /* border: 1px solid red; */
-  padding-top: 2.5vh;
+  /* padding-top: 2.5vh; */
 }
 
 .nav-links .nav-link a {
@@ -78,7 +78,7 @@
   backdrop-filter: blur(8px);
   padding: 10px;
   position: fixed;
-  margin-top: 1.9vh;
+  margin-top: -1vh;
   color: white;
 
   div {
