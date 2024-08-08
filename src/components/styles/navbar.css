@@ -50,6 +50,7 @@
   }
   height: 100%;
   vertical-align:middle;
+  vertical-align:middle;
 
   @media screen and (max-width: 781px) {
     display: none;
