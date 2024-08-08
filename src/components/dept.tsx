@@ -8,6 +8,7 @@ const Departments = () => {
         <div className="departments-container">
     <h1>Organizing Departments</h1>
     <p><em>The conference is jointly organized by three leading faculties of College of Engineering Trivandrum:</em></p>
+    <p>The collaboration of these three departments brings together a wealth of expertise, fostering interdisciplinary research and innovation in the rapidly evolving fields of computer science, electronics, and electrical engineering.</p>
 
     <div className="department-section">
         <div className="department-content">
@@ -39,7 +40,6 @@ const Departments = () => {
         </div>
     </div>
 
-    <p>The collaboration of these three departments brings together a wealth of expertise, fostering interdisciplinary research and innovation in the rapidly evolving fields of computer science, electronics, and electrical engineering.</p>
 </div>
     )
 }

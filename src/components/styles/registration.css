@@ -1,6 +1,7 @@
 .registration-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: #ffffff;
+    /* background: linear-gradient(135deg, #000033, #000066); */
+    /* color: #ffffff; */
+    color: black;
     padding: 10vh 5vw;
     min-height: 100vh;
 
@@ -10,10 +11,11 @@
 
     table {
         text-align: left;
-        border: 1px white solid;
+        /* border: 1px white solid; */
         th {
-            border-bottom: 1px white solid;
+            border-bottom: 1px black solid;
             padding: 5px;
+            text-align: center;
         }
         td { padding: 5px; }
         @media screen and (max-width: 781px) {
@@ -21,5 +23,9 @@
                 padding: 5px 2.5px;
             }
         }
+    }
+
+    h2, h3 {
+        color: navy;
     }
 }

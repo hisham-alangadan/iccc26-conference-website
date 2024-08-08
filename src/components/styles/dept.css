@@ -1,18 +1,20 @@
 .departments-container {
-    background: #000033;
-    color: #ffffff;
+    /* background: #000033; */
+    background: white;
+    color: black;
     padding: 5vh 5vw;
     min-height: 100vh;
     box-sizing: border-box;
 }
 
 .departments-container > h1 {
+    color: navy;
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid navy;
     padding-bottom: 10px;
 }
 
@@ -28,7 +30,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(20, 115, 137, 0.4);
     padding: 20px;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -47,12 +49,14 @@
 .department-content h2 {
     margin-bottom: 15px;
     font-size: 1.8rem;
-    color: #FFD700;
+    /* color: #FFD700; */
+    color: blue;
     transition: color 0.3s ease;
 }
 
 .department-section:hover .department-content h2 {
-    color: #FFA500;
+    /* color: #FFA500; */
+    color: navy;
 }
 
 .department-content p {

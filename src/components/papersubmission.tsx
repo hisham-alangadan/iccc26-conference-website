@@ -48,6 +48,7 @@ const PaperSubmissionComponent = () => {
                 </div>
             </div>
             <div>
+                <br /> <br />
                 <h2>Procedure for Uploading Papers</h2>
                 <ol>
                     <li>Go to the paper submission website: <a href="https://cmt3.research.microsoft.com">https://cmt3.research.microsoft.com</a></li>
