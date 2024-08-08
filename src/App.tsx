@@ -17,7 +17,7 @@ import CameraReady from "./pages/CameraReady.tsx";
 import Registration from "./pages/Registration.tsx";
 
 import './App.css'
-import ImageCarousel from "./components/Carousel.tsx";
+// import ImageCarousel from "./components/Carousel.tsx";
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Route path="/" element={<>
           <Navbar />
           <Home />
-          <ImageCarousel />
+          {/* <ImageCarousel /> */}
           <WelcomePage />
           <ConferenceInfo />
           <ConferenceHighlights />
