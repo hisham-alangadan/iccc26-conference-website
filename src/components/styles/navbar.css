@@ -49,14 +49,14 @@
     gap: 1em;
   }
   height: 100%;
-  align-items: center;
+  vertical-align:middle;
 
   @media screen and (max-width: 781px) {
     display: none;
   }
 }
 
-.nav-links .nav-link{
+.nav-links .nav-link {
   vertical-align: center;
   height: 100%;
   /* border: 1px solid red; */
@@ -125,4 +125,4 @@
 
 
 /* Dropdown Animation */
-.dropdown 
+/* .dropdown  */

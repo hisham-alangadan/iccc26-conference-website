@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
             </div>
             <div>
-              <a href="#">Camera Ready Paper Submission</a>
+              <Link to="/authors/cameraready-guidelines">Camera Ready Paper Submission</Link>
             </div>
             <div>
               <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
