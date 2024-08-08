@@ -1,4 +1,5 @@
 import insignia from "../assets/cetLogo.svg";
+import cetlogo from "../assets/College_of_Engineering_Trivandrum_logo.png";
 import './styles/college.css';
 
 const College = () => {
@@ -7,11 +8,13 @@ const College = () => {
       <div className="tint">
         <div className="collegeInsignia">
           <div className="collegeInsigniaImg">
-            <img src={insignia} />
+            <img src={cetlogo} />
+            <div className="insignia-bg"></div>
           </div>
           <div className="collegeText">
             <h1>College of Engineering Trivandrum </h1>
             <h3>karma jyāyaḥ hi akarmaṇah | action is superior to inaction</h3>
+            <div className="collegeText-bg"></div>
           </div>
         </div>
       </div>

@@ -1,0 +1,36 @@
+.footer-body {
+    /* height: 15vh; */
+    background: linear-gradient(#0BCFE6, #FFFFFF);
+}
+
+.social-media-links {
+    /* background: #0BCFE6; */
+    padding: 2vh 42vw 0 42vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-links img {
+    height: 4vh;
+    width: auto;
+}
+
+.copyright {
+    height: 5vh;
+    text-align: center;
+    /* background: linear-gradient(#0BCFE6, #FFFFFF); */
+}
+
+.copyright-text {
+    font-size: 10px;
+    margin: 10px
+}
+
+.credit {
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}

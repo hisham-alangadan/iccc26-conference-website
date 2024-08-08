@@ -4,7 +4,8 @@ import Home from "./components/home";
 import WelcomePage from "./components/welcomePage";
 import ConferenceInfo from "./components/conferenceInfo";
 import ConferenceHighlights from "./components/conferenceHighlights";
-import ContactUs from "./components/ContactUs.tsx";
+// import ContactUs from "./components/ContactUs.tsx";
+import Footer from "./components/Footer.tsx";
 import Venue from './pages/Venue';
 import AboutUs from './pages/AboutUs';
 import OrgCommittee from './pages/Committee.tsx';
@@ -29,7 +30,8 @@ function App() {
           <WelcomePage />
           <ConferenceInfo />
           <ConferenceHighlights />
-          <ContactUs />
+          {/* <ContactUs /> */} {/* Vasanti's footer */}
+          <Footer />
           </>}></Route>
         <Route path="/venue" element={<Venue/>}></Route>
         <Route path="/aboutus" element={<AboutUs/>}></Route>
