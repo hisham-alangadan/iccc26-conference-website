@@ -8,13 +8,13 @@
 }
 
 .departments-container > h1 {
-    color: navy;
+    color: #007E33;
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 2px solid navy;
+    border-bottom: 2px solid #007E33;
     padding-bottom: 10px;
 }
 
@@ -24,13 +24,20 @@
     font-size: 1.2rem;
 }
 
+.departments-container > p em{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #007E33;
+}
+
 .department-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    background: rgba(20, 115, 137, 0.4);
+    background: rgba(0, 126, 51, 0.2);
     padding: 20px;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -50,13 +57,13 @@
     margin-bottom: 15px;
     font-size: 1.8rem;
     /* color: #FFD700; */
-    color: blue;
+    color: navy;
     transition: color 0.3s ease;
 }
 
 .department-section:hover .department-content h2 {
     /* color: #FFA500; */
-    color: navy;
+    color: rgb(0, 0, 70);
 }
 
 .department-content p {
@@ -77,9 +84,9 @@
     border-radius: 5px;
 }
 
-/* .department-section:nth-child(even) {
+.department-section:nth-child(odd) {
     flex-direction: row-reverse;
-} */
+}
 
 @media screen and (max-width: 781px) {
     .departments-container > h1 {

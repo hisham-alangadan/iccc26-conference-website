@@ -1,6 +1,5 @@
 .tracks-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: #ffffff;
+    color: #007E33;
     padding: 10vh 5vw;
     min-height: 100vh;
 
@@ -9,10 +8,21 @@
     }
 }
 
+.tracks-container h1{
+    letter-spacing: 1px;
+    color: #007E33;
+    border-bottom: 2px solid #007E33;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
 .tracks-box {
     display: flex;
     flex-direction: row;
-
+    font-family: 'Arial', sans-serif;
     @media screen and (max-width: 781px) {
         flex-direction: column;
     }
@@ -35,13 +45,13 @@
         padding: 10px;
         width: 100%;
         min-height: 60vh;
-        border: 2px blue solid;
+        border: 2px green solid;
         text-align: center;
 
         header {
             font-weight: 900;
             /* height: 100%; width: 100%; */
-            background-color: blue;
+            background-color: green;
             color: white;
             padding: 1vh 1vw;
         }
@@ -53,4 +63,14 @@
 
         /* margin: 0 100px; */
     }
+}
+
+.tracks-box li{
+    padding: 5px;
+}
+
+.tracks-box header{
+    padding: 5px;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
 }

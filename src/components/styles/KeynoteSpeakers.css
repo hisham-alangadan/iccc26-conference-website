@@ -1,6 +1,5 @@
 .keynote-speakers-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: #ffffff;
+    color: #007E33;
     padding: 5vh 5vw;
     min-height: 100vh;
     box-sizing: border-box;
@@ -13,7 +12,8 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #FFD700;
+    color: #007E33;
+    border-bottom: 2px solid #007E33;
 }
 
 .intro-text {

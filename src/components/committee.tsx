@@ -12,34 +12,34 @@ const OrganizingCommittee = () => {
             <section className="main-committee">
                 <h2>Chief Patron</h2>
                 <ul>
-                    <li>Dr. Venu. V IAS - Chief Secretary, Govt. of Kerala</li>
+                    <li><strong>Dr. Venu. V IAS - Chief Secretary, Govt. of Kerala</strong></li>
                 </ul>
 
                 <h2>Patron</h2>
                 <ul>
-                    <li>Smt. Ishita Roy IAS - Principal Secretary, Higher Education Department, Govt. of Kerala</li>
+                    <li><strong>Smt. Ishita Roy IAS - Principal Secretary, Higher Education Department, Govt. of Kerala</strong></li>
                 </ul>
 
                 <h2>Co-Patron</h2>
                 <ul>
-                    <li>Dr. Rajasree M S - Director (In Charge) of Technical Education, Govt. of Kerala</li>
+                    <li><strong>Dr. Rajasree M S - Director (In Charge) of Technical Education, Govt. of Kerala</strong></li>
                 </ul>
 
                 <h2>General Chair</h2>
                 <ul>
-                    <li>Dr. Savier J S - Principal, College of Engineering Trivandrum</li>
+                    <li><strong>Dr. Savier J S - Principal, College of Engineering Trivandrum</strong></li>
                 </ul>
 
                 <h2>Organizing Secretary</h2>
                 <ul>
-                    <li>Dr. Rajeev T. - Professor, Dept. of EE, CET</li>
+                    <li><strong>Dr. Rajeev T. - Professor, Dept. of EE, CET</strong></li>
                 </ul>
 
                 <h2>General Co-chairs</h2>
                 <ul>
-                    <li>Dr. R.M. Shereef - Professor, Dept. of EE, CET</li>
-                    <li>Dr. Christy James Jose - Associate Professor, Dept. of ECE, CET</li>
-                    <li>Dr. Ajeesh Ramanujan - Associate Professor, Dept. of CSE, CET</li>
+                    <li><strong>Dr. R.M. Shereef - Professor, Dept. of EE, CET</strong></li>
+                    <li><strong>Dr. Christy James Jose - Associate Professor, Dept. of ECE, CET</strong></li>
+                    <li><strong>Dr. Ajeesh Ramanujan - Associate Professor, Dept. of CSE, CET</strong></li>
                 </ul>
             </section>
 
@@ -62,7 +62,7 @@ const OrganizingCommittee = () => {
                                 <h4>Members:</h4>
                                 <ul>
                                     {committee.members.map((member, memberIndex) => (
-                                        <li key={memberIndex}>{member}</li>
+                                        <li key={memberIndex}><strong>{member}</strong></li>
                                     ))}
                                 </ul>
                             </div>

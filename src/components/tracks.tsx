@@ -4,7 +4,7 @@ const TracksComponent = () => {
     return (
         <div className="tracks-container">
             <h1> Technical Tracks at ICCC 2025 </h1>
-            <p>Technical papers are solicited on the topics pertaining to the scope of the Conference will include, but are not limited to the following.</p>
+            <p><em><strong>Technical papers are solicited on the topics pertaining to the scope of the Conference will include, but are not limited to the following.</strong></em></p>
             <div className="tracks-box">
                 <div>
                     <table>
