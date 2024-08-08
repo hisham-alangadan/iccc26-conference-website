@@ -1,6 +1,6 @@
 .paper-submission-container {
-    background: linear-gradient(135deg, #000033, #000066);
-    color: white;
+    /* background: linear-gradient(135deg, #000033, #000066); */
+    color: black;
     min-height: 100vh;
     padding: 10vh 5vw;
 
@@ -50,16 +50,32 @@ li {
     }
 }
 
+.head {
+    /* background-color: gray; color: white; font-weight: 900; */
+    border: 1px blue solid;
+    text-align: center;
+}
+
 .instructions-table {
     /* place-content: center; */
-    text-align: center;
+    text-align: left;
 
-    tr.head {
+    /* .head {
         /* background-color: gray; color: white; font-weight: 900; */
-        border: 1px blue solid;
-    }
+        /* border: 1px blue solid; */
+        /* text-align: center; */
+
 
     tr {
-        border-style: 1px blue solid;
+        /* border-style: 1px blue solid; */
     }
+}
+
+ th, td {
+    border: 1px solid black;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 3px;
 }
