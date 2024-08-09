@@ -22,6 +22,7 @@ import './App.css'
 import EventDetails from "./pages/EventDetails.tsx";
 import Accomodation from "./pages/Accommodation.tsx";
 import HowReach from "./pages/HowReach.tsx";
+import LocalStuff from "./pages/LocalStuff.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
 
@@ -54,6 +55,7 @@ function App() {
         <Route path="/venue/conference" element={<AboutUs venue={true} />}></Route>
         <Route path="/venue/accomodation" element={<Accomodation />}></Route>
         <Route path="/venue/howtoreach" element={<HowReach />}></Route>
+        <Route path="/venue/tourism" element={<LocalStuff />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
 
       </Routes>

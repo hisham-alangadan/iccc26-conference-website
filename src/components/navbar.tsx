@@ -77,6 +77,9 @@ const Navbar = () => {
             <div>
               <Link to="/venue/howtoreach">How to Reach</Link>
             </div>
+            <div>
+              <Link to="/venue/tourism">Local Attractions</Link>
+            </div>
           </div>
         </div>
         <div className="nav-link">
