@@ -20,6 +20,7 @@ import Contact from "./components/contact.tsx";
 import AddressMap from "./components/addressMap.tsx";
 
 import './App.css'
+import EventDetails from "./pages/EventDetails.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
 
@@ -50,6 +51,7 @@ function App() {
         <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
+        <Route path="/eventdetails" element={<EventDetails />}></Route>
       </Routes>
     </Router>
   )

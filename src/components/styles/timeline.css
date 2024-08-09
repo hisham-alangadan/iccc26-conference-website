@@ -40,7 +40,7 @@ ul li:not(:last-child) {
 }
 
 /* card */
-ul li {
+.ulli {
   grid-column: 2;
   --inlineP: 1.5rem;
   margin-inline: var(--inlineP);

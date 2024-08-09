@@ -11,4 +11,12 @@
     a {
         color: rgb(51, 193, 211);
     }
+
+    text-align: justify;
+}
+
+.navy {
+    color: navy;
+    font-size: 32px;
+    text-align: center;
 }
