@@ -3,10 +3,10 @@ import mail from "../assets/mail.svg";
 import phone from "../assets/phone.svg";
 import loc from "../assets/loc.svg";
 
-const Contact = () => {
+const ContactComponent = () => {
   return (
     <div className="contact-us">
-      <h2>Contact Us</h2>
+      <h2 className='contact-head'>Contact Us</h2>
       <div className="contact-details">
         <p className='p-loc'><img src={mail} alt="" /> <div className='contact-mail'>iccc2025@cet.ac.in</div></p>
         <p className='p-loc'><img src={phone} alt="" /> <div>
@@ -30,4 +30,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactComponent;
