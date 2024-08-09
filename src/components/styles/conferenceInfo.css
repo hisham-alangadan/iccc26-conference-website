@@ -8,13 +8,18 @@
   min-height: 75vh;
 }
 
+.conference-info-container a {
+  color: white;
+  text-decoration: none;
+}
+
 .conference-info-container:nth-child(even) {
   background: linear-gradient(white, rgb(167, 201, 167));
 }
 
 .conference-info-container h1 {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: navy;
   margin-bottom: 20px;
 }
 
@@ -31,6 +36,7 @@
 
 .info-card {
   background-color: #003366;
+  height: 40vh;
   /* Slightly lighter blue for the cards */
   border-radius: 10px;
   padding: 20px;
@@ -39,9 +45,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.info-icon {
-  width: 100%;
-  height: auto;
+.info-card img {
+  object-fit: cover;
+  margin: auto;
+  height: 40%;
+  width: 95%;
   margin-bottom: 20px;
 }
 
@@ -81,12 +89,12 @@
 
 .conference-info-container h1 {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: navy;
   margin-bottom: 20px;
 }
 
 .conference-info-container h1:nth-child(odd) {
-  color: black;
+  color: navy;
 }
 
 .info-cards {
@@ -127,3 +135,4 @@
   color: #ffd700;
   /* Gold color for emphasis */
 }
+

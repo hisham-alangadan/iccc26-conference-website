@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
             <div className="copyright">
                 <p className='copyright-text'>© 2024, ICCC 2025, College of Engineering Trivandrum. All Rights Reserved. </p>
-                <p className="credit">Developed by the students of College of Engineering Trivandrum</p>
+                <p className="credit">Developed by College of Engineering Trivandrum</p>
             </div>
 
         </div>

@@ -1,11 +1,15 @@
 .tracks-container {
-    color: #007E33;
+    color: black;
     padding: 10vh 5vw;
     min-height: 100vh;
 
     @media screen and (max-width: 781px) {
         padding-top: 15vh;
     }
+
+    font-size: 18px;
+
+    font-weight: 600;
 }
 
 .tracks-container p {
@@ -14,12 +18,13 @@
 
 .tracks-container h1{
     letter-spacing: 1px;
-    color: #007E33;
+    color: green;
     border-bottom: 2px solid #007E33;
     text-align: center;
     text-transform: uppercase;
     font-size: 3rem;
     margin-bottom: 30px;
+    /* font-family: 'Arial', sans-serif; */
     /* font-family: 'Arial', sans-serif; */
 }
 
@@ -27,10 +32,10 @@
     display: flex;
     flex-direction: row;
     /* font-family: 'Arial', sans-serif; */
+    /* font-family: 'Arial', sans-serif; */
     @media screen and (max-width: 781px) {
         flex-direction: column;
     }
-
     place-content: center;
 
     div {
@@ -48,7 +53,7 @@
         /* background-color: lightblue; */
         padding: 10px;
         width: 100%;
-        min-height: 60vh;
+        min-height: 67vh;
         border: 2px green solid;
         text-align: center;
 
@@ -77,5 +82,6 @@
 .tracks-box header{
     padding: 5px;
     font-size: 2rem;
-    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
 }

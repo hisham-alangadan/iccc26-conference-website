@@ -1,8 +1,8 @@
 // import React from 'react';
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
-import logo from '../assets/image.png'
-import './styles/navbar.css';
-// import './styles/navbar_hisham.css';
+import logo from '../assets/cet_emblem.jpg'
+// import './styles/navbar.css';
+import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -33,9 +33,13 @@ const Navbar = () => {
           <div className="dropdown dropdown-menu-1">
             <div className='dropdown-item-1'>
             <Link to="/committee/organizing">Organizing Committee</Link>
+            <Link to="/committee/organizing">Organizing Committee</Link>
             </div>
             <div className='dropdown-item-2'>
-              <a href="#">Advisory Committee</a>
+              <Link to="/committee/advisorycommittee">Advisory Committee</Link>
+            </div>
+            <div className='dropdown-item-3'>
+              <Link to="/committee/steeringcommittee">Steering Committee</Link>
             </div>
           </div>
         </div>
@@ -58,6 +62,17 @@ const Navbar = () => {
         </div>
         <div className="nav-link">
           <a href="/eventdetails">Event Details</a>
+          <div className="dropdown">
+            <div>
+              <Link to="/keynote">Keynotes</Link>
+            </div>
+            <div>
+              <Link to="/tutorials" >Tutorials</Link>
+            </div>
+            <div>
+              <Link to="/eventschedule">Event Schedule</Link>
+            </div>
+          </div>
         </div>
         <div className="nav-link">
           <Link to="/tracks">Tracks</Link>
@@ -69,10 +84,10 @@ const Navbar = () => {
           <Link to="/Venue">Venue</Link>
           <div className="dropdown">
             <div>
-              <Link to="/venue/conference">Conference Venue</Link>
+              <Link to="/accommodation">Accommodation</Link>
             </div>
             <div>
-              <Link to="/venue/accomodation">Accomodation</Link>
+              <Link to="/conferencevenue">Conference Venue</Link>
             </div>
             <div>
               <Link to="/venue/howtoreach">How to Reach</Link>

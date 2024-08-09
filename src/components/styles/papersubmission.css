@@ -89,3 +89,8 @@ table, th, td {
     border-collapse: collapse;
     padding: 3px;
 }
+
+.instructions, .paper-upload {
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,7 +1,8 @@
 .timelinecss {
-  background: linear-gradient(white 0%, white 20%, rgb(167, 201, 167) 100%);
+  background: linear-gradient(rgb(167, 201, 167) 0%, white 20%, white 100%);
   min-height: 50vh;
   padding-bottom: 2vh;
+  padding-top: 3vh;
 }
 
 .timelinecss  h1 {
