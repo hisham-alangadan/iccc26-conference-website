@@ -22,7 +22,7 @@ const OrganizingCommittee = () => {
 
                 <h2>Co-Patron</h2>
                 <ul>
-                    <li><strong>Dr. Rajasree M S - Director (In Charge) of Technical Education, Govt. of Kerala</strong></li>
+                    <li><strong>Dr. Shalij P. R. - Director of Technical Education, Govt. of Kerala</strong></li>
                 </ul>
 
                 <h2>General Chair</h2>
