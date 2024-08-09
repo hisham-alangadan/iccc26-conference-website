@@ -20,9 +20,14 @@ import ContactUs from "./pages/ContactUs.tsx";
 
 import './App.css'
 import EventDetails from "./pages/EventDetails.tsx";
+<<<<<<< HEAD
 import Keynote from "./pages/Keynote.tsx";
 import Tutorials from "./pages/Tutorials.tsx";
 import EventSchedule from "./pages/EventSchedule.tsx";
+=======
+import Accomodation from "./pages/Accommodation.tsx";
+import HowReach from "./pages/HowReach.tsx";
+>>>>>>> 113452d14db40149bc9ac2bd2575bb2bc74c010e
 // import ImageCarousel from "./components/Carousel.tsx";
 
 
@@ -43,7 +48,7 @@ function App() {
           <Footer />
           </>}></Route>
         <Route path="/venue" element={<Venue/>}></Route>
-        <Route path="/aboutus" element={<AboutUs/>}></Route>
+        <Route path="/aboutus" element={<AboutUs venue={false} />}></Route>
         <Route path="/committee/organizing" element={<OrgCommittee/>}></Route>
         <Route path="/tracks" element={<Tracks/>}></Route>
         <Route path="/authors/submission-guidelines" element={<PaperSubmission />}></Route>
@@ -52,10 +57,17 @@ function App() {
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/eventdetails" element={<EventDetails />}></Route>
+        <Route path="/venue/conference" element={<AboutUs venue={true} />}></Route>
+        <Route path="/venue/accomodation" element={<Accomodation />}></Route>
+        <Route path="/venue/howtoreach" element={<HowReach />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
+<<<<<<< HEAD
         <Route path="/keynote" element={<Keynote />}></Route>
         <Route path="/tutorials" element={<Tutorials />}></Route>
         <Route path="/eventschedule" element={<EventSchedule />}></Route>
+=======
+
+>>>>>>> 113452d14db40149bc9ac2bd2575bb2bc74c010e
       </Routes>
     </Router>
   )

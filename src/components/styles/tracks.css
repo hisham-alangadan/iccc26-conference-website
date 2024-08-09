@@ -25,11 +25,13 @@
     font-size: 3rem;
     margin-bottom: 30px;
     /* font-family: 'Arial', sans-serif; */
+    /* font-family: 'Arial', sans-serif; */
 }
 
 .tracks-box {
     display: flex;
     flex-direction: row;
+    /* font-family: 'Arial', sans-serif; */
     /* font-family: 'Arial', sans-serif; */
     @media screen and (max-width: 781px) {
         flex-direction: column;
