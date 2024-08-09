@@ -16,11 +16,9 @@ const TracksComponent = () => {
                             <li>Control of Constrained Systems</li>
                             <li>Control Theory and Applications</li>
                             <li>Industrial Process Control & Automation</li>
-
                             <li>Intelligent Autonomous Systems</li>
                             <li>Manufacturing Systems Control</li>
                             <li>Navigation, Guidance and Control</li>
-
                             <li>Networked Control Systems</li>
                             <li>Power Electronics and Drives</li>
                             <li>Power System Operation and Control</li>

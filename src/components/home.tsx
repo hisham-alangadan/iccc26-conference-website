@@ -16,9 +16,9 @@ const Home = () => {
           {/* <a href="#" className="register-button">Register Now</a> */}
         </div>
       </div>
-      <div className="kerala-stuff">
+      {/* <div className="kerala-stuff">
         <img src={keralaCulture} alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }
