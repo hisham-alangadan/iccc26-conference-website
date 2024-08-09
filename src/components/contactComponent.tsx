@@ -23,9 +23,9 @@ const ContactComponent = () => {
           </div>
         </p>
       </div>
-      <footer>
+      {/* <footer>
         <p>© 2024, ICCC 2025, College of Engineering Trivandrum. All Rights Reserved.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
