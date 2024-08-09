@@ -58,6 +58,17 @@ const Navbar = () => {
         </div>
         <div className="nav-link">
           <a href="/eventdetails">Event Details</a>
+          <div className="dropdown">
+            <div>
+              <Link to="/keynote">Keynotes</Link>
+            </div>
+            <div>
+              <Link to="/tutorials" >Tutorials</Link>
+            </div>
+            <div>
+              <Link to="/eventschedule">Event Schedule</Link>
+            </div>
+          </div>
         </div>
         <div className="nav-link">
           <Link to="/tracks">Tracks</Link>

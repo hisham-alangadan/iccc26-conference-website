@@ -47,7 +47,7 @@ const PaperSubmissionComponent = () => {
                     </table>
                 </div>
             </div>
-            <div>
+            <div className="paper-upload">
                 <br /> <br />
                 <h2>Procedure for Uploading Papers</h2>
                 <ol>

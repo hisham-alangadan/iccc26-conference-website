@@ -20,6 +20,9 @@ import ContactUs from "./pages/ContactUs.tsx";
 
 import './App.css'
 import EventDetails from "./pages/EventDetails.tsx";
+import Keynote from "./pages/Keynote.tsx";
+import Tutorials from "./pages/Tutorials.tsx";
+import EventSchedule from "./pages/EventSchedule.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
 
@@ -50,6 +53,9 @@ function App() {
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/eventdetails" element={<EventDetails />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
+        <Route path="/keynote" element={<Keynote />}></Route>
+        <Route path="/tutorials" element={<Tutorials />}></Route>
+        <Route path="/eventschedule" element={<EventSchedule />}></Route>
       </Routes>
     </Router>
   )
