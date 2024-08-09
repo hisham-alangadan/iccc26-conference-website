@@ -1,8 +1,8 @@
 // import React from 'react';
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
-import logo from '../assets/image.png'
-import './styles/navbar.css';
-// import './styles/navbar_hisham.css';
+import logo from '../assets/cet_emblem.jpg'
+// import './styles/navbar.css';
+import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
