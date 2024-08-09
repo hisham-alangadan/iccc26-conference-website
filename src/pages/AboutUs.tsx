@@ -2,14 +2,14 @@ import Navbar from "../components/navbar";
 import College from "../components/college";
 import AboutCollege from "../components/About";
 import Departments from "../components/dept";
-function AboutUs() {
+function AboutUs({venue}) {
 
   return (
     <>
       <Navbar />
       <College />
       <AboutCollege />
-      <Departments />
+      <Departments venue={venue} />
     </>
   )
 }

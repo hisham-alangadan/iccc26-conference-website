@@ -20,6 +20,8 @@ import ContactUs from "./pages/ContactUs.tsx";
 
 import './App.css'
 import EventDetails from "./pages/EventDetails.tsx";
+import Accomodation from "./pages/Accommodation.tsx";
+import HowReach from "./pages/HowReach.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
 
@@ -40,7 +42,7 @@ function App() {
           <Footer />
           </>}></Route>
         <Route path="/venue" element={<Venue/>}></Route>
-        <Route path="/aboutus" element={<AboutUs/>}></Route>
+        <Route path="/aboutus" element={<AboutUs venue={false} />}></Route>
         <Route path="/committee/organizing" element={<OrgCommittee/>}></Route>
         <Route path="/tracks" element={<Tracks/>}></Route>
         <Route path="/authors/submission-guidelines" element={<PaperSubmission />}></Route>
@@ -49,7 +51,11 @@ function App() {
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/eventdetails" element={<EventDetails />}></Route>
+        <Route path="/venue/conference" element={<AboutUs venue={true} />}></Route>
+        <Route path="/venue/accomodation" element={<Accomodation />}></Route>
+        <Route path="/venue/howtoreach" element={<HowReach />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
+
       </Routes>
     </Router>
   )
