@@ -1,0 +1,43 @@
+.contact-us {
+    background-color: #0f236a;
+    color: white;
+    padding: 20px;
+    /* max-width: 500px; */
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-us h2 {
+    /* text-decoration: underline; */
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p {
+    margin: 10px 0;
+  }
+  
+  .contact-details i {
+    margin-right: 10px;
+  }
+  
+  .contact-mail {
+    /* vertical-align: middle; */
+    margin: auto 0;
+  }
+
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .p-loc {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+  }
+
+  .loc {
+    vertical-align: top;
+  }
