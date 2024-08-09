@@ -1,6 +1,8 @@
 // import React from 'react';
-import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
+// import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
+import logo from '../assets/cet_emblem.jpg'
 import './styles/navbar.css';
+// import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -15,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar" onClick={toggleClass}>
       <div className="logo">
         {/* <h3>ICCC</h3> */}
-        <img src={logo} alt="Conference Logo" />
+        <img src={logo} alt="CET Emblem" />
         <h3> College of Engineering Trivandrum </h3>
       </div>
       <div
@@ -28,11 +30,11 @@ const Navbar = () => {
         </div>
         <div className="nav-link">
           <Link to="/committee/organizing">Committee</Link>
-          <div className="dropdown">
-            <div>
+          <div className="dropdown dropdown-menu-1">
+            <div className='dropdown-item-1'>
               <a href="#">Organizing Committee</a>
             </div>
-            <div>
+            <div className='dropdown-item-2'>
               <a href="#">Advisory Committee</a>
             </div>
           </div>
@@ -55,7 +57,7 @@ const Navbar = () => {
           <Link to="/registration">Registration</Link>
         </div>
         <div className="nav-link">
-          <a href="#">Event Details</a>
+          <a href="/eventdetails">Event Details</a>
         </div>
         <div className="nav-link">
           <Link to="/tracks">Tracks</Link>
@@ -78,7 +80,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-link">
-          <a href="#">Contact</a>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </nav>

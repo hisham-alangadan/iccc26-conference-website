@@ -6,8 +6,9 @@
     text-align: justify;
     padding: 20px 60px;
     /* background: linear-gradient(to bottom, #ffffff, #8f8ffa); */
-    min-height: 100vh;
+    min-height: 60vh;
     box-sizing: border-box;
+    padding-top: 10vh;
   }
 
 

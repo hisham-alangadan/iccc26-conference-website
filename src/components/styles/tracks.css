@@ -8,6 +8,10 @@
     }
 }
 
+.tracks-container p {
+    text-align: center;
+}
+
 .tracks-container h1{
     letter-spacing: 1px;
     color: #007E33;
@@ -62,6 +66,7 @@
         }
 
         /* margin: 0 100px; */
+        text-align: left;
     }
 }
 

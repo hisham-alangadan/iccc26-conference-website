@@ -2,7 +2,8 @@ import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import WelcomePage from "./components/welcomePage";
-import ConferenceInfo from "./components/conferenceInfo";
+// import ConferenceInfo from "./components/conferenceInfo";
+import Timeline from "./components/timeline.tsx";
 import ConferenceHighlights from "./components/conferenceHighlights";
 // import ContactUs from "./components/ContactUs.tsx";
 import Footer from "./components/Footer.tsx";
@@ -15,8 +16,11 @@ import Presentation from "./pages/Presentation.tsx";
 import KeySpeakers from "./pages/KeynoteSpeakers.tsx";
 import CameraReady from "./pages/CameraReady.tsx";
 import Registration from "./pages/Registration.tsx";
+import ContactUs from "./pages/ContactUs.tsx";
+import AddressMap from "./components/addressMap.tsx";
 
 import './App.css'
+import EventDetails from "./pages/EventDetails.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
 
@@ -30,9 +34,11 @@ function App() {
           <Home />
           {/* <ImageCarousel /> */}
           <WelcomePage />
-          <ConferenceInfo />
+          <Timeline />
+          {/* <ConferenceInfo /> */}
           <ConferenceHighlights />
-          {/* <ContactUs /> */} {/* Vasanti's footer */}
+          <AddressMap />
+          {/* Vasanti's footer */}
           <Footer />
           </>}></Route>
         <Route path="/venue" element={<Venue/>}></Route>
@@ -44,6 +50,8 @@ function App() {
         <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
+        <Route path="/eventdetails" element={<EventDetails />}></Route>
+        <Route path="/contact" element={<ContactUs />}></Route>
       </Routes>
     </Router>
   )

@@ -29,7 +29,7 @@
   /* margin: 0 0 0 50vh; */
   height: 100%;
   width: 100%;
-  padding: 45vh 3vw 20vh 0;
+  padding: 60vh 3vw 20vh 0;
   text-align: right;
   font-size: 1.5em;
   /* width: 50%; */
@@ -45,7 +45,8 @@
 
 .content h1 {
   /* font-size: 48px; */
-  margin-bottom: 20px;
+  margin: 0;
+  margin-bottom: 1vh;
   color: white;
   font-size: 96px;
 }
@@ -53,10 +54,12 @@
 h4 {
   color: orange;
   font-size: 30px;
+  margin: 0;
 }
 
 .content p {
   font-size: 28px;
+  margin: 0;
   margin-bottom: 10px;
 }
 

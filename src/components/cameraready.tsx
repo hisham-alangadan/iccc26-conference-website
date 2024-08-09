@@ -3,7 +3,7 @@ import "./styles/cameraready.css"
 const CameraReadyComponent = () => {
     return (
         <div className="cameraready-container">
-            <h2>Camera Ready Paper Submission Instructions</h2>
+            <h2 className="navy">Camera Ready Paper Submission Instructions</h2>
             <p>Camera Ready Paper Submission Deadline: March 30, 2025.</p>
             <p>For camera ready submission, no change in title of the paper and authors are allowed.</p>
 
