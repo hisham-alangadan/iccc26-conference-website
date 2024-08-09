@@ -18,14 +18,14 @@
 
 .logo {
   display: flex;
-  font-size: 2vh;
+  /* font-size: vh; */
   place-content: center;
   align-items: center;
 }
 
 .logo img {
   height: 7vh;
-  padding-right: 2vh;
+  padding-left: 0.9vh;
 
   @media screen and (max-width: 781px) {
     height: 10vh;
@@ -68,7 +68,7 @@
 .nav-links .nav-link a {
   color: white;
   text-decoration: none;
-  font-size: 1.6vh;
+  font-size: 2vh;
   font-weight: bold;
   transition: color 0.3s;
   /* border: 1px solid red; */
@@ -109,12 +109,12 @@
 @media screen and (max-width: 781px) {
   .nav-links-mobile {
     display: flex;
-    background: blue;
+    background: inherit;
     /* backdrop-filter: blur(20px); */
     position: fixed;
     margin-top: 100vh;
     flex-direction: column;
-
+    height: 70vh;
     .nav-link {
       padding: 2.5px 10px;
     }
