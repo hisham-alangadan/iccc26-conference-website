@@ -80,7 +80,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-link">
-          <a href="#">Contact</a>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </nav>

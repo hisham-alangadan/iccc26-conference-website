@@ -16,7 +16,7 @@ import Presentation from "./pages/Presentation.tsx";
 import KeySpeakers from "./pages/KeynoteSpeakers.tsx";
 import CameraReady from "./pages/CameraReady.tsx";
 import Registration from "./pages/Registration.tsx";
-import Contact from "./components/contact.tsx";
+import ContactUs from "./pages/ContactUs.tsx";
 import AddressMap from "./components/addressMap.tsx";
 
 import './App.css'
@@ -37,7 +37,6 @@ function App() {
           <Timeline />
           {/* <ConferenceInfo /> */}
           <ConferenceHighlights />
-          <Contact /> 
           <AddressMap />
           {/* Vasanti's footer */}
           <Footer />
@@ -52,6 +51,7 @@ function App() {
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/eventdetails" element={<EventDetails />}></Route>
+        <Route path="/contact" element={<ContactUs />}></Route>
       </Routes>
     </Router>
   )
