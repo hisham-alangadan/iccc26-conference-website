@@ -69,6 +69,7 @@
   color: white;
   text-decoration: none;
   font-size: 1.6vh;
+  font-weight: bold;
   transition: color 0.3s;
   /* border: 1px solid red; */
   align-items: center;
@@ -126,11 +127,16 @@
 
 
 /* Dropdown Animation */
-/* .dropdown-menu-1
+/* .dropdown-menu-1 
   for num in (1..2)
     .dropdown-item-{num}
       transform-origin: top center
-      animation: rotateZ 300ms (nums * 60ms) ease-in-out forwards
+      animation: rotateZ 300ms (nums * 60ms) ease-in-out forwards */
+
+/* .dropdown-menu-1 .dropdown-item-1, .dropdown-menu-1 .dropdown-item-1 {
+  transform-origin: top center;
+  animation: rotateZ 300ms (2 * 60ms) ease-in-out forwards;
+}
 
 
 @keyframes rotateZ {
@@ -146,5 +152,5 @@
   100% {
     opacity: 1;
     transform: translateZ(0);
-  } */
-}
+  }
+} */

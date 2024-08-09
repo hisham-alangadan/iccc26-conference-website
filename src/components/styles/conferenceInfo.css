@@ -1,9 +1,11 @@
 .conference-info-container{
   background: linear-gradient(rgb(167, 201, 167), white);
   /* Dark blue background */
-  padding: 40px 20px;
+  margin: 0;
+  padding: 0 99vh;
   color: white;
   text-align: center;
+  min-height: 75vh;
 }
 
 .conference-info-container:nth-child(even) {
@@ -59,7 +61,6 @@
   /* Gold color for emphasis */
 }
   
-
 
 
 
