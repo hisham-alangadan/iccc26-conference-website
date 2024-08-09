@@ -20,14 +20,15 @@ import ContactUs from "./pages/ContactUs.tsx";
 
 import './App.css'
 import EventDetails from "./pages/EventDetails.tsx";
-<<<<<<< HEAD
 import Keynote from "./pages/Keynote.tsx";
 import Tutorials from "./pages/Tutorials.tsx";
 import EventSchedule from "./pages/EventSchedule.tsx";
-=======
 import Accomodation from "./pages/Accommodation.tsx";
 import HowReach from "./pages/HowReach.tsx";
->>>>>>> 113452d14db40149bc9ac2bd2575bb2bc74c010e
+import Accommodation from "./components/Accomodation.tsx";
+import ConferenceVenue from "./pages/ConferenceVenue.tsx";
+import AdvisoryCommitte from "./pages/AdvisoryCommittee.tsx";
+import SteeringCommittee from "./pages/SteeringCommittee.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
 
@@ -41,9 +42,9 @@ function App() {
           <Home />
           {/* <ImageCarousel /> */}
           <WelcomePage />
+          <ConferenceHighlights />
           <Timeline />
           {/* <ConferenceInfo /> */}
-          <ConferenceHighlights />
           {/* Vasanti's footer */}
           <Footer />
           </>}></Route>
@@ -61,13 +62,13 @@ function App() {
         <Route path="/venue/accomodation" element={<Accomodation />}></Route>
         <Route path="/venue/howtoreach" element={<HowReach />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
-<<<<<<< HEAD
         <Route path="/keynote" element={<Keynote />}></Route>
         <Route path="/tutorials" element={<Tutorials />}></Route>
         <Route path="/eventschedule" element={<EventSchedule />}></Route>
-=======
-
->>>>>>> 113452d14db40149bc9ac2bd2575bb2bc74c010e
+        <Route path="/accommodation" element={<Accommodation/>}></Route>
+        <Route path="/conferencevenue" element={<ConferenceVenue />}></Route>
+        <Route path="/committee/advisorycommittee" element={<AdvisoryCommitte />}></Route>
+        <Route path="/committee/steeringcommittee" element={<SteeringCommittee />}></Route>
       </Routes>
     </Router>
   )

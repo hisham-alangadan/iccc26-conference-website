@@ -19,7 +19,7 @@
 
 .conference-info-container h1 {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: navy;
   margin-bottom: 20px;
 }
 
@@ -89,12 +89,12 @@
 
 .conference-info-container h1 {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: navy;
   margin-bottom: 20px;
 }
 
 .conference-info-container h1:nth-child(odd) {
-  color: black;
+  color: navy;
 }
 
 .info-cards {

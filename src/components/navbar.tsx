@@ -36,7 +36,10 @@ const Navbar = () => {
             <Link to="/committee/organizing">Organizing Committee</Link>
             </div>
             <div className='dropdown-item-2'>
-              <a href="#">Advisory Committee</a>
+              <Link to="/committee/advisorycommittee">Advisory Committee</Link>
+            </div>
+            <div className='dropdown-item-3'>
+              <Link to="/committee/steeringcommittee">Steering Committee</Link>
             </div>
           </div>
         </div>
@@ -82,12 +85,19 @@ const Navbar = () => {
           <div className="dropdown">
             <div>
               <Link to="/aboutus">Conference Venue</Link>
+              <a href="/accommodation">Accommodation</a>
             </div>
             <div>
-              <a href="#">Accomodation</a>
+              <Link to="/conferencevenue">Conference Venue</Link>
             </div>
             <div>
               <Link to="/venue/howtoreach">How to Reach</Link>
+            </div>
+            <div>
+              <a href="#">Local Attractions</a>
+            </div>
+            <div>
+              <a href="#">Local Attractions</a>
             </div>
           </div>
         </div>
