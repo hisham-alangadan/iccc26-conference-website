@@ -15,19 +15,80 @@
 }
 
 .About-content > h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: navy;
     margin-bottom: 10px;
+    display:inline-block;
+    position:relative;
+}
+
+.About-content h1::after{
+    content:'';
+    height:7px;
+    width:35%;
+    background:navy;
+    position:absolute;
+    left:calc(40% - 10%);
+    bottom:-3px;
 }
 
 .About-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: navy;
     margin-bottom: 20px;
+    display:inline-block;
+    position:relative;
 }
 
+.About-content h2::after{
+    content:'';
+    height:4px;
+    width:30%;
+    background:navy;
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+}
+
+.About-content h3 {
+    font-size: 2.0rem;
+    color: navy;
+    margin-bottom: 20px;
+    display:inline-block;
+    position:relative;
+}
+
+.About-content h3::after{
+    content:'';
+    height:4px;
+    width:30%;
+    background:navy;
+    position:absolute;
+    left:1%;
+    bottom:-5px;
+}
+
+.About-content h4 {
+    font-size: 2.0rem;
+    color: navy;
+    margin-bottom: 20px;
+    display:inline-block;
+    position:relative;
+}
+
+.About-content h4::after{
+    content:'';
+    height:2px;
+    width:100%;
+    background:navy;
+    position:absolute;
+    left:1%;
+    bottom:5px;
+}
+
+
 .About-content p {
-    font-size: 1.0rem;
+    font-size: 1.4rem;
     color: #000;
     margin-bottom: 20px;
 }

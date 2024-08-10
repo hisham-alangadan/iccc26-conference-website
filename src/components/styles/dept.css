@@ -1,6 +1,5 @@
 .departments-container {
-    /* background: #000033; */
-    background: white;
+    background: linear-gradient(white, rgb(168, 168, 204), white);
     color: black;
     padding: 5vh 5vw;
     min-height: 100vh;
@@ -37,7 +36,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    background: rgba(0, 126, 51, 0.2);
+    background: rgba(0, 50, 170, 0.2);
     padding: 20px;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -46,6 +45,7 @@
 .department-section:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 40, 134, 0.2);;
 }
 
 .department-content {
@@ -55,7 +55,7 @@
 
 .department-content h2 {
     margin-bottom: 15px;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     /* color: #FFD700; */
     color: navy;
     transition: color 0.3s ease;
@@ -66,8 +66,15 @@
     color: rgb(0, 0, 70);
 }
 
+.department-content h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: navy;
+    transition: color 0.3s ease;
+}
+
 .department-content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 
