@@ -22,27 +22,27 @@ const PaperSubmissionComponent = () => {
                         </tr>
                         <tr>
                             <td>Paper Submission Opening Date</td>
-                            <td>1st Sep 2024</td>
+                            <td>1<sup>st</sup> Sep 2024</td>
                         </tr>
                         <tr>
                             <td>Paper Submission Due Date</td>
-                            <td>30th Nov 2024</td>
+                            <td>30<sup>th</sup> Nov 2024</td>
                         </tr>
                         <tr>
                             <td>Notification of Acceptance</td>
-                            <td>15th Jan 2025</td>
+                            <td>15<sup>th</sup> Jan 2025</td>
                         </tr>
                         <tr>
                             <td>Registration Starts</td>
-                            <td>15th Jan 2025</td>
+                            <td>15<sup>th</sup> Jan 2025</td>
                         </tr>
                         <tr>
                             <td>Final Camera-ready Paper</td>
-                            <td>30th March 2025</td>
+                            <td>30<sup>th</sup> March 2025</td>
                         </tr>
                         <tr>
                             <td>Date of Conference</td>
-                            <td>23 May 2025 to 25 May 2025</td>
+                            <td>23<sup>rd</sup> - 25<sup>th</sup> May 2025</td>
                         </tr>
                     </table>
                 </div>

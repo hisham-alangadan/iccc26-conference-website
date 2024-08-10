@@ -16,13 +16,13 @@
 
 .About-content > h1 {
     font-size: 3rem;
-    color: #007E33;
+    color: navy;
     margin-bottom: 10px;
 }
 
 .About-content h2 {
     font-size: 2rem;
-    color: #007E33;
+    color: navy;
     margin-bottom: 20px;
 }
 
@@ -47,7 +47,7 @@
     height: auto;
     position: relative;
     z-index: 1;
-    box-shadow: -20px 20px 0 #007E33;
+    box-shadow: -20px 20px 0 navy;
     right: 40px ;
 }
 
@@ -55,14 +55,14 @@
 .rectangle-bottom {
     position: relative;
     height: 20px;
-    background-color: #007E33;
+    background-color:navy;
     bottom: 45px;
 }
 
 .rectangle-left {
     position: relative;
     width: 20px;
-    background-color: #007E33;
+    background-color:navy;
     bottom: 45px; 
 }
 
