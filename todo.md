@@ -10,7 +10,8 @@
 ## Aravind bro
 
 - Complete the how to reach page
-- Complete the map page
+- Complete the local attraction page
+- Include the keralaStuff.png in the local attractions page
 - College motto in devanagari
 
 ## Vasanti
