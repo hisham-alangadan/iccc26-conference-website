@@ -12,6 +12,7 @@
 
 .About-content{
     display: block;
+    text-align: justify;
 }
 
 .About-content > h1 {
