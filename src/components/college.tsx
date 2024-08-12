@@ -9,12 +9,12 @@ const College = () => {
         <div className="collegeInsignia">
           <div className="collegeInsigniaImg">
             <img src={cetlogo} />
-            <div className="insignia-bg"></div>
+            {/* <div className="insignia-bg"></div> */}
           </div>
           <div className="collegeText">
             <h1>College of Engineering Trivandrum </h1>
             <h3>कर्म ज्यायः हि अकर्मणः | action is superior to inaction</h3>
-            <div className="collegeText-bg"></div>
+            {/* <div className="collegeText-bg"></div> */}
           </div>
         </div>
       </div>

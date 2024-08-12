@@ -1,6 +1,6 @@
 // import React from 'react';
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
-import logo from '../assets/cet_emblem.jpg'
+import logo from '../assets/cet_emblem-removebg-preview.png'
 // import './styles/navbar.css';
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
@@ -20,6 +20,7 @@ const Navbar = () => {
         <img src={logo} alt="CET Emblem" />
         <h3> College of Engineering Trivandrum </h3>
       </div>
+      <div className="menu-button"><button onClick={toggleClass}>Menu</button></div>
       <div
         className={isActive ? "nav-links nav-links-mobile" : "nav-links"}>
         <div className="nav-link">

@@ -5,7 +5,7 @@
     width: 90%;
     padding: 5vh 5vw;
     gap: 100px;
-
+    
     @media screen and (max-width: 781px) {
         flex-direction: column;
     }
@@ -24,7 +24,7 @@
     position: relative;
 }
 
-.About-content h1::after {
+/* .About-content h1::after {
     content: '';
     height: 7px;
     width: 35%;
@@ -32,14 +32,38 @@
     position: absolute;
     left: calc(40% - 10%);
     bottom: -3px;
-}
+} */
 
 .About-content h2 {
-    font-size: 3rem;
+    font-size:5vh;
     color: navy;
     margin-bottom: 20px;
     display: inline-block;
     position: relative;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    div {
+        width: 40%;
+        margin: 0 5vw;
+        /* padding: 50px; */
+        word-wrap: break-word;
+    }
+    .image-container img {width: 80vw;}
+    @media screen and (max-width: 781px) {
+        flex-direction: column;
+        div {
+            width: 90%;
+            /* display: flexbox;
+            place-content: center; */
+        }
+        .image-container img {
+            width: 60vw;
+        }
+    }
 }
 
 .About-content h2::after {
@@ -63,9 +87,9 @@
 }
 
 .About-content h3 {
-    font-size: 2.0rem;
+    font-size: 4vh;
     color: navy;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: inline-block;
     position: relative;
 }
@@ -73,7 +97,7 @@
 .About-content h3::after {
     content: '';
     height: 4px;
-    width: 30%;
+    width: 100%;
     background: navy;
     position: absolute;
     left: 1%;
@@ -107,12 +131,22 @@
 
 .image-container {
     position: relative;
-    width: 100%;
+    /* width: 100%;
     min-width: 300px;
     max-width: 500px;
+    width: 100%; */
     margin-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
+    /* display: flex; */
+    place-content: center;
+    img {
+        max-width: 30vw; min-height: 20vh;
+        margin: 0 25%;
+        @media screen and (max-width: 781px) {
+            max-width: 50%;
+        }
+    }
 }
 
 .college-pic {
@@ -125,7 +159,7 @@
 }
 
 
-.rectangle-bottom {
+/* .rectangle-bottom {
     position: relative;
     height: 20px;
     background-color: navy;
@@ -137,7 +171,7 @@
     width: 20px;
     background-color: navy;
     bottom: 45px;
-}
+} */
 
 @media screen and (max-width: 781px) {
     .image-container {

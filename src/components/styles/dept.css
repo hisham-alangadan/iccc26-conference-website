@@ -104,6 +104,10 @@
         flex-direction: column;
     }
 
+    .department-section:nth-child(odd) {
+        flex-direction: column-reverse;
+    }
+
     .department-content {
         padding-right: 0;
         margin-bottom: 20px;
@@ -111,6 +115,10 @@
 
     .department-image {
         flex: 0 0 100%;
-        width: 75vw;
+        min-width: 50vh;
+
+        img {
+            width: 100%;
+        }
     }
 }
