@@ -15,12 +15,12 @@ const speakers = [
     topic: "To be announced",
     image: comingSoon
   },
-  {
-    name: "To be announced",
-    title: "To be announced",
-    topic: "To be announced",
-    image: comingSoon
-  }
+  // {
+  //   name: "To be announced",
+  //   title: "To be announced",
+  //   topic: "To be announced",
+  //   image: comingSoon
+  // }
 ];
 
 const KeynoteSpeakers: React.FC = () => {

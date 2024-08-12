@@ -29,6 +29,7 @@ import Accommodation from "./components/Accomodation.tsx";
 import ConferenceVenue from "./pages/ConferenceVenue.tsx";
 import AdvisoryCommitte from "./pages/AdvisoryCommittee.tsx";
 import SteeringCommittee from "./pages/SteeringCommittee.tsx";
+import LocalStuff from "./pages/LocalStuff.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
 import "./App.css"
