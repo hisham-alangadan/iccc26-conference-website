@@ -1,9 +1,9 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/navbar";
 
-const HowReach = () => {
-    return (
-        <>
-        <Navbar/>
+const HowReach = () => (
+    <>
+        <Navbar />
         <div style={{ "padding": "10vh 5vw" }}>
             <h2>Getting to campus</h2>
             <table>
@@ -17,8 +17,8 @@ const HowReach = () => {
                 </tr>
             </table>
         </div>
-        </>
-    );
-};
+        <Footer />
+    </>
+);
 
 export default HowReach;

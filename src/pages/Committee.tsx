@@ -1,6 +1,7 @@
 import Navbar from "../components/navbar";
 import College from "../components/college";
 import OrganizingCommittee from '../components/committee';
+import Footer from "../components/Footer";
 function OrgCommittee() {
 
     return (
@@ -8,6 +9,7 @@ function OrgCommittee() {
         <Navbar />
         <College />
         <OrganizingCommittee />
+        <Footer />
       </>
     )
   }
