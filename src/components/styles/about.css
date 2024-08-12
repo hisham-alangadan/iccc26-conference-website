@@ -1,90 +1,101 @@
-.AboutUs-container{
+.AboutUs-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 90%;
     padding: 5vh 5vw;
     gap: 100px;
+
     @media screen and (max-width: 781px) {
-      flex-direction: column;
+        flex-direction: column;
     }
 }
 
-.About-content{
+.About-content {
     display: block;
     text-align: justify;
 }
 
-.About-content > h1 {
+.About-content>h1 {
     font-size: 4rem;
     color: navy;
     margin-bottom: 10px;
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
 }
 
-.About-content h1::after{
-    content:'';
-    height:7px;
-    width:35%;
-    background:navy;
-    position:absolute;
-    left:calc(40% - 10%);
-    bottom:-3px;
+.About-content h1::after {
+    content: '';
+    height: 7px;
+    width: 35%;
+    background: navy;
+    position: absolute;
+    left: calc(40% - 10%);
+    bottom: -3px;
 }
 
 .About-content h2 {
     font-size: 3rem;
     color: navy;
     margin-bottom: 20px;
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
 }
 
-.About-content h2::after{
-    content:'';
-    height:4px;
-    width:30%;
-    background:navy;
-    position:absolute;
-    left:calc(50% - 10%);
-    bottom:-5px;
+.About-content h2::after {
+    content: '';
+    height: 4px;
+    width: 30%;
+    background: navy;
+    position: absolute;
+    left: calc(50% - 10%);
+    bottom: -5px;
+}
+
+.About-content a h4 {
+    transition: 300ms ease;
+}
+
+.About-content a:hover {
+    h4 {
+        font-size: 2.1rem;
+    }
 }
 
 .About-content h3 {
     font-size: 2.0rem;
     color: navy;
     margin-bottom: 20px;
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
 }
 
-.About-content h3::after{
-    content:'';
-    height:4px;
-    width:30%;
-    background:navy;
-    position:absolute;
-    left:1%;
-    bottom:-5px;
+.About-content h3::after {
+    content: '';
+    height: 4px;
+    width: 30%;
+    background: navy;
+    position: absolute;
+    left: 1%;
+    bottom: -5px;
 }
 
 .About-content h4 {
     font-size: 2.0rem;
     color: navy;
     margin-bottom: 20px;
-    display:inline-block;
-    position:relative;
+    display: inline-block;
+    position: relative;
 }
 
-.About-content h4::after{
-    content:'';
-    height:2px;
-    width:100%;
-    background:navy;
-    position:absolute;
-    left:1%;
-    bottom:5px;
+.About-content h4::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: navy;
+    position: absolute;
+    left: 1%;
+    bottom: 5px;
 }
 
 
@@ -100,7 +111,7 @@
     min-width: 300px;
     max-width: 500px;
     margin-top: 20px;
-    padding-left: 20px; 
+    padding-left: 20px;
     padding-bottom: 20px;
 }
 
@@ -110,22 +121,22 @@
     position: relative;
     z-index: 1;
     box-shadow: -20px 20px 0 navy;
-    right: 40px ;
+    right: 40px;
 }
 
 
 .rectangle-bottom {
     position: relative;
     height: 20px;
-    background-color:navy;
+    background-color: navy;
     bottom: 45px;
 }
 
 .rectangle-left {
     position: relative;
     width: 20px;
-    background-color:navy;
-    bottom: 45px; 
+    background-color: navy;
+    bottom: 45px;
 }
 
 @media screen and (max-width: 781px) {
@@ -133,4 +144,4 @@
         width: 60vw;
         margin-top: 5vw;
     }
-  }
+}

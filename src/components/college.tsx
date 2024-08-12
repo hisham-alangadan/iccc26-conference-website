@@ -13,7 +13,7 @@ const College = () => {
           </div>
           <div className="collegeText">
             <h1>College of Engineering Trivandrum </h1>
-            <h3>karma jyāyaḥ hi akarmaṇah | action is superior to inaction</h3>
+            <h3>कर्म ज्यायः हि अकर्मणः | action is superior to inaction</h3>
             <div className="collegeText-bg"></div>
           </div>
         </div>
