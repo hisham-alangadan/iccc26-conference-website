@@ -1,4 +1,5 @@
 import EventDetailsComponent from "../components/eventdetailscomponent";
+import Footer from "../components/Footer";
 import Navbar from "../components/navbar";
 
 export default function EventDetails() {
@@ -6,6 +7,7 @@ export default function EventDetails() {
         <>
             <Navbar />
             <EventDetailsComponent />
+            <Footer />
         </>
     )
 }

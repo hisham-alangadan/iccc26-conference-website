@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar";
 import CameraReadyComponent from "../components/cameraready";
+import Footer from "../components/Footer";
 
 
 const CameraReady = () => {
@@ -7,6 +8,7 @@ const CameraReady = () => {
         <>
             <Navbar />
             <CameraReadyComponent />
+            <Footer />
         </>);
 };
 

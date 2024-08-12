@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Navbar from '../components/navbar';
 import '../components/styles/committee.css';
 
@@ -32,6 +33,7 @@ export default function SteeringCommittee() {
                     </ul>
                 </section>
             </div>
+            <Footer />
         </>
     )
 }

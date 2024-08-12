@@ -2,6 +2,8 @@ import Navbar from "../components/navbar";
 import College from "../components/college";
 import AboutCollege from "../components/About";
 import Departments from "../components/dept";
+import Footer from "../components/Footer";
+
 function AboutUs({venue}) {
 
   return (
@@ -10,6 +12,7 @@ function AboutUs({venue}) {
       <College />
       <AboutCollege />
       <Departments venue={venue} />
+      <Footer />
     </>
   )
 }
