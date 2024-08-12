@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="dropdown dropdown-menu-1">
             <div className='dropdown-item-1'>
             <Link to="/committee/organizing">Organizing Committee</Link>
-            <Link to="/committee/organizing">Organizing Committee</Link>
+            {/* <Link to="/committee/organizing">Organizing Committee</Link> */}
             </div>
             <div className='dropdown-item-2'>
               <Link to="/committee/advisorycommittee">Advisory Committee</Link>

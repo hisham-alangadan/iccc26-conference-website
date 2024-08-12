@@ -18,7 +18,7 @@ import CameraReady from "./pages/CameraReady.tsx";
 import Registration from "./pages/Registration.tsx";
 import ContactUs from "./pages/ContactUs.tsx";
 
-import './App.css'
+import LocalStuff from "./pages/LocalStuff.tsx";
 import EventDetails from "./pages/EventDetails.tsx";
 import Keynote from "./pages/Keynote.tsx";
 import Tutorials from "./pages/Tutorials.tsx";
@@ -31,6 +31,7 @@ import AdvisoryCommitte from "./pages/AdvisoryCommittee.tsx";
 import SteeringCommittee from "./pages/SteeringCommittee.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 
+import "./App.css"
 
 function App() {
 
