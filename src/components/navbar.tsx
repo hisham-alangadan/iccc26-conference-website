@@ -75,7 +75,15 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-link">
-          <Link to="/tracks">Tracks</Link>
+          <Link to="/tracks">Call for Papers</Link>
+          <div className="dropdown dropdown-menu-1">
+            <div className='dropdown-item-1'>
+              <Link to="/tracks">Tracks</Link>
+            </div>
+            <div className='dropdown-item-2'>
+              <Link to="/imp-dates">Important Dates</Link>
+            </div>
+          </div>
         </div>
         <div className="nav-link">
           <Link to="/speakers">Speakers</Link>

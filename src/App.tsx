@@ -11,6 +11,7 @@ import Venue from './pages/Venue';
 import AboutUs from './pages/AboutUs';
 import OrgCommittee from './pages/Committee.tsx';
 import Tracks from './pages/Tracks.tsx';
+import ImpDates from './pages/ImpDates.tsx';
 import PaperSubmission from "./pages/PaperSubmission.tsx";
 import Presentation from "./pages/Presentation.tsx";
 import KeySpeakers from "./pages/KeynoteSpeakers.tsx";
@@ -54,6 +55,7 @@ function App() {
         <Route path="/aboutus" element={<AboutUs venue={false} />}></Route>
         <Route path="/committee/organizing" element={<OrgCommittee/>}></Route>
         <Route path="/tracks" element={<Tracks/>}></Route>
+        <Route path="/imp-dates" element={<ImpDates/>}></Route>
         <Route path="/authors/submission-guidelines" element={<PaperSubmission />}></Route>
         <Route path="/authors/presentation-guidelines" element={<Presentation/>}> </Route>
         <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>

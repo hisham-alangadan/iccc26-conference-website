@@ -1,13 +1,18 @@
-import ConferenceVenueComponent from "../components/conferencevenue";
+import ConfVenue from "../components/confVenue";
 import Footer from "../components/Footer";
 import Navbar from "../components/navbar";
-
-export default function ConferenceVenue () {
+import '../components/styles/conferenceVenue.css';
+function ConferenceVenue () {
     return (
         <>
             <Navbar />
-            <ConferenceVenueComponent />
+            <div className = "Header">
+                <h1>College of Engineering Trivandrum</h1>
+            </div>
+            <ConfVenue />
             <Footer />
         </>
     )
 }
+
+export default ConferenceVenue;

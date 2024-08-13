@@ -3,13 +3,13 @@ import "../components/styles/tracks.css"
 const TracksComponent = () => {
     return (
         <div className="tracks-container">
-            <h1> Technical Tracks at ICCC 2025 </h1>
+            <h1><strong> Technical Tracks at ICCC 2025 </strong></h1>
             <p><em><strong>Technical papers are solicited on the topics pertaining to the scope of the Conference will include, but are not limited to the following.</strong></em></p>
             <div className="tracks-box">
                 <div>
                     <table>
                         <header> Track 1 </header>
-                        <ul>
+                        <ul><strong>
                             <li>Architectures for Intelligent Control</li>
                             <li>Automotive Control Systems</li>
                             <li>Control of Aerospace Systems</li>
@@ -24,7 +24,7 @@ const TracksComponent = () => {
                             <li>Power System Operation and Control</li>
                             <li>Renewable Energy and Smart Grid</li>
                             <li>Transportation Electrification</li>
-                        </ul>
+                            </strong></ul>
                     </table>
                 </div>
                 <div>
@@ -32,7 +32,7 @@ const TracksComponent = () => {
                         <header>
                             Track 2
                         </header>
-                        <ul>
+                        <ul><strong>
                             <li> Acoustic and Audio Signal Processing </li>
                             <li> Biomedical Signal Processing </li>
                             <li> Instrumentation and Control </li>
@@ -48,7 +48,7 @@ const TracksComponent = () => {
                             <li> VLSI and Embedded Systems </li>
                             <li> Wireless Communication and Sensor Networks </li>
 
-                        </ul>
+                            </strong></ul>
                     </table>
                 </div>
                 <div>
@@ -56,7 +56,7 @@ const TracksComponent = () => {
                         <header>
                             Track 3
                         </header>
-                        <ul>
+                        <ul><strong>
                             <li> Advanced Algorithms </li>
                             <li> Big Data Analysis, Cloud Computing and IoT </li>
                             <li> Blockchain Technologies </li>
@@ -72,7 +72,7 @@ const TracksComponent = () => {
                             <li> Software Engineering and Formal Methods </li>
                             <li> System Software Design and Implementation </li>
 
-                        </ul>
+                        </strong></ul>
 
                     </table>
                 </div>

@@ -1,0 +1,18 @@
+.Header {
+    font-size: 2.5rem;
+    color: navy;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 0;
+}
+.Header::after {
+    content: '';
+    height: 7px;
+    width: 45%;
+    background: navy;
+    position: absolute;
+    left: 28.5%;
+    bottom: 3rem;
+}
