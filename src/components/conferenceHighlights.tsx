@@ -38,7 +38,7 @@ const ConferenceHighlights = () => {
         <Link to="/eventschedule">
         <div className="info-card">
           <img src={papersIcon} alt="Call for Papers" className="info-icon" />
-          <p><strong>Call for Paper Presentation!</strong> Papers with novel and quality work are encouraged for submission.</p>
+          <p><strong>Call for papers</strong> Papers with novel and quality work are encouraged for submission.</p>
         </div>
         </Link>
       </div>

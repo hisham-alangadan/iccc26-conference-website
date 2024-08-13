@@ -5,7 +5,7 @@ import './styles/college.css';
 const College = () => {
   return (
     <div className="collegeBackground">
-      <div className="tint">
+      <div className="tint-header">
         <div className="collegeInsignia">
           <div className="collegeInsigniaImg">
             <img src={cetlogo} />

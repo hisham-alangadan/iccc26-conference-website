@@ -1,6 +1,6 @@
 // import React from 'react';
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
-import logo from '../assets/cet_emblem-removebg-preview.png'
+import logo from '../assets/image.png'
 // import './styles/navbar.css';
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link to="/committee/organizing">Committee</Link>
           <div className="dropdown dropdown-menu-1">
             <div className='dropdown-item-1'>
-            <Link to="/committee/organizing">Organizing Committee</Link>
+              <Link to="/committee/organizing">Organizing Committee</Link>
             </div>
             <div className='dropdown-item-2'>
               <Link to="/committee/advisorycommittee">Advisory Committee</Link>
@@ -84,13 +84,13 @@ const Navbar = () => {
           <Link to="/Venue">Venue</Link>
           <div className="dropdown">
             <div>
-              <Link to="/accommodation">Accommodation</Link>
-            </div>
-            <div>
               <Link to="/conferencevenue">Conference Venue</Link>
             </div>
             <div>
-              <Link to="/venue/howtoreach">Map</Link>
+              <Link to="/venue/howtoreach">How to Reach</Link>
+            </div>
+            <div>
+              <Link to="/accommodation">Accommodation</Link>
             </div>
             <div>
               <Link to="/venue/tourism">Local Attractions</Link>

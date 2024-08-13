@@ -9,10 +9,13 @@
   }
 }
 
-.tint {
+.tint-header {
+    height: 100%;
     display: flex;
     align-items: center;
+    place-content: center;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7));
+    /* * {color:orange;} */
 }
 
 .collegeInsignia {

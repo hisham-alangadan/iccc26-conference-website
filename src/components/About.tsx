@@ -7,7 +7,7 @@ const AboutCollege = () => {
                 <div className="main-panel">
                     <div>
                         <h1>About the college</h1>
-                        <p><strong>The College of Engineering, Trivandrum (CET),</strong> established in 1939, stands as a beacon of excellence in technical education. </p>
+                        <p><strong>The College of Engineering Trivandrum (CET),</strong> established in 1939, stands as a beacon of excellence in technical education. </p>
                         <p>For 85 years, CET has been at the forefront of engineering education in India, consistently producing top-tier professionals and innovative research.</p>
                         <p>Our institution's rich history is matched only by its commitment to the future. From its humble beginnings as the first engineering college in the state of Kerala, CET has grown into a prestigious institution recognized nationwide for its academic rigor and research contributions.</p>
                     </div>

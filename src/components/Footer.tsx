@@ -12,12 +12,7 @@ export default function Footer() {
             <div className="footer-panel images" style={{"display": "flex", "placeContent": "center"}}>
                 <div>
                     <img src={ieee} style={{ "margin": "20% 0", "width": "20vh", "height": "5.85vh"}}></img>
-                </div>
-                <div>
                     <img src={insignia} className='footer-insignia'></img>
-                </div>
-                <div>
-                    <p className="footer-clg-name">College of Engineering Trivandrum</p>
                 </div>
             </div>
             <div className="footer-panel">
