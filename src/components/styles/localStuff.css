@@ -2,10 +2,12 @@
     margin: 0;
     padding: 10vh 5vw;
     min-height: 100vh;
+
     h2 {
         font-size: 2.5rem;
         color: navy;
     }
+
     h2::after {
         width: 40%;
         background-color: navy;
@@ -27,8 +29,16 @@
     height: 15vw;
     padding: 10px;
     margin: 10px;
-    background-color: aqua;
-    color: white;
+    background-position: center;
+
+    a {
+        background-color: rgb(255, 255, 255, 0.5);
+        color: black;
+        height: 10%;
+        padding: 3px;
+        text-decoration: none;
+    }
+
     font-weight: 900;
     display: flex;
     place-content: end;

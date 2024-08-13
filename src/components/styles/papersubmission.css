@@ -27,7 +27,7 @@
     color: navy;
 }
 
-li {
+.paper-submission-container li {
     line-height: 150%;
 }
 
@@ -81,16 +81,20 @@ z
     }
 }
 
- th, td {
-    border: 1px solid black;
+.paper-submission-container th, td {
+    border-collapse: collapse;
+    padding: 1vh 1vw;
+    border: none;
 }
 
-table, th, td {
-    border-collapse: collapse;
-    padding: 3px;
-}
 
 .instructions, .paper-upload {
     font-size: 18px;
     font-weight: 600;
+}
+
+.paper-submission-container .head, .paper-submission-container .highlighted {
+    background-color: navy;
+    border: none;
+    color: white;
 }

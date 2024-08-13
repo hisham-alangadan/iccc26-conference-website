@@ -20,7 +20,7 @@ const PaperSubmissionComponent = () => {
                             <th>Event</th>
                             <th>Date</th>
                         </tr>
-                        <tr>
+                        <tr className="highlighted">
                             <td>Paper Submission Opening Date</td>
                             <td>1<sup>st</sup> Sep 2024</td>
                         </tr>

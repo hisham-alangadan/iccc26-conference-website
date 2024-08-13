@@ -9,11 +9,11 @@
   z-index: 2;
 }
 
-.tint {
+.tint-home {
   height: 100%;
   width: 100%;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   align-content: center;
   text-align: center;
   /* background-color: blue; */
@@ -21,12 +21,12 @@
   /* opacity: 60%; */
 
   /* omitted as per sir's request */
-  display: none;
+  /* display: none; */
 }
 
 .content {
-  /* text-align: center; */
-  /* margin: 0 0 0 50vh; */
+  /* text-align: center;
+  margin: 0 0 0 50vh; */
   height: 100%;
   width: 100%;
   padding: 60vh 3vw 20vh 0;
