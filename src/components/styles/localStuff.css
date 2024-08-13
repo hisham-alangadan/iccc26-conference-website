@@ -1,0 +1,31 @@
+.local-stuff-container {
+    margin: 0;
+    padding: 10vh 5vw;
+    min-height: 100vh;
+}
+
+.places {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    place-content: center;
+}
+
+.destination {
+    width: 40vh;
+    height: 15vw;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    place-content: end;
+    border-radius: 10px;
+    transition: 900ms ease;
+}
+
+.destination:hover {
+    width: 42vh;
+    height: 15.75vw;
+}
