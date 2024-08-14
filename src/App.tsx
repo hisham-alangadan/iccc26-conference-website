@@ -59,7 +59,7 @@ function App() {
         <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
-        <Route path="/eventdetails" element={<EventDetails />}></Route>
+        {/* <Route path="/eventdetails" element={<EventDetails />}></Route> */}
         <Route path="/venue/conference" element={<AboutUs venue={true} />}></Route>
         <Route path="/venue/accomodation" element={<Accomodation />}></Route>
         <Route path="/venue/howtoreach" element={<HowReach />}></Route>
