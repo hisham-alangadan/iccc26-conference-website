@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 10vh 5vw;
-    min-height: 60vh;
+    min-height: 65vh;
     @media screen and (max-width: 781px) {
         padding-top: 15vh;   
     }

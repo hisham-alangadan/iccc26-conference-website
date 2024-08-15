@@ -1,5 +1,6 @@
 * {
     line-height: 1.8;
+    border-collapse: collapse;
 }
 
 .paper-submission-container {
@@ -27,7 +28,7 @@
     color: navy;
 }
 
-li {
+.paper-submission-container li {
     line-height: 150%;
 }
 
@@ -69,7 +70,7 @@ li {
 .instructions-table {
     /* place-content: center; */
     text-align: left;
-z
+
     /* .head {
         /* background-color: gray; color: white; font-weight: 900; */
         /* border: 1px blue solid; */
@@ -81,16 +82,24 @@ z
     }
 }
 
- th, td {
+.paper-submission-container th, td {
+    border-collapse: collapse;
+    padding: 1vh 1vw;
     border: 1px solid black;
 }
 
-table, th, td {
-    border-collapse: collapse;
-    padding: 3px;
-}
 
 .instructions, .paper-upload {
     font-size: 18px;
     font-weight: 600;
+}
+
+.paper-submission-container .head {
+    background-color: navy;
+    border: none;
+    color: white;
+}
+
+.highlighted {
+    color: red;
 }

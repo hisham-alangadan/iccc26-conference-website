@@ -89,7 +89,8 @@ const Navbar = () => {
           <Link to="/speakers">Speakers</Link>
         </div>
         <div className="nav-link">
-          <Link to="/Venue">Venue</Link>
+          {/* <Link to="/Venue">Venue</Link> */}
+          <a>Venue</a>
           <div className="dropdown">
             <div>
               <Link to="/conferencevenue">Conference Venue</Link>

@@ -101,6 +101,10 @@ ul li .title {
   margin: none;
 }
 
+ul li .grey {
+  color: grey;
+}
+
 /* date flap */
 ul li .date::before {
   content: "";

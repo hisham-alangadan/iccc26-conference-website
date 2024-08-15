@@ -7,7 +7,7 @@ import Timeline from "./components/timeline.tsx";
 import ConferenceHighlights from "./components/conferenceHighlights";
 // import ContactUs from "./components/ContactUs.tsx";
 import Footer from "./components/Footer.tsx";
-import Venue from './pages/Venue';
+// import Venue from './pages/Venue';
 import AboutUs from './pages/AboutUs';
 import OrgCommittee from './pages/Committee.tsx';
 import Tracks from './pages/Tracks.tsx';
@@ -51,7 +51,7 @@ function App() {
           {/* Vasanti's footer */}
           <Footer />
           </>}></Route>
-        <Route path="/venue" element={<Venue/>}></Route>
+        {/* <Route path="/venue" element={<Venue/>}></Route> */}
         <Route path="/aboutus" element={<AboutUs venue={false} />}></Route>
         <Route path="/committee/organizing" element={<OrgCommittee/>}></Route>
         <Route path="/tracks" element={<Tracks/>}></Route>

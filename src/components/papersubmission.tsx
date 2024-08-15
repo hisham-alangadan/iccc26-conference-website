@@ -3,7 +3,7 @@ import "./styles/papersubmission.css"
 const PaperSubmissionComponent = () => {
     return (
         <div className="paper-submission-container">
-            <h1> Guidelines for paper submission </h1>
+            <h1> Guidelines for Paper Submission </h1>
             <div className="gridlike">
                 <div className="instructions">
                     <h2>Instructions</h2>
@@ -20,7 +20,7 @@ const PaperSubmissionComponent = () => {
                             <th>Event</th>
                             <th>Date</th>
                         </tr>
-                        <tr>
+                        <tr className="highlighted">
                             <td>Paper Submission Opening Date</td>
                             <td>1<sup>st</sup> Sep 2024</td>
                         </tr>
