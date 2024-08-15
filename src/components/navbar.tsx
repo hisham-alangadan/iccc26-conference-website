@@ -5,6 +5,7 @@ import logo from '../assets/image.png'
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { HashLink } from 'react-router-hash-link'
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
@@ -81,7 +82,8 @@ const Navbar = () => {
               <Link to="/tracks">Tracks</Link>
             </div>
             <div className='dropdown-item-2'>
-              <Link to="/imp-dates">Important Dates</Link>
+              {/* <Link to="/imp-dates">Important Dates</Link> */}
+              <HashLink smooth to="/#timeline">Important Dates</HashLink>
             </div>
           </div>
         </div>
