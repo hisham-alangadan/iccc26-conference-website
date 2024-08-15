@@ -170,6 +170,10 @@ ul li .descr::before {
   bottom: 0.25rem;
 }
 
+.grey {
+  color: grey;
+}
+
 @media (min-width: 40rem) {
   ul {
     grid-template-columns: 1fr var(--line-w) 1fr;
