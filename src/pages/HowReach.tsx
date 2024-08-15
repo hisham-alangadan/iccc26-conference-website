@@ -22,7 +22,7 @@ const HowReach = () => (
                         <td>11km</td>
                     </tr>
                     <tr className="rail-row">
-                        <td rowspan={3}><FontAwesomeIcon icon={faTrain}></FontAwesomeIcon>
+                        <td rowSpan={3}><FontAwesomeIcon icon={faTrain}></FontAwesomeIcon>
                         
                         Closest railway stations</td>
                         <td>Thiruvanantapuram Central (TVC)</td>
