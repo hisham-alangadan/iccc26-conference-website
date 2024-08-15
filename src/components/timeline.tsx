@@ -2,7 +2,7 @@ import './styles/timeline.css';
 
 export default function Timeline() {
     return (
-        <div className="timelinecss">
+        <div className="timelinecss" id="timeline">
             <h1>Important Dates</h1>
             <ul className='timelinecss-ul'>
                 <li className='ulli'>
