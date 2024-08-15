@@ -43,6 +43,7 @@
             margin-bottom: 5vh;
         }
     }
+}
 
     table {
         /* background-color: lightblue; */
@@ -51,6 +52,7 @@
         height: 100%;
         border: 2px navy solid;
         text-align: center;
+    }
 
 .tracks-box header {
     background-color: navy;
