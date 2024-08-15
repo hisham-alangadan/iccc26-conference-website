@@ -4,14 +4,14 @@ import '../components/styles/committee.css';
 
 export default function SteeringCommittee() {
     const steeringCommitteeMembers = [
-        "Prof. (Dr.) Jisha V. R., Dean UG Studies, CET",
-        "Prof. (Dr.) Lekshmi A., Dean PG Studies, CET",
-        "Prof. (Dr.) Sumesh Divakaran, Dean Research, CET",
-        "Prof. (Dr.) Joseph Zacharias, Dean Student Affairs, CET",
-        "Prof. (Dr.) Suneesh S.S., Dean International Affairs, CET",
-        "Prof. (Dr.) Lal Priya P.S., Professor & Head, Dept of EE, CET",
-        "Prof. (Dr.) Haris P.A., Professor & Head, Dept of ECE, CET",
-        "Prof. (Dr.) Salim A, Professor & Head, Dept of CSE, CET"
+        "Prof. (Dr.)  Jisha V. R., Dean UG Studies, CET",  
+        "Prof. (Dr.)  Lekshmi A., Dean PG Studies, CET",
+        "Prof. (Dr.)   Sumesh Divakaran, Dean Research, CET",
+        "Prof. (Dr.)  Joseph Zacharias, Dean Student Affairs, CET",
+        "Prof. (Dr.)  Suneesh S.S., Dean International Affairs, CET",
+        "Prof. (Dr.)  Lal Priya P.S.,Professor & Head ,Dept of EE, CET",
+        "Prof. (Dr.)  Haris P.A.,Professor & Head , Dept of ECE, CET",
+        "Prof. (Dr.)  Salim A, Professor & Head ,Dept of CSE, CET"
     ];
 
     return (
