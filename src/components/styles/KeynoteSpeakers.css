@@ -7,13 +7,14 @@
 }
 
 .keynote-speakers-container h1 {
-    font-size: 3rem;
+    font-size: 3.4rem;
     margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: navy;
     border-bottom: 2px solid navy;
+    padding-bottom: 10px;
 }
 
 .intro-text {
@@ -25,16 +26,18 @@
 }
 
 .speakers-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
 .speaker-card {
-    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    background: rgba(0, 26, 150, 0.1);
     border-radius: 15px;
     overflow: hidden;
     transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .speaker-card:hover {
@@ -43,7 +46,7 @@
 }
 
 .speaker-image {
-    height: 250px;
+    flex: 0 0 300px;
     overflow: hidden;
 }
 
@@ -54,24 +57,27 @@
 }
 
 .speaker-info {
-    padding: 20px;
+    flex: 1;
+    padding: 1.5rem;
 }
 
 .speaker-info h2 {
-    font-size: 1.8rem;
-    color: #FFD700;
-    margin-bottom: 10px;
+    font-size: 2.9rem;
+    color: navy;
+    margin-bottom: 0.5rem;
 }
 
 .speaker-info h3 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: #FFA500;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
-.speaker-info p {
+.speaker-bio {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.4;
+    color: navy;
+    text-align: justify;
 }
 
 @media screen and (max-width: 781px) {
@@ -79,7 +85,11 @@
         font-size: 2.5rem;
     }
 
-    .speakers-grid {
-        grid-template-columns: 1fr;
+    .speaker-card {
+        flex-direction: column;
+    }
+
+    .speaker-image {
+        height: 250px;
     }
 }

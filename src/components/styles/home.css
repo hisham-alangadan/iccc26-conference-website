@@ -7,13 +7,15 @@
   /* margin: 0 -19em 0 -20em; */
   /* filter: hue-rotate(300deg) brightness(1); */
   z-index: 2;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.tint {
+.tint-home {
   height: 100%;
   width: 100%;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   align-content: center;
   text-align: center;
   /* background-color: blue; */
@@ -21,23 +23,24 @@
   /* opacity: 60%; */
 
   /* omitted as per sir's request */
-  display: none;
+  /* display: none; */
 }
 
 .content {
-  /* text-align: center; */
-  /* margin: 0 0 0 50vh; */
+  /* text-align: center;
+  margin: 0 0 0 50vh; */
   height: 100%;
   width: 100%;
-  padding: 60vh 3vw 20vh 0;
+  padding: 30vh 1vw 3vh 0;
   text-align: right;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   /* width: 50%; */
   opacity: 100%;
+  margin-right: 3;
   text-shadow: 4px 0 #000, -4px 0 #000, 0 4px #000, 0 -4px #000,
              2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;
   z-index: 3;
-  @media screen and (max-width: 781px) {
+  @media screen and (max-width: 750px) {
     /* padding: 0; */
     text-align: center;
     * {
