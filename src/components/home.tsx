@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className="home">
       <div id="slideshow" className="slideshow">
-        <div className="tint">
+        <div className="tint-home">
           <div className="content">
             <h1>ICCC 2025</h1>
             <h4>6<sup>th</sup> International Conference on <br/>Control, Communication and Computing</h4>
