@@ -75,7 +75,7 @@
 }
 
 .tracks-box .table-1 li {
-    padding: 20px;  /* Increased vertical padding for table 1*/
+    padding: 21px;  /* Increased vertical padding for table 1*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,7 +91,7 @@
 }
 
 .tracks-box .table-2 li {
-    padding: 17px;
+    padding: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,7 +106,7 @@
 }
 
 .tracks-box .table-3 li {
-    padding: 11px;
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
