@@ -7,6 +7,7 @@
     font-family: 'Arial', sans-serif;
 }
 
+
 .organizing-committee-container h1 {
     font-size: 3.5rem;
     margin-bottom: 20px;
@@ -44,7 +45,6 @@
 .main-committee,
 .other-committees {
     margin-bottom: 50px;
-    list-style-type: none;
 }
 
 .main-committee h2,
@@ -54,7 +54,6 @@
     margin-bottom: 30px;
     text-align: center;
     position: relative;
-    list-style-type: none;
 }
 
 .other-committees h2::after{
@@ -137,23 +136,48 @@
 }
 
 .committee-chair p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
 }
 
-.committee-co-chairs {
-    background: rgba(0, 51, 126, 0.1);
-    color: navy;
-    padding: 15px;
-    border-radius: 10px;
+.committee-co-chairs h4{
+    font-size: 1.7rem;
+    color: rgb(0,51,126);
+    margin-bottom: 10px;
+}
+
+.committee-co-chairs ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    @media screen and (max-width: 781px) {
+        flex-direction: column;
+    }
+}
+
+.committee-co-chairs li {
+    background: rgba(0, 51, 126, 0.05);
+    color: rgb(37, 37, 133);
+    padding: 12px 12px;
+    border-radius: 8px;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
     font-size: 1.3rem;
 }
 
-.committee-co-chairs:hover {
-    background: rgba(0, 51, 126, 0.15);
-    transform: scale(1.02);
+.committee-co-chairs li:before {
+    color: rgb(0,51,126);
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.committee-co-chairs li:hover {
+    background: rgba(0, 51, 126, 0.1);
+    transform: translateX(5px);
 }
 
 .committee-members {
@@ -166,9 +190,8 @@
     margin-bottom: 10px;
 }
 
-.committee-members {
+.committee-members ul {
     list-style-type: none;
-    margin: 0;
     padding-left: 0;
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -186,10 +209,10 @@
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 .committee-members li:before {
-    content: '•';
     color: rgb(0,51,126);
     font-size: 1.3rem;
     margin-right: 10px;

@@ -7,7 +7,7 @@ const TracksComponent = () => {
             <p><em><strong>Technical papers are solicited on the topics pertaining to the scope of the Conference will include, but are not limited to the following.</strong></em></p>
             <div className="tracks-box">
                 <div>
-                    <table>
+                    <table className="table-1">
                         <header> Track 1 </header>
                         <ul><strong>
                             <li>Architectures for Intelligent Control</li>
@@ -24,16 +24,14 @@ const TracksComponent = () => {
                             <li>Power System Operation and Control</li>
                             <li>Renewable Energy and Smart Grid</li>
                             <li>Transportation Electrification</li>
-                            </strong></ul>
+                        </strong></ul>
                     </table>
                 </div>
                 <div>
-                    <table>
-                        <header>
-                            Track 2
-                        </header>
+                    <table className="table-2">
+                        <header> Track 2 </header>
                         <ul><strong>
-                            <li> Acoustic and Audio Signal Processing </li>
+                        <li> Acoustic and Audio Signal Processing </li>
                             <li> Biomedical Signal Processing </li>
                             <li> Instrumentation and Control </li>
                             <li> MEMS/NEMS </li>
@@ -47,17 +45,15 @@ const TracksComponent = () => {
                             <li> Two-dimensional Signal Processing and Video Analytics  </li>
                             <li> VLSI and Embedded Systems </li>
                             <li> Wireless Communication and Sensor Networks </li>
-
-                            </strong></ul>
+                        </strong></ul>
                     </table>
                 </div>
                 <div>
-                    <table>
-                        <header>
-                            Track 3
-                        </header>
+                    <table className="table-3">
+                        <header> Track 3 </header>
                         <ul><strong>
-                            <li> Advanced Algorithms </li>
+                        <li> Acoustic and Audio Signal Processing </li>
+                        <li> Advanced Algorithms </li>
                             <li> Big Data Analysis, Cloud Computing and IoT </li>
                             <li> Blockchain Technologies </li>
                             <li> Computational Geometry and Computer Graphics </li>
@@ -71,9 +67,7 @@ const TracksComponent = () => {
                             <li> Security and Privacy </li>
                             <li> Software Engineering and Formal Methods </li>
                             <li> System Software Design and Implementation </li>
-
                         </strong></ul>
-
                     </table>
                 </div>
             </div>

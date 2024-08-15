@@ -53,11 +53,18 @@ const OrganizingCommittee = () => {
                             <div className="committee-chair">
                                 <p>Chair: {committee.chair}</p>
                             </div>
+                            <div className="committee-co-chair-members">
                             {committee.coChairs && (
                                 <div className="committee-co-chairs">
-                                    <p><strong>Co-chairs:</strong> {committee.coChairs.join(', ')}</p>
+                                    <h4>Co-chairs:</h4>
+                                    <ul>
+                                        {committee.coChairs.map((coChair, coChairIndex) => (
+                                            <li key={coChairIndex}><strong>{coChair}</strong></li>
+                                        ))}
+                                    </ul>
                                 </div>
                             )}
+                            </div>
                             <div className="committee-members">
                                 <h4>Members:</h4>
                                 <ul>
