@@ -14,7 +14,7 @@ const Departments = ({venue}:any) => {
         <div className="department-content">
             <h2><strong>Department of Electrical Engineering (EEE)</strong></h2>
             <p>As one of the oldest departments in CET, established in 1939, the EEE department has a rich legacy of excellence. With a strong emphasis on sustainable energy solutions and power systems, it has been instrumental in driving innovation in areas such as smart grids, electric vehicles, and renewable energy integration. The department's research has practical applications that address real-world challenges, contributing significantly to the evolution of electrical engineering.</p>
-            <a href='https://ee.cet.ac.in'><h4>Visit the department site</h4></a>
+            <a href='http://ee.cet.ac.in'><h4>Visit the department site</h4></a>
         </div>
         <div className="department-image">
             <img src={EEEDept} alt="Electrical Department" />
@@ -25,7 +25,7 @@ const Departments = ({venue}:any) => {
         <div className="department-content">
             <h2><strong>Department of Electronics and Communication Engineering (ECE)</strong></h2>
             <p>Since its inception in 1960, the ECE department has been a pioneer in the field of electronics and communication. Known for its advanced research facilities, the department focuses on areas like signal processing, wireless communications, VLSI design, and embedded systems. The ECE department has garnered numerous accolades for its contributions to both academia and industry, fostering innovation and technological advancement.</p>
-            <a href='https://ece.cet.ac.in'><h4>Visit the department site</h4></a>
+            <a href='http://ece.cet.ac.in'><h4>Visit the department site</h4></a>
         </div>
         <div className="department-image">
             <img src={ECEDept} alt="Electronics Department" />

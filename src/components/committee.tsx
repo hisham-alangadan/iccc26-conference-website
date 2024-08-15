@@ -27,7 +27,7 @@ const OrganizingCommittee = () => {
 
                 <h2>General Chair</h2>
                 <ul>
-                    <li><strong>Dr. Savier J S - Principal, College of Engineering Trivandrum</strong></li>
+                    <li><strong>Dr. Suresh K. - Principal, College of Engineering Trivandrum</strong></li>
                 </ul>
 
                 <h2>Organizing Secretary</h2>

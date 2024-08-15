@@ -29,7 +29,7 @@ export default function AdvisoryCommittee() {
         "Prof. (Dr.) Arnab Sarkar, IIT Kharagpur",
         "Prof. (Dr.) John Jose, IIT Guwahati",
         "Prof. (Dr.) K.Gopakumar, IISc, Bangalore",
-        "Prof. (Dr.) Shiny G. , Pricipal, Govt. Engineering College Barton Hill"
+        "Prof. (Dr.) Shiny G. , Principal, Govt. Engineering College Barton Hill"
     ];
 
     return (

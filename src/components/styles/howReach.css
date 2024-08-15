@@ -1,11 +1,11 @@
 .how-reach-container {
-    table {border: none;}
-    td {padding: 2vh; border: none; font-size: 1.2rem}
+    table {border: 1px solid black;}
+    td {padding: 2vh; border: 1px solid black; font-size: 1.2rem}
     .airport-row {
         background-color: navy; color: white;
     }
     .rail-row {
-        background-color: rgb(66, 63, 63) ; color: white;
+        background-color: rgb(13, 78, 0) ; color: white;
     }
     svg {
         margin-right: 10px; 

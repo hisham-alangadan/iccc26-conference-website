@@ -7,7 +7,6 @@
     font-family: 'Arial', sans-serif;
 }
 
-
 .organizing-committee-container h1 {
     font-size: 3.5rem;
     margin-bottom: 20px;
@@ -45,6 +44,7 @@
 .main-committee,
 .other-committees {
     margin-bottom: 50px;
+    list-style-type: none;
 }
 
 .main-committee h2,
@@ -54,6 +54,7 @@
     margin-bottom: 30px;
     text-align: center;
     position: relative;
+    list-style-type: none;
 }
 
 .other-committees h2::after{
@@ -165,8 +166,9 @@
     margin-bottom: 10px;
 }
 
-.committee-members ul {
+.committee-members {
     list-style-type: none;
+    margin: 0;
     padding-left: 0;
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

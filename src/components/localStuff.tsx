@@ -3,14 +3,14 @@ import "./styles/localStuff.css";
 const LocalStuffComponent = () => {
     return (
         <div className="local-stuff-container">
-            <h2>Things to do in the city</h2>
+            <h2>Local attractions in the city</h2>
             <p>Thiruvanantapuram is an exciting city, blessed with both natural beauty and unique heritage.</p>
             <div className="places">
                 <div className="destination" style={{ backgroundImage: "url('https://www.keralatourism.org/images/destination/large/kovalam20131031105847_236_1.jpg')" }}>
                     <a href="https://www.keralatourism.org/destination/kovalam-beach/236">Kovalam</a>
                 </div>
                 <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/microsites/varkala/inner-banner.jpg')"}}><a href="https://www.keralatourism.org/varkala">Varkala</a></div>
-                <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/arattu_mandapam_shanghumugham20180629152321_599_1.jpg')"}}><a href="https://www.keralatourism.org/destination/shankhumugham-beach-thiruvananthapuram/224">Shankhumukham</a></div>
+                <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/shankhumugham_beach_thiruvananthapuram20131031115511_224_1.jpg')"}}><a href="https://www.keralatourism.org/destination/shankhumugham-beach-thiruvananthapuram/224">Shankhumukham</a></div>
             </div>
             <div className="places">
                 <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/ponmudi_hill_station_thiruvananthapuram20131108135356_243_3.jpg')"}}><a href="https://www.keralatourism.org/destination/ponmudi-hills/243">Ponmudi</a></div>
