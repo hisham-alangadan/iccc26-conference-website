@@ -4,7 +4,7 @@ import AboutCollege from "../components/About";
 import Departments from "../components/dept";
 import Footer from "../components/Footer";
 
-function AboutUs({venue}) {
+function AboutUs({venue}:any) {
 
   return (
     <>

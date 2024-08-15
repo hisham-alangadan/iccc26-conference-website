@@ -25,13 +25,13 @@
 }
 
 /* line */
-/* ul::before {
+ul::before {
   content: "";
   grid-column: 1;
   grid-row: 1 / span 20;
   background: navy;
   border-radius: calc(var(--line-w) / 2);
-} */
+}
 
 /* columns*/
 
@@ -48,6 +48,29 @@ ul li:not(:last-child) {
   grid-row: span 2;
   display: grid;
   grid-template-rows: min-content min-content min-content;
+}
+
+/* lines from central line to each card */
+.ulli::before {
+  content: "";
+  /* position: absolute; */
+  height: 6px;
+  /* width: calc(50% - 1rem); */
+  width: 3.8em;
+  background-color: navy;
+  /* top: 100%; */
+  transform: translatex(24.75em) translateY(6em);
+}
+
+.ulli-2::before{
+  content: "";
+  /* position: absolute; */
+  height: 6px;
+  /* width: calc(50% - 1rem); */
+  width: 3.8em;
+  background-color: navy;
+  /* top: 100%; */
+  transform: translatex(-3.7em) translateY(6em);
 }
 
 /* date */

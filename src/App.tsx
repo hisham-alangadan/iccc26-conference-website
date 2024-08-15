@@ -19,7 +19,7 @@ import Registration from "./pages/Registration.tsx";
 import ContactUs from "./pages/ContactUs.tsx";
 
 import LocalStuff from "./pages/LocalStuff.tsx";
-import EventDetails from "./pages/EventDetails.tsx";
+// import EventDetails from "./pages/EventDetails.tsx";
 import Keynote from "./pages/Keynote.tsx";
 import Tutorials from "./pages/Tutorials.tsx";
 import EventSchedule from "./pages/EventSchedule.tsx";
@@ -59,7 +59,7 @@ function App() {
         <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
-        <Route path="/eventdetails" element={<EventDetails />}></Route>
+        {/* <Route path="/eventdetails" element={<EventDetails />}></Route> */}
         <Route path="/venue/conference" element={<AboutUs venue={true} />}></Route>
         <Route path="/venue/accomodation" element={<Accomodation />}></Route>
         <Route path="/venue/howtoreach" element={<HowReach />}></Route>

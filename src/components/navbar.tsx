@@ -60,7 +60,7 @@ const Navbar = () => {
         <div className="nav-link">
           <Link to="/registration">Registration</Link>
         </div>
-        <div className="nav-link">
+        {/* <div className="nav-link">
           <a href="/eventdetails">Event Details</a>
           <div className="dropdown">
             <div>
@@ -73,7 +73,7 @@ const Navbar = () => {
               <Link to="/eventschedule">Event Schedule</Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="nav-link">
           <Link to="/tracks">Tracks</Link>
         </div>
