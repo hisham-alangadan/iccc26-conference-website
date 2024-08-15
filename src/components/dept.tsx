@@ -3,7 +3,7 @@ import CSEDept from '../assets/CSEDept.jpg';
 import ECEDept from '../assets/ECEDept.jpg';
 import EEEDept from '../assets/EEEDept.jpg';
 
-const Departments = ({venue}) => {
+const Departments = ({venue}:any) => {
     return(
         <div className="departments-container">
         <h1>{venue ? "Conference Venues" : "Organizing Departments"}</h1>
