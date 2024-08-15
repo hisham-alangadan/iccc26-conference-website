@@ -1,6 +1,6 @@
 // import React, { useEffect } from 'react';
 import './styles/home.css';
-import bg1 from "../assets/cet.jpg";
+// import bg1 from "../assets/cet.jpg";
 
 // const images = [
 //   bg1
