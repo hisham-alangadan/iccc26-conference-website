@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import focusIcon from '../assets/keynotespeakersTxt.png';
 // import targetIcon from '../assets/target-icon.png';
 import targetIcon from '../assets/tutorialsTxt.png';
-import papersIcon from '../assets/papers-icon.png';
+// import papersIcon from '../assets/papers-icon.png';
+import papersIcon from '../assets/papers-icon-2.png';
 import './styles/conferenceInfo.css';
 
 const ConferenceHighlights = () => {
@@ -12,7 +13,7 @@ const ConferenceHighlights = () => {
     <div className="conference-info-container">
       <h1>Conference Highlights</h1>
       <div className="info-cards">
-        <Link to="/keynote">
+        <Link to="/speakers">
         <div className="info-card">
           <img src={focusIcon} alt="Focus" className="info-icon" />
           <h2>Keynote Speakers</h2>
@@ -38,7 +39,8 @@ const ConferenceHighlights = () => {
         <Link to="/eventschedule">
         <div className="info-card">
           <img src={papersIcon} alt="Call for Papers" className="info-icon" />
-          <p><strong>Call for papers</strong> Papers with novel and quality work are encouraged for submission.</p>
+          {/* <p><strong>Call for papers</strong> Papers with novel and quality work are encouraged for submission.</p> */}
+          <p> Papers with novel and quality work are encouraged for submission.</p>
         </div>
         </Link>
       </div>
