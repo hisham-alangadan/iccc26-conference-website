@@ -58,7 +58,7 @@ const KeynoteSpeakers: React.FC = () => {
       
       <div className="speakers-grid">
         {speakers.map((speaker, index) => (
-          <div key={index} className="speaker-card">
+          <div key={index} className="speaker-card" id={`speaker${index}`}>
             <div className="speaker-image">
               <img src={speaker.image} alt={speaker.name} />
             </div>

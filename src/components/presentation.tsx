@@ -4,7 +4,7 @@ const PresentationComponent = () => {
     return (
     <div className="presentation-container">
         <h1> </h1>
-        <h1 className="navy">Presentation Guidelines</h1>
+        <h1 className="navy">PRESENATATION GUIDELINES</h1>
         <ul>
             <li>Each parallel session will include multiple presentations</li>
             <li>Presenters will have 13 minutes for their presentation (10 minutes for presentation, 3 minutes for discussion)</li>

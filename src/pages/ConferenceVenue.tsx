@@ -7,7 +7,7 @@ function ConferenceVenue () {
         <>
             <Navbar />
             <div className = "Header">
-                <h1>College of Engineering Trivandrum</h1>
+                <h1>COLLEGE OF ENGINEERING TRIVANDRUM</h1>
             </div>
             <ConfVenue />
             <Footer />

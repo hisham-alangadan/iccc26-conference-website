@@ -19,13 +19,13 @@
 
 .departments-container > p {
     margin-bottom: 30px;
-    text-align: center;
+    text-align: justify;
     font-size: 1.2rem;
 }
 
 .departments-container > p em{
     margin-bottom: 30px;
-    text-align: center;
+    text-align: justify;
     font-size: 1.2rem;
     color: navy;
 }
@@ -76,6 +76,7 @@
 .department-content p {
     font-size: 1.2rem;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .department-image {

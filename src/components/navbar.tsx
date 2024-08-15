@@ -31,7 +31,8 @@ const Navbar = () => {
           <Link to="/aboutus">About Us</Link>
         </div>
         <div className="nav-link">
-          <Link to="/committee/organizing">Committee</Link>
+          {/* <Link to="/committee/organizing">Committee</Link> */}
+          <a>Committee</a>
           <div className="dropdown dropdown-menu-1">
             <div className='dropdown-item-1'>
               <Link to="/committee/organizing">Organizing Committee</Link>
@@ -45,7 +46,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-link">
-          <Link to="/authors/submission-guidelines">Authors</Link>
+          {/* <Link to="/authors/submission-guidelines">Authors</Link> */}
+          <a>Authors</a>
           <div className="dropdown">
             <div>
               <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
@@ -76,7 +78,8 @@ const Navbar = () => {
           </div>
         </div> */}
         <div className="nav-link">
-          <Link to="/tracks">Call for Papers</Link>
+          {/* <Link to="/tracks">Call for Papers</Link> */}
+          <a>Call for Papers</a>
           <div className="dropdown dropdown-menu-1">
             <div className='dropdown-item-1'>
               <Link to="/tracks">Tracks</Link>
@@ -98,7 +101,7 @@ const Navbar = () => {
               <Link to="/conferencevenue">Conference Venue</Link>
             </div>
             <div>
-              <Link to="/venue/howtoreach">How to Reach</Link>
+              <HashLink smooth to="/venue/howtoreach#top">How to Reach</HashLink>
             </div>
             <div>
               <Link to="/accommodation">Accommodation</Link>

@@ -53,6 +53,9 @@
         /* padding: 50px; */
         word-wrap: break-word;
     }
+    h2 {
+        margin-left: -5vw;
+    }
     .image-container img {width: 80vw;}
     @media screen and (max-width: 781px) {
         flex-direction: column;
@@ -193,11 +196,13 @@
     margin-left: calc(-50vw + 50%);
     padding: 50px 5vw;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .additional-info h2 {
     font-size: 2.5rem;
     color: navy;
+    /* width: 100%; */
     text-align: center;
 }
 
@@ -206,6 +211,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
+    text-align: justify;
 }
 
 .info-section {

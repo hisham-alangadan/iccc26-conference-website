@@ -2,7 +2,7 @@ import "../components/styles/tracks.css"
 
 const TracksComponent = () => {
     return (
-        <div className="tracks-container">
+        <div className="tracks-container" id="top">
             <h1><strong> Technical Tracks at ICCC 2025 </strong></h1>
             <p><em><strong>Technical papers are solicited on the topics pertaining to the scope of the Conference will include, but are not limited to the following.</strong></em></p>
             <div className="tracks-box">

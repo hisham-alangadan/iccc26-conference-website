@@ -6,7 +6,7 @@ const AboutCollege = () => {
             <main className="About-content">
                 <div className="main-panel">
                     <div>
-                        <h1>About the college</h1>
+                        <h2>ABOUT THE COLLEGE</h2>
                         <p><strong>The College of Engineering Trivandrum (CET),</strong> established in 1939, stands as a beacon of excellence in technical education. </p>
                         <p>For 85 years, CET has been at the forefront of engineering education in India, consistently producing top-tier professionals and innovative research.</p>
                         <p>Our institution's rich history is matched only by its commitment to the future. From its humble beginnings as the first engineering college in the state of Kerala, CET has grown into a prestigious institution recognized nationwide for its academic rigor and research contributions.</p>
@@ -17,7 +17,7 @@ const AboutCollege = () => {
                         <div className="rectangle-left"></div>
                     </div>
                 </div>
-                <h2>Vision and Mission</h2><br></br>
+                <h2>VISION AND MISSION</h2><br></br>
                 <div className="panel">
                     <div className="vision">
                         <h3><strong>Vision</strong></h3>
@@ -33,7 +33,7 @@ const AboutCollege = () => {
                 </div>
 
                 <div className="additional-info">
-                    <h2>More About CET</h2>
+                    <h2>MORE ABOUT CET</h2>
                     <div className="info-panel">
                         <div className="info-section">
                             <h3>History and Governance</h3>

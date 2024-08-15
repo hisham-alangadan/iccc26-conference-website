@@ -3,7 +3,7 @@ import "./styles/localStuff.css";
 const LocalStuffComponent = () => {
     return (
         <div className="local-stuff-container">
-            <h2>Local attractions in the city</h2>
+            <h2>LOCAL ATTRACTIONS IN THE CITY</h2>
             <p>Thiruvanantapuram is an exciting city, blessed with both natural beauty and unique heritage.</p>
             <div className="places">
                 <div className="destination" style={{ backgroundImage: "url('https://www.keralatourism.org/images/destination/large/kovalam20131031105847_236_1.jpg')" }}>
