@@ -3,7 +3,7 @@ import "./styles/papersubmission.css"
 const PaperSubmissionComponent = () => {
     return (
         <div className="paper-submission-container">
-            <h1> Guidelines for paper submission </h1>
+            <h1> Guidelines for Paper Submission </h1>
             <div className="gridlike">
                 <div className="instructions">
                     <h2>Instructions</h2>
