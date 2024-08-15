@@ -1,3 +1,7 @@
+* {
+    border-collapse: collapse;
+}
+
 .registration-container {
     /* background: linear-gradient(135deg, #000033, #000066); */
     /* color: #ffffff; */
@@ -13,16 +17,23 @@
         text-align: left;
         /* border: 1px white solid; */
         th {
-            border-bottom: 1px black solid;
+            border: 1px black solid;
+            border-collapse: collapse;
             padding: 5px;
             font-size: 18px;
             text-align: center;
         }
-        td { padding: 5px; font-size: 18px; }
+        td {
+            padding: 5px; 
+            font-size: 18px; 
+            border: 1px black solid;
+            border-collapse: collapse; 
+        }
         @media screen and (max-width: 781px) {
             th, td {
+                border: 1px black solid;
+                border-collapse: collapse;
                 padding: 5px 2.5px;
-                
             }
         }
     }

@@ -101,6 +101,10 @@ ul li .title {
   margin: none;
 }
 
+ul li .grey {
+  color: grey;
+}
+
 /* date flap */
 ul li .date::before {
   content: "";
@@ -168,10 +172,6 @@ ul li .title::before {
 ul li .descr::before {
   z-index: -1;
   bottom: 0.25rem;
-}
-
-.grey {
-  color: grey;
 }
 
 @media (min-width: 40rem) {
