@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 import './styles/home.css';
 import bg1 from "../assets/cet.jpg";
 
-const images = [
-  bg1
-];
+// const images = [
+//   bg1
+// ];
 
 const Home = () => {
   // useEffect(() => {

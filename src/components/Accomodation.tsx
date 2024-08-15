@@ -1,4 +1,4 @@
-import Keynote from "../pages/Keynote";
+// import Keynote from "../pages/Keynote";
 import EventDetailsComponent from "./eventdetailscomponent";
 import Navbar from "./navbar";
 

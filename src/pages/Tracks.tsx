@@ -1,5 +1,5 @@
 import Navbar from "../components/navbar";
-import College from "../components/college";
+// import College from "../components/college";
 import TracksComponent from "../components/tracks"
 import Footer from "../components/Footer";
 
