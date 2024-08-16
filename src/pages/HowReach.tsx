@@ -11,7 +11,7 @@ const HowReach = () => (
     <>
         <Navbar />
         <div style={{ "padding": "0 5vw", "minHeight": "85vh", "placeContent": "center" }} className="how-reach-container">
-            <h2 className="navy" id="top">Getting to campus</h2>
+            <h2 className="navy" id="top">Getting to Campus</h2>
             <div style={{ "display": "flex", "placeContent": "center" }}>
                 <table>
                     <tr className="airport-row">

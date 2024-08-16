@@ -29,8 +29,8 @@ const RegistrationComponent = () => {
                         <td>Conference only</td>
                         <td>6500 INR* / 200 USD**</td>
                         <td>7500 INR* / 250 USD**</td>
-                        <td>5500 INR* / 150 USD**</td>
-                        <td>6500 INR* / 250 USD**</td>
+                        <td>5500 INR* / 250 USD**</td>
+                        <td>6500 INR* / 150 USD**</td>
                     </tr>
                     <tr>
                         <td>Tutorial only</td>
