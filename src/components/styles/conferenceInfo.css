@@ -112,3 +112,20 @@
   /* Gold color for emphasis */
 }
 
+.carousel-img {
+  display: block;
+  /* object-fit:; */
+  height: 40vh;
+  width: auto;
+}
+
+.carousel-speaker-card {
+  display: flex;
+
+  img {
+    flex: 1;
+  }
+  p {
+    flex: 3;
+  }
+}

@@ -32,7 +32,6 @@ import AdvisoryCommitte from "./pages/AdvisoryCommittee.tsx";
 import SteeringCommittee from "./pages/SteeringCommittee.tsx";
 // import LocalStuff from "./pages/LocalStuff.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
-
 import "./App.css"
 
 function App() {
