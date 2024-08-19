@@ -1,12 +1,12 @@
 // import React from 'react';
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
 // import logo from '../assets/image.png'
-import logo from '../assets/logo_scrshot_white_alphabg.png'
 // import './styles/navbar.css';
+import React, { useState } from 'react';
+import logo from '../assets/logo_scrshot_white_alphabg.png';
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { HashLink } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
