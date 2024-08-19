@@ -30,11 +30,11 @@ const HowReach = () => (
                         <td rowSpan={3}><FontAwesomeIcon icon={faTrain}></FontAwesomeIcon>
                         
                         Closest railway stations</td>
-                        <td>Thiruvanantapuram Central (TVC)</td>
+                        <td>Thiruvananthapuram Central (TVC)</td>
                         <td>12km</td>
                     </tr>
                     <tr className="rail-row">
-                        <td>Thiruvanantapuram North (formerly Kochuveli) (KCVL)</td>
+                        <td>Thiruvananthapuram North (formerly Kochuveli) (KCVL)</td>
                         <td>8km</td>
                     </tr>
                     <tr className="rail-row">
