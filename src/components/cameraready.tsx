@@ -1,5 +1,6 @@
 import "./styles/cameraready.css"
 
+
 const CameraReadyComponent = () => {
     return (
         <div className="cameraready-container">

@@ -16,3 +16,28 @@
     left: 35.5%;
     bottom: 3rem;
 }
+
+.conf-venue-container {
+    padding: 5vh 5vw;
+    .conf-venue-main-panel {
+        display: flex;
+        flex-direction: row;
+        @media screen and (max-width: 781px) {
+            flex-direction: column;
+        }
+        .about-text {
+            width: 50%;
+            font-size: 1.2rem;
+            text-align: justify;
+        }
+        .conf-venue-image-container {
+            width: 50%;
+            img {
+                width: 95%;
+                margin: 0 0 0 5vw;
+                box-shadow: -20px 20px navy;
+            }
+        }
+    }
+}
+
