@@ -78,6 +78,7 @@
     
     list-style-type: none;
     padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -94,6 +95,10 @@
     transition: all 0.3s ease;
     flex-basis: calc(33.333% - 20px);
     text-align: center;
+}
+
+.main-committee li:first-of-type {
+    margin-left: -20px;
 }
 
 .main-committee li:hover {
@@ -275,6 +280,11 @@
     transition: all 0.3s ease;
     flex-basis: calc(33.333% - 20px);
     text-align: center;
+    height: 100%;
+}
+
+.steering-committee li:first-of-type {
+    margin-left: -20px;
 }
 
 .steering-committee li:hover {
