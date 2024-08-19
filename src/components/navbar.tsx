@@ -17,11 +17,13 @@ const Navbar = () => {
 
   return (
     <nav className="navbar" onClick={toggleClass}>
-      <div className="logo">
-        {/* <h3>ICCC</h3> */}
-        <img src={logo} alt="CET Emblem" />
-        <h3> College of Engineering Trivandrum </h3>
-      </div>
+      <Link to="/" style={{"textDecoration":"none"}}>
+        <div className="logo">
+          {/* <h3>ICCC</h3> */}
+          <img src={logo} alt="CET Emblem" />
+          <h3> College of Engineering Trivandrum </h3>
+        </div>
+      </Link>
       <div className="menu-button"><button onClick={toggleClass}>Menu</button></div>
       <div
         className={isActive ? "nav-links nav-links-mobile" : "nav-links"}>
