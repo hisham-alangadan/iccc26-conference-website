@@ -71,7 +71,7 @@ export default function AdvisoryCommittee() {
                 <h1>Advisory Committee</h1>
                 
                 <section className="introduction">
-                    <p>Our esteemed Advisory Committee comprises distinguished academicians and researchers from renowned institutions in the country. Their collective expertise and guidance are instrumental in shaping the conference's academic direction and ensuring its global relevance and impact.</p>
+                    <p>Our esteemed Advisory Committee comprises distinguished academicians and researchers from renowned institutions in the country and abroad. Their collective expertise and guidance are instrumental in shaping the conference's academic direction and ensuring its global relevance and impact.</p>
                 </section>
 
                 <section className="main-committee">

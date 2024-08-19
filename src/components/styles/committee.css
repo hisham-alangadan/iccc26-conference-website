@@ -40,6 +40,14 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
+    text-align-last: center;
+
+    background-color: rgb(212, 239, 255);
+    border-radius: 2vh;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 
 .main-committee,

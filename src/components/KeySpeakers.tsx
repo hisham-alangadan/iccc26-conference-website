@@ -1,12 +1,12 @@
 import React from 'react';
 import './styles/KeynoteSpeakers.css';
 import DrTessy from '../assets/DrTessy.png';
-import DrSaji from '../assets/DrSaji.png';
+import DrSaji from '../assets/DrSaji_cropped.png';
 
 const speakers = [
   {
     name: "Dr. Tessy Thomas",
-    title: "Distinguished Scientist, Director General Aeronautical Systems",
+    title: "Distinguished Scientist, Director General (Formal) Aeronautical Systems",
     image: DrTessy, // Replace with actual image when available
     bio: `Dr. Tessy Thomas, Distinguished Scientist, Director General Aeronautical Systems obtained her
 BTech in Electrical Engineering from Calicut University in 1985 and ME in Guided Missiles from the

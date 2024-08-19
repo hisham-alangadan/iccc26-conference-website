@@ -6,14 +6,14 @@
 - space after dot thropughout
 
 # suff.vasanti
-- fix shaji sir img VSNTI
-- organizing committe only one co chair VSNTI
-- organizing committee main text: justify and make it in a card VSNTI
-- Tessy thomas: director general (formal), VSNTI
-- Advisory committee: in the country and abroad VSNTI
-- Replace about the colg img with Aravind's pic VSNTI
-- update contents at more abt cet from conference page content.doc VSNTI
-- Replace conferece venue content VSNTI
+- fix shaji sir img DONE
+- update contents at more abt cet from conference page content.doc DONE
+- organizing committe only one co chair  DONE
+- organizing committee main text: justify and make it in a card DONE
+- Tessy thomas: director general (formal), DONE
+- Advisory committee: in the country and abroad  DONE
+- Replace about the colg img with Aravind's pic DONE
+- Replace conferece venue content DONE
 
 # stuff done
 

@@ -158,6 +158,13 @@
     }
 }
 
+.image-container-abtus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .college-pic {
     width: 117%;
     height: auto;
