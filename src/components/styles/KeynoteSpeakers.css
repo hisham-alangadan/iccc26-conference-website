@@ -45,6 +45,10 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.ch-speaker-card:hover {
+    transform: none;
+}
+
 .speaker-image {
     flex: 0 0 300px;
     overflow: hidden;

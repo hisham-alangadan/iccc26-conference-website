@@ -3,15 +3,15 @@
 ## Asap
 
 - Change of logo to correct motto
-- Footer
-    - Trademarked IEEE in footer
-    - Remove social icons
-    - Centralise footer text
+- Footer DONE
+    - Trademarked IEEE in footer DONE
+    - Remove social icons DONE
+    - Centralise footer text DONE
 - Conf highlights
-    - Slider for conf highlights (complete rewrite)
-    - Make track aisles narrower
-    - Carousel slides: speakers, tracks, etc
-    - carousel: HD pics
+    - Slider for conf highlights (complete rewrite) DONE
+    - Make track aisles narrower DONE
+    - Carousel slides: speakers, tracks, etc DONE
+    - carousel: HD pics DONE
 - modify vision and mission
 - fix shaji sir img
 - organizing committe only one co chair

@@ -129,3 +129,41 @@
     flex: 3;
   }
 }
+
+.tracks-img {
+  object-fit: cover;
+  object-position: 100% 0;
+}
+
+.tracks-card-container, 
+.ch-speaker-info {
+  height: 54vh;
+}
+
+.tracks-card-container {
+  h1 {
+    color: black;
+  }
+}
+
+.ch-speaker-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    color: navy;
+    font-size: 3vh;
+  }
+}
+
+.keynote-speaker-card-heading {
+  color: darkgreen;
+}
