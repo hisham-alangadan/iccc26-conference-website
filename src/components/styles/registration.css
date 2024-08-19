@@ -45,4 +45,8 @@
     h3 {
         font-size: 25px;
     }
+
+    p {
+        text-align: justify;
+    }
 }

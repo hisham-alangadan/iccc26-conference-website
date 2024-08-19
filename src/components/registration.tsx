@@ -4,9 +4,10 @@ const RegistrationComponent = () => {
     return (
         <div className="registration-container">
             <h2 className="navy">REGISTRATION GUIDELINES</h2>
-            <p>At least one of the authors of each accepted paper must register for the conference for the paper to be included in the conference proceedings and published through IEEE Xplore. Registration fee covers conference proceedings, conference kit, coffee breaks, working lunch and banquet dinner.</p>
-            <p>Full registration includes the registration of one paper. Additional papers for a single registration come with an additional fee. The maximum length of the paper is 6 pages including references.</p>
-            <p>Accepted and presented papers of ICCC 2025 will be submitted for possible publication in the IEEE Xplore® Digital Library.</p>
+            <p>At least one of the authors of each accepted paper must register for the conference for the paper to be included in the conference proceedings and published through IEEE Xplore. Registration fee covers conference proceedings, conference kit, coffee breaks, working lunch and banquet dinner. <br /> <br />
+            Full registration includes the registration of one paper. Additional papers for a single registration come with an additional fee. The maximum length of the paper is 6 pages including references. <br /> <br />
+            A fee of Rs.1000 will be applied for each additional page (with a maximum of 2 pages). <br /> <br />
+            Accepted and presented papers of ICCC 2025 will be submitted for possible publication in the IEEE Xplore® Digital Library.</p>
 
             <h3>Registration Fee</h3>
             <table>

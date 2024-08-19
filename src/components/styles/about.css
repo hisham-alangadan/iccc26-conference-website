@@ -148,7 +148,7 @@
     padding-left: 20px;
     padding-bottom: 20px;
     /* display: flex; */
-    place-content: center;
+    place-content: top;
     img {
         max-width: 30vw; min-height: 20vh;
         margin: 0 25%;

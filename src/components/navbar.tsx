@@ -1,6 +1,7 @@
 // import React from 'react';
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
-import logo from '../assets/image.png'
+// import logo from '../assets/image.png'
+import logo from '../assets/logo_scrshot_white_alphabg.png'
 // import './styles/navbar.css';
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
@@ -49,15 +50,15 @@ const Navbar = () => {
           {/* <Link to="/authors/submission-guidelines">Authors</Link> */}
           <a>Authors</a>
           <div className="dropdown">
-            <div>
+            {/* <div>
               <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
-            </div>
+            </div> */}
             <div>
               <Link to="/authors/cameraready-guidelines">Camera Ready Paper Submission</Link>
             </div>
-            <div>
+            {/* <div>
               <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="nav-link">

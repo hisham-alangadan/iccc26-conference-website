@@ -1,5 +1,6 @@
 // import insignia from "../assets/cetLogo.svg";
-import cetlogo from "../assets/College_of_Engineering_Trivandrum_logo.png";
+// import cetlogo from "../assets/College_of_Engineering_Trivandrum_logo.png";
+import cetlogo from "../assets/logo_scrshot_black_alphabg.png";
 import './styles/college.css';
 
 const College = () => {
@@ -13,7 +14,8 @@ const College = () => {
           </div>
           <div className="collegeText">
             <h1>College of Engineering Trivandrum </h1>
-            <h3>कर्म ज्यायः हि अकर्मणः | action is superior to inaction</h3>
+            {/* <h3>कर्म ज्यायः हि अकर्मणः | action is superior to inaction</h3> */}
+            <h3>कर्म ज्यायो ह्यकर्मण: | action is superior to inaction</h3>
             {/* <div className="collegeText-bg"></div> */}
           </div>
         </div>

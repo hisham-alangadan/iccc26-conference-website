@@ -12,8 +12,8 @@ const Departments = ({venue}:any) => {
 
     <div className="department-section">
         <div className="department-content">
-            <h2><strong>Department of Electrical Engineering (EEE)</strong></h2>
-            <p>As one of the oldest departments in CET, established in 1939, the EEE department has a rich legacy of excellence. With a strong emphasis on sustainable energy solutions and power systems, it has been instrumental in driving innovation in areas such as smart grids, electric vehicles, and renewable energy integration. The department's research has practical applications that address real-world challenges, contributing significantly to the evolution of electrical engineering.</p>
+            <h2><strong>Department of Electrical Engineering (EE)</strong></h2>
+            <p>As one of the oldest departments in CET, established in 1939, the EE department has a rich legacy of excellence. With a strong emphasis on sustainable energy solutions and power systems, it has been instrumental in driving innovation in areas such as smart grids, electric vehicles, and renewable energy integration. The department's research has practical applications that address real-world challenges, contributing significantly to the evolution of electrical engineering.</p>
             <a href='http://ee.cet.ac.in'><h4>Visit the department site</h4></a>
         </div>
         <div className="department-image">
