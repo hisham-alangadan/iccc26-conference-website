@@ -2,6 +2,22 @@
 
 ## Asap
 
+# stuff not done
+- space after dot thropughout
+
+# suff.vasanti
+- fix shaji sir img VSNTI
+- organizing committe only one co chair VSNTI
+- organizing committee main text: justify and make it in a card VSNTI
+- Tessy thomas: director general (formal), VSNTI
+- Advisory committee: in the country and abroad VSNTI
+- Replace about the colg img with Aravind's pic VSNTI
+- update contents at more abt cet from conference page content.doc VSNTI
+- Replace conferece venue content VSNTI
+
+# stuff done
+
+- name on one line and desgination on anther thoughtout DONE
 - Change of logo to correct motto DONE
 - Footer DONE
     - Trademarked IEEE in footer DONE
@@ -13,21 +29,11 @@
     - Carousel slides: speakers, tracks, etc DONE
     - carousel: HD pics DONE
 - modify vision and mission DONE
-- fix shaji sir img VSNTI
-- organizing committe only one co chair VSNTI
-- organizing committee main text: justify and make it in a card VSNTI
 - Registration guidelines: justify DONE
 - after  "6 pages": A fee of rs 1000 will be applied for each additional page (maximum 2 pages) DONE
-- Tessy thomas: director general (formal), VSNTI
 - Oganizing dept EE, not EEE : heading and text DONE
-- Advisory committee: in the country and abroad VSNTI
 - Inc. cet font size in navbar DONE
-- Replace about the colg img with Aravind's pic VSNTI
-- update contents at more abt cet from conference page content.doc VSNTI
-- Replace conferece venue content VSNTI
 - Agaistamabal and biodiversity musem: pdmsy temple and jadaipara DONE
-- space after dot thropughout
-- name on one line and desgination on anther thoughtout
 - commnet camera ready and presentation guidelines DONE
 - details for the....docx DONE
 - Add paragraph in places to visit DONE
