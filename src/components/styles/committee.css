@@ -207,8 +207,9 @@
     list-style-type: none;
     padding-left: 0;
     display: flex;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: flex-start;
     @media screen and (max-width: 781px) {
         flex-direction: column;
     }
@@ -223,6 +224,9 @@
     display: flex;
     align-items: center;
     font-size: 1.2rem;
+    flex: 0 0 calc(25% - 20px);
+    max-width: calc(25% - 15px);
+    box-sizing: border-box;
 }
 
 .committee-members li:before {
@@ -234,6 +238,30 @@
 .committee-members li:hover {
     background: rgba(0, 51, 126, 0.1);
     transform: translateX(5px);
+}
+
+@media screen and (max-width: 1200px) {
+    .committee-members li,
+    .committee-co-chairs li {
+        flex: 0 0 calc(33.333% - 13.333px);
+        max-width: calc(33.333% - 13.333px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .committee-members li,
+    .committee-co-chairs li {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .committee-members li,
+    .committee-co-chairs li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 
 .steering-committee{
