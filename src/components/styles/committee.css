@@ -41,7 +41,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    text-align-last: center;
+    /* text-align-last: center;1 */
 
     background-color: rgb(212, 239, 255);
     border-radius: 2vh;

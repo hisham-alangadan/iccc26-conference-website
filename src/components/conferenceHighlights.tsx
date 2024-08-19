@@ -15,13 +15,13 @@ import { Carousel } from 'react-responsive-carousel';
 import { HashLink } from 'react-router-hash-link';
 import DrTessy from '../assets/DrTessy.png';
 import DrSaji from '../assets/DrSaji_cropped.png';
-import trax1 from '../assets/trax1.png';
+// import trax1 from '../assets/trax1.png';
 // import trakcs from '../assets/tracks.png'
 
 const speakers = [
   {
     name: "Dr. Tessy Thomas",
-    title: "Distinguished Scientist, Director General (Formal) Aeronautical Systems",
+    title: "Distinguished Scientist, Director General (Former) Aeronautical Systems",
     image: DrTessy, // Replace with actual image when available
     bio: `Dr. Tessy Thomas, Distinguished Scientist, Director General Aeronautical Systems obtained her
 BTech in Electrical Engineering from Calicut University in 1985 and ME in Guided Missiles from the
@@ -99,37 +99,38 @@ const ConferenceHighlights = () => {
             <h2>Technical Tracks</h2>
           </div>
         </HashLink> */}
-        <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true}>
+        <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} showStatus={false} className='carousel'>
           <HashLink to="/speakers#speaker0">
             <div className="speaker-card ch-speaker-card" >
               <div className="speaker-image">
                 <img src={speakers[0].image} alt={speakers[0].name} />
               </div>
               <div className="speaker-info ch-speaker-info">
-                <h2 className='keynote-speaker-card-heading'><strong>Keynote Speaker</strong></h2>
-                <h2>{speakers[0].name}</h2>
+                <h2 className='keynote-speaker-card-heading' style={{"color":"navy"}}><strong>KEYNOTE SPEAKER</strong></h2>
+                <h2 className='speaker-name'>{speakers[0].name}</h2>
                 <h3><strong>{speakers[0].title}</strong></h3>
                 <p className="speaker-bio">{speakers[0].bio}</p>
               </div>
             </div>
           </HashLink>
           <HashLink to="/speakers#speaker1">
-            {/* <div className="speaker-card ch-speaker-card">
+            <div className="speaker-card ch-speaker-card">
               <div className="speaker-image">
                 <img src={speakers[1].image} alt={speakers[1].name} />
               </div>
               <div className="speaker-info ch-speaker-info">
-                <h2 className='keynote-speaker-card-heading'><strong>Keynote Speaker</strong></h2>
-                <h2>{speakers[1].name}</h2>
+                <h2 className='keynote-speaker-card-heading' style={{"color":"navy"}}><strong>KEYNOTE SPEAKER</strong></h2>
+                <h2 className='speaker-name'>{speakers[1].name}</h2>
                 <h3><strong>{speakers[1].title}</strong></h3>
                 <p className="speaker-bio">{speakers[1].bio}</p>
               </div>
-            </div> */}
+            </div>
           </HashLink>
           <HashLink to='/tracks#top' >
             {/* <img src={trax1} alt="Tracks 1" /> */}
             <div className="tracks-table">
-              <h1>TRACK 1</h1>
+              <h2>TECHNICAL TRACKS AT ICCC 2025</h2>
+              <h3>TRACK 1</h3>
               <table>
                 <tr>
                   <th>Architectures for Intelligent Control </th>
@@ -154,6 +155,72 @@ const ConferenceHighlights = () => {
                   <tr>
                   <th>Renewable Energy and Smart Grid</th>
                   <th>Transportation Electrification</th>
+                </tr>
+              </table>
+            </div>
+          </HashLink>
+          <HashLink to='/tracks#top' >
+            <div className="tracks-table table-22">
+              <h2>TECHNICAL TRACKS AT ICCC 2025</h2>
+              <h3>TRACK 2</h3>
+              <table>
+                <tr>
+                <th>Acoustic and Audio Signal Processing </th>
+                <th>Biomedical Signal Processing </th>
+                <th>Instrumentation and Control </th>
+                </tr>
+                  <tr>
+                <th>MEMS/NEMS </th>
+                <th>Nanoelectronics </th>
+                <th>Network Systems and Protocols </th>
+                </tr>
+                  <tr>
+                <th>Optoelectronics and Lightwave Systems</th> 
+                <th>RF and Microwave Systems </th>
+                <th>Reliability Engineering </th>
+                </tr>
+                  <tr>
+                <th>Robotics and Automation </th>
+                <th>Signal Processing for Communications and Networking </th>
+                <th>VLSI and Embedded Systems </th>
+                </tr>
+                  <tr>
+                <th>Wireless Communication and Sensor Networks </th>
+                <th>Two-dimensional Signal Processing and Video Analytics </th> 
+
+                </tr>
+              </table>
+            </div>
+          </HashLink>
+          <HashLink to='/tracks#top' >
+            {/* <img src={trax1} alt="Tracks 1" /> */}
+            <div className="tracks-table">
+              <h2>TECHNICAL TRACKS AT ICCC 2025</h2>
+              <h3>TRACK 3</h3>
+              <table>
+                <tr>
+                  <th>Advanced Algorithms </th>
+                  <th>Big Data Analysis, Cloud Computing and IoT </th>
+                  <th>Blockchain Technologies </th>
+                  </tr>
+                  <tr>
+                  <th>Computational Geometry and Computer Graphics </th>
+                  <th>Computer Networks </th>
+                  <th>Cyber Physical Systems </th>
+                  </tr>
+                  <tr>
+                  <th>Data Mining and Information Retrieval </th>
+                  <th>Data Science, Artificial Intelligence and Machine Learning </th>
+                  <th>Digital Image Processing and Computer Vision </th>
+                  </tr>
+                  <tr>
+                  <th>Natural Language Processing </th>
+                  <th>Parallel and Distributed Computing </th>
+                  <th>Security and Privacy </th>
+                  </tr>
+                  <tr>
+                  <th>Software Engineering and Formal Methods </th>
+                  <th>System Software Design and Implementation </th>
                 </tr>
               </table>
             </div>

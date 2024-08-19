@@ -37,15 +37,35 @@
 }
 
 .how-reach-container .airport-row {
-    background-color: navy;
-    color: white;
+    background-color: lightgreen;
+    color: black;
 }
 
 .how-reach-container .rail-row {
-    background-color: #0d4e00;;
-    color: white;
+    /* background-color: #0d4e00;; */
+    background-color: lightblue;
+    color: black;
 }
 
 .how-reach-container svg {
     margin-right: 10px;
+}
+
+.journeyinfo-box    
+ {
+    width: 60vw;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 3vh;
+}
+
+.journeyinfo {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.navy {
+    font-size: 5vh;
 }

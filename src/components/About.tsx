@@ -26,10 +26,19 @@ const AboutCollege = () => {
                     </div>
                     <div className='mission'>
                     <h3><strong>Mission</strong></h3>
-                        <p> <em>To impart quality education to develop innovative, technically competent, and ethically sound professionals capable of meeting global challenges.</em></p>
+                        {/* <p> <em>To impart quality education to develop innovative, technically competent, and ethically sound professionals capable of meeting global challenges.</em></p>
                         <p> <em>To foster innovations in Technology and its application for meeting global challenges.</em></p>
                         <p><em>To pursue and disseminate Quality Research.</em></p>
-                        <p><em>To equip, enrich and transform students to be Responsible Professionals for better service to humanity.</em></p>
+                        <p><em>To equip, enrich and transform students to be Responsible Professionals for better service to humanity.</em></p> */}
+
+                       <p><em> To facilitate quality transformative education in Engineering and Management. </em> </p>
+
+                    <p><em>To foster innovations in Technology and its application for meeting global challenges. </em> </p>
+
+                   <p><em> To pursue and disseminate Quality Research. </em> </p>
+
+                   <p><em> To equip, enrich and transform students to be Responsible Professionals for better service to humanity. </em> </p>
+
                     </div>
                 </div>
 

@@ -6,12 +6,17 @@ import { faPlane } from "@fortawesome/free-solid-svg-icons/faPlane";
 import { faTrain } from "@fortawesome/free-solid-svg-icons";
 import "../components/styles/howReach.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AddressMap from "../components/addressMap.tsx";
 
 const HowReach = () => (
     <>
         <Navbar />
-        <div style={{ "padding": "0 5vw", "minHeight": "85vh", "placeContent": "center" }} className="how-reach-container">
-            <h2 className="navy" id="top">Getting to Campus</h2>
+        <div style={{ "padding": "0 5vw", "minHeight": "85vh", "placeContent": "center" }} className="how-reach-container" id="top">
+            <h2 className="navy" id="top">JOURNEY TO CET</h2>
+            <div className="journeyinfo-box">
+
+            <p className="journeyinfo"> The College of Engineering Trivandrum (CET) is conveniently located in Sreekariyam, Thiruvananthapuram, Kerala. The Trivandrum International Airport is approximately 11 kilometres away and takes around 25-30 minutes by car. The Trivandrum Central Railway Station is even closer, about 10 kilometres from the campus, and takes roughly 20-25 minutes by car. This proximity to significant transport hubs ensures that CET is easily accessible for students, faculty, and visitors.</p>
+            </div>
             <div style={{ "display": "flex", "placeContent": "center" }}>
                 <table>
                     <tr className="airport-row">
@@ -39,6 +44,7 @@ const HowReach = () => (
                 </table>
             </div>
         </div>
+        <AddressMap />
         <Footer />
     </>
 );

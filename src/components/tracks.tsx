@@ -31,7 +31,7 @@ const TracksComponent = () => {
                     <table className="table-2">
                         <header> Track 2 </header>
                         <ul><strong>
-                        <li> Acoustic and Audio Signal Processing </li>
+                            <li> Acoustic and Audio Signal Processing </li>
                             <li> Biomedical Signal Processing </li>
                             <li> Instrumentation and Control </li>
                             <li> MEMS/NEMS </li>
@@ -52,7 +52,7 @@ const TracksComponent = () => {
                     <table className="table-3">
                         <header> Track 3 </header>
                         <ul><strong>
-                        <li> Advanced Algorithms </li>
+                            <li> Advanced Algorithms </li>
                             <li> Big Data Analysis, Cloud Computing and IoT </li>
                             <li> Blockchain Technologies </li>
                             <li> Computational Geometry and Computer Graphics </li>

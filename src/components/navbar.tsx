@@ -52,12 +52,12 @@ const Navbar = () => {
           {/* <Link to="/authors/submission-guidelines">Authors</Link> */}
           <a>Authors</a>
           <div className="dropdown">
-            {/* <div>
-              <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
-            </div> */}
             <div>
-              <Link to="/authors/cameraready-guidelines">Camera Ready Paper Submission</Link>
+              <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
             </div>
+            {/* <div>
+              <Link to="/authors/cameraready-guidelines">Camera Ready Paper Submission</Link>
+            </div> */}
             {/* <div>
               <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
             </div> */}
@@ -106,9 +106,9 @@ const Navbar = () => {
             <div>
               <HashLink smooth to="/venue/howtoreach#top">How to Reach</HashLink>
             </div>
-            <div>
+            {/* <div>
               <Link to="/accommodation">Accommodation</Link>
-            </div>
+            </div> */}
             <div>
               <Link to="/venue/tourism">Local Attractions</Link>
             </div>

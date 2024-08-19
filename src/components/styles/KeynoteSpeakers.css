@@ -33,16 +33,21 @@
 
 .speaker-card {
     display: flex;
-    background: rgba(0, 26, 150, 0.1);
+    /* background: rgba(0, 26, 150, 0.1); */
     border-radius: 15px;
     overflow: hidden;
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 3px solid teal;
 }
 
 .speaker-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ch-speaker-card {
+    /* background: rgba(0, 255, 47, 0.1); */
 }
 
 .ch-speaker-card:hover {

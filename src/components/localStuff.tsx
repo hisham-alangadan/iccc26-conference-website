@@ -15,12 +15,12 @@ const LocalStuffComponent = () => {
             <div className="places">
                 <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/ponmudi_hill_station_thiruvananthapuram20131108135356_243_3.jpg')"}}><a href="https://www.keralatourism.org/destination/ponmudi-hills/243">Ponmudi</a></div>
                 <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/sree_padmanabhaswamy_temple_thiruvananthapuram20131031115717_13_1.jpg')"}}><a href="https://www.keralatourism.org/destination/padmanabha-swamy-temple-thiruvananthapuram/13">Sree Padmanabhaswamy Temple</a></div>
-                <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/napier_museum_thiruvananthapuram20131115173306_327_1.jpg')"}}><a href="https://www.keralatourism.org/destination/napier-museum-thiruvananthapuram/327">Napier Museum</a></div>
+                <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/jatayu_adventure_centre20180919110817_262_1.jpg')", "objectFit":"cover", "objectPosition":"bottom"}}><a href="https://www.keralatourism.org/destination/jatayupara-chadayamangalam/262">Jatayu Adventure Center</a></div>
             </div>
             <div className="places">
                 <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/the_zoological_park_thiruvananthapuram20131115172928_90_1.jpg')"}}><a href="https://www.keralatourism.org/destination/zoological-park-thiruvananthapuram/90">Thiruvanantapuram Zoo</a></div>
                 <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/kuthiramalika_palace_museum_at_east_fort20131031110636_58_1.jpg')"}}><a href="https://www.keralatourism.org/destination/kuthiramalika-palace-east-fort/58">Kuthiramalika Palace</a></div>
-                <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/jatayu_adventure_centre20180919110817_262_1.jpg')", "objectFit":"cover", "objectPosition":"bottom"}}><a href="https://www.keralatourism.org/destination/jatayupara-chadayamangalam/262">Jatayu Adventure Center</a></div>
+                <div className="destination" style={{"backgroundImage": "url('https://www.keralatourism.org/images/destination/large/napier_museum_thiruvananthapuram20131115173306_327_1.jpg')"}}><a href="https://www.keralatourism.org/destination/napier-museum-thiruvananthapuram/327">Napier Museum</a></div>
             </div>
         </div>
     );

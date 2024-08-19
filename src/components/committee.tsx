@@ -12,15 +12,10 @@ const OrganizingCommittee = () => {
             <section className="main-committee">
                 <h2>Chief Patron</h2>
                 <ul>
-                    <li><strong>Dr. Venu. V IAS <br /> Chief Secretary, Govt. of Kerala</strong></li>
-                </ul>
-
-                <h2>Patron</h2>
-                <ul>
                     <li><strong>Smt. Ishita Roy IAS <br /> Principal Secretary, Higher Education Department, Govt. of Kerala</strong></li>
                 </ul>
 
-                <h2>Co-Patron</h2>
+                <h2>Patron</h2>
                 <ul>
                     <li><strong>Dr. Shalij P. R. <br /> Director of Technical Education, Govt. of Kerala</strong></li>
                 </ul>
@@ -115,7 +110,7 @@ const committees = [
     },
     {
         name: "Publication Committee",
-        chair: {name:"Dr. Harikumar.R", designation:"Associate Professor, Dept. of EE, CET"},
+        chair: {name:"Dr. Hari Kumar.R", designation:"Associate Professor, Dept. of EE, CET"},
         members: [
             {name: "Dr. Vinod.B.R", designation: "Associate Professor, Dept. of ECE, CET"},
             {name: "Prof. Deepa M.U", designation: "Assistant Professor, Dept. of EE, CET"},
@@ -207,8 +202,9 @@ const committees = [
         {
             name: "Website Committee",
             chair: {name: "Prof. John Prakash Joseph", designation: "Associate Professor, Dept. of EE, CET"},
+            coChair : {name: "Dr. Piyoosh P.", designation: "Assistant Professor, Dept. of CSE, CET"},
             "members": [
-                {name: "Dr. Piyoosh P.", designation: "Assistant Professor, Dept. of CSE, CET"},
+                // {name: "Dr. Piyoosh P.", designation: "Assistant Professor, Dept. of CSE, CET"},
                 {name: "Prof. Deepa. S.S", designation: "Associate Professor, MCA, CET"},
                 {name: "Prof. Viji. R", designation: "Assistant Professor, Dept. of ECE, CET"}
             ]
@@ -225,11 +221,12 @@ const committees = [
         {
             name: "Publicity Committee",
             chair: {name: "Dr. Pradeep R.", designation: "Professor, Dept. of ECE, CET"},
+            coChair: {name: "Dr. Saritha. R", designation: "Associate Professor, Dept. of CSE, CET"},
             "members": [
                 {name: "Dr. Vivek R.S", designation: "Assistant Professor, Dept. of EE, CET"},
                 {name: "Prof. Sohan Placid John", designation: "Assistant Professor, Dept. of EE, CET"},
-                {name: "Dr. Vinod. B.R", designation: "Associate Professor, Dept. of ECE, CET"},
-                {name: "Dr. Saritha. R", designation: "Associate Professor, Dept. of CSE, CET"}
+                {name: "Dr. Vinod. B.R", designation: "Associate Professor, Dept. of ECE, CET"}
+                // {name: "Dr. Saritha. R", designation: "Associate Professor, Dept. of CSE, CET"}
             ]
         },
         {
