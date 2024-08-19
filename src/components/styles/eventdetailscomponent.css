@@ -1,9 +1,10 @@
 .eventdetails-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     height: 100vh;
     width: 100vw;
-    /* padding-top: 50vh; */
     text-align: center;
-    place-content: center;
     font-size: 10vh;
 }

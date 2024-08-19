@@ -16,3 +16,36 @@
     }
 
 }
+
+
+.how-reach-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.how-reach-container table {
+    border: 1px solid black;
+}
+
+.how-reach-container td {
+    padding: 2vh;
+    border: 1px solid black;
+    font-size: 1.2rem;
+}
+
+.how-reach-container .airport-row {
+    background-color: navy;
+    color: white;
+}
+
+.how-reach-container .rail-row {
+    background-color: #0d4e00;;
+    color: white;
+}
+
+.how-reach-container svg {
+    margin-right: 10px;
+}
