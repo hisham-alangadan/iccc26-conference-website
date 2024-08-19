@@ -1,4 +1,5 @@
-import aboutCET from '../assets/aboutCET.jpg';
+// import aboutCET from '../assets/aboutCET.jpg';
+import aboutCET from '../assets/aravindPic.jpg';
 import './styles/about.css';
 const ConfVenue = () => {
     return (
