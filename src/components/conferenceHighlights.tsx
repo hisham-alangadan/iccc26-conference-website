@@ -9,12 +9,14 @@
 // import papersIcon from '../assets/papers-icon-2.png';
 import './styles/KeynoteSpeakers.css';
 import './styles/conferenceInfo.css';
+import "../components/styles/tracks.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { HashLink } from 'react-router-hash-link';
 import DrTessy from '../assets/DrTessy.png';
-import DrSaji from '../assets/DrSaji.png';
-import trakcs from '../assets/tracks.png'
+import DrSaji from '../assets/DrSaji_cropped.png';
+import trax1 from '../assets/trax1.png';
+// import trakcs from '../assets/tracks.png'
 
 const speakers = [
   {
@@ -107,12 +109,12 @@ const ConferenceHighlights = () => {
                 <h2 className='keynote-speaker-card-heading'><strong>Keynote Speaker</strong></h2>
                 <h2>{speakers[0].name}</h2>
                 <h3><strong>{speakers[0].title}</strong></h3>
-                {/* <p className="speaker-bio">{speakers[0].bio}</p> */}
+                <p className="speaker-bio">{speakers[0].bio}</p>
               </div>
             </div>
           </HashLink>
           <HashLink to="/speakers#speaker1">
-            <div className="speaker-card ch-speaker-card">
+            {/* <div className="speaker-card ch-speaker-card">
               <div className="speaker-image">
                 <img src={speakers[1].image} alt={speakers[1].name} />
               </div>
@@ -120,14 +122,40 @@ const ConferenceHighlights = () => {
                 <h2 className='keynote-speaker-card-heading'><strong>Keynote Speaker</strong></h2>
                 <h2>{speakers[1].name}</h2>
                 <h3><strong>{speakers[1].title}</strong></h3>
-                {/* <p className="speaker-bio">{speakers[1].bio}</p> */}
+                <p className="speaker-bio">{speakers[1].bio}</p>
               </div>
-            </div>
+            </div> */}
           </HashLink>
-          <HashLink to='/tracks#top'>
-            <div className='tracks-card-container'>
-              <h1>Techinical Tracks at ICCC 2025</h1>
-              <img src={trakcs} alt="Tracks Image" className='tracks-img'/>
+          <HashLink to='/tracks#top' >
+            {/* <img src={trax1} alt="Tracks 1" /> */}
+            <div className="tracks-table">
+              <h1>TRACK 1</h1>
+              <table>
+                <tr>
+                  <th>Architectures for Intelligent Control </th>
+                  <th>Automotive Control Systems</th>
+                  <th>Control of Aerospace Systems</th>
+                  </tr>
+                  <tr>
+                  <th>Control of Constrained Systems</th>
+                  <th>Control Theory and Applications</th>
+                  <th>Industrial Process Control & Automation</th>
+                  </tr>
+                  <tr>
+                  <th>Intelligent Autonomous Systems</th>
+                  <th>Manufacturing Systems Control</th>
+                  <th>Navigation, Guidance and Control</th>
+                  </tr>
+                  <tr>
+                  <th>Networked Control Systems</th>
+                  <th>Power Electronics and Drives</th>
+                  <th>Power System Operation and Control</th>
+                  </tr>
+                  <tr>
+                  <th>Renewable Energy and Smart Grid</th>
+                  <th>Transportation Electrification</th>
+                </tr>
+              </table>
             </div>
           </HashLink>
         </Carousel>

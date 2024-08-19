@@ -3,16 +3,18 @@ import "./styles/footer.css";
 // import fb from "../assets/fb.png";
 // import insta from "../assets/insta.webp";
 // import linkedin from "../assets/link.png";
-import insignia from "../assets/image.png";
-import ieee from "../assets/ieee mb white png.png";
+// import insignia from "../assets/image.png";
+import insignia from "../assets/logo_scrshot_white_alphabg.png";
+// import ieee from "../assets/ieee mb white png.png";
+import ieee from "../assets/logo-ieee-white-transparent.webp";
 
 export default function Footer() {
   return (
     <div className="footer-body">
       <div className="footer-panel images">
-        <div>
+        {/* <div> */}
           <img src={insignia} className="footer-insignia"></img>
-        </div>
+        {/* </div> */}
         <div className="footer-2-col">
           {/* <div className="footer-logos">
             <div className="social-media-links">
