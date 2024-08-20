@@ -240,6 +240,10 @@
     transform: translateX(5px);
 }
 
+.committee-members li:first-of-type {
+    margin-left: -20px;
+}
+
 @media screen and (max-width: 1200px) {
     .committee-members li,
     .committee-co-chairs li {
