@@ -98,6 +98,8 @@
     text-align: center;
     padding: 15px;
     place-content: center;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .main-committee li:first-of-type {

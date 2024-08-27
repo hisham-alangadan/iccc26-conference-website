@@ -35,7 +35,7 @@ export default function AdvisoryCommittee() {
 
     const advisoryCommitteeMembers = [
         { name: "Prof. (Dr.) Savier J S", designation: "Principal", college: "Govt. Engineering College Idukki" },
-        { name: "Prof. (Dr.) Saji Gopinath", designation: "Vice Chancellor", college: "Abdul Kalam Technological University" },
+        { name: "Prof. (Dr.) Saji Gopinath", designation: "Vice Chancellor", college: "APJ Abdul Kalam Technological University" },
         { name: "Prof. (Dr.) Debapriya Das", designation: "IIT Kharagpur" },
         { name: "Prof. (Dr.) Bhavesh Kumar R. Bhalja", designation: "IIT Roorkee" },
         { name: "Prof. (Dr.) Abhijit Kshirsagar", designation: "IIT Dharwad" },
@@ -46,7 +46,7 @@ export default function AdvisoryCommittee() {
         { name: "Prof. (Dr.) Darsana P Josyula", designation: "Bowie State University, USA" },
         { name: "Prof. (Dr.) Vijay Ganesh", designation: "University of Waterloo, Canada" },
         { name: "Prof. (Dr.) Aditya Paranjape", designation: "Imperial College, London" },
-        { name: "Prof. (Dr.) Shiny G", designation: "Principal, Govt. Engineering College BartonHill" },
+        { name: "Prof. (Dr.) Shiny G", designation: "Principal", college: "Govt. Engineering College BartonHill" },
         { name: "Prof. (Dr.) Rijil Ramchand", designation: "NIT, Calicut" },
         { name: "Prof. (Dr.) S.M. Sameer", designation: "NIT, Calicut" },
         { name: "Prof. (Dr.) Madhu Kumar S.D.", designation: "NIT, Calicut" },
