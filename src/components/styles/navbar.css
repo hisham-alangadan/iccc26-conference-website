@@ -45,7 +45,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  font-size: 1.6vh;
+  font-size: 1.6vw;
   margin-right: 3vh;
   gap: 2em;
   @media (max-aspect-ratio: 3/4) {

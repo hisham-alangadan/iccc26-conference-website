@@ -2,7 +2,7 @@
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
 // import logo from '../assets/image.png'
 import logo from '../assets/logo_scrshot_white_alphabg.png'
-import ieeelogo from '../assets/ieee mb white png.png'
+import ieeelogo from '../assets/logo-ieee-white-transparent.webp'
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
