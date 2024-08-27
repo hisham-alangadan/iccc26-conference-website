@@ -34,7 +34,8 @@ export default function AdvisoryCommittee() {
     // ];
 
     const advisoryCommitteeMembers = [
-        { name: "Prof. (Dr.) Saji Gopinath", designation: "Vice Chancellor, APJ Abdul Kalam Technological University" },
+        { name: "Prof. (Dr.) Savier J S", designation: "Principal", college: "Govt. Engineering College Idukki" },
+        { name: "Prof. (Dr.) Saji Gopinath", designation: "Vice Chancellor,\nAPJ Abdul Kalam Technological University" },
         { name: "Prof. (Dr.) Debapriya Das", designation: "IIT Kharagpur" },
         { name: "Prof. (Dr.) Bhavesh Kumar R. Bhalja", designation: "IIT Roorkee" },
         { name: "Prof. (Dr.) Abhijit Kshirsagar", designation: "IIT Dharwad" },
@@ -52,7 +53,7 @@ export default function AdvisoryCommittee() {
         { name: "Prof. (Dr.) Kumaravel S.", designation: "NIT, Calicut" },
         { name: "Prof. (Dr.) Sindhu Thampatty K.C", designation: "Amrita School of Engineering, Coimbatore" },
         { name: "Prof. (Dr.) Vasanthi V", designation: "NSS College of Engineering, Palakkad" },
-        { name: "Prof. (Dr.) S. Sankararaman", designation: "Kerala University, Kariyavattom" },
+        { name: "Prof. (Dr.) S. Sankararaman", designation: "University of Kerala, Kariyavattom" },
         { name: "Prof. (Dr.) R. Sudharshan Kaarthik", designation: "IIST, Thiruvananthapuram" },
         { name: "Prof. (Dr.) Rajesh Joseph Abraham", designation: "IIST, Thiruvananthapuram" },
         { name: "Prof. (Dr.) P.G. Latha", designation: "School of Engineering, CUSAT" },
@@ -60,7 +61,7 @@ export default function AdvisoryCommittee() {
         { name: "Prof. (Dr.) Jeevanand S", designation: "IIT Roorkee" },
         { name: "Prof. (Dr.) Arnab Sarkar", designation: "IIT Kharagpur" },
         { name: "Prof. (Dr.) John Jose", designation: "IIT Guwahati" },
-        { name: "Prof. (Dr.) K. Gopakumar", designation: "IISc, Bangalore" }
+        { name: "Prof. (Dr.) K. Gopakumar", designation: "IISc, Bangalore" },
     ];
     
 
@@ -78,7 +79,7 @@ export default function AdvisoryCommittee() {
                     <h2>Committee Members</h2>
                     <ul>
                         {advisoryCommitteeMembers.map((member, index) => (
-                            <li key={index}><strong>{member.name}</strong><br />{member.designation}</li>
+                            <li key={index}><strong>{member.name}</strong><br />{member.designation}{member.college && ", " + member.college}</li>
                         ))}
                     </ul>
                 </section>

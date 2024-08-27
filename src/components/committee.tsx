@@ -46,7 +46,7 @@ const OrganizingCommittee = () => {
                         <h3>{committee.name}</h3>
                         <div className="committee-content">
                             <div className="committee-chair">
-                                <p>Chair: {committee.chair.name}<br/>{committee.chair.designation} Dept. of {committee.chair.department}, CET</p>
+                                <p>{committee.convenor ? "Convenor" : "Chair" }: {committee.chair.name}<br/>{committee.chair.designation} Dept. of {committee.chair.department}, CET</p>
                             </div>
                             <div className="committee-co-chair-members">
                             {committee.coChairs && (
@@ -240,7 +240,7 @@ const committees = [
                 {name: "Prof. Titto Anujan", designation: "Assistant Professor,", department: "ECE"},
                 {name: "Prof. Sunitha D", designation: "Assistant Professor (Adhoc),", department: "CSE"},
                 {name: "Prof. Bincy P. Mathew", designation: "Assistant Professor(Adhoc),", department: "CSE"}
-            ]
+            ], convenor: true
         },
         {
             name: "Venue Management Committee",
@@ -253,7 +253,7 @@ const committees = [
                 {name: "Prof. Prafulla P", designation: "Assistant Professor,", department: "CSE"},
                 {name: "Prof. Pooja J. P", designation: "Assistant Professor (Adhoc),", department: "MCA"},
                 {name: "Prof. M. Roykumar", designation: "Associate Professor,", department: "EE"}
-            ]
+            ], convenor: true
         },
         {
             name: "Transportation Committee",
@@ -262,7 +262,7 @@ const committees = [
                 {name: "Dr. Binu L.S.", designation: "Professor,", department: "ECE"},
                 {name: "Prof. Sabir V.E.", designation: "Assistant Professor,", department: "EE"},
                 {name: "Prof. Akhil V.V", designation: "Assistant Professor (Adhoc),", department: "CSE"}
-            ]
+            ], convenor: true
         },
         {
             name: "Certificate Committee",
@@ -271,7 +271,7 @@ const committees = [
                 {name: "Dr. Asha Prasad", designation: "Associate Professor,", department: "ECE"},
                 {name: "Prof. Divya S K", designation: "Assistant Professor (Adhoc),", department: "CSE"},
                 {name: "Dr. Ann Mary Joshua", designation: "Assistant Professor,", department: "EE"}
-            ]
+            ], convenor: true
         },
         {
             name: "Registration Committee",
@@ -280,7 +280,7 @@ const committees = [
                 {name: "Prof. Sreedevi G.", designation: "Assistant Professor,", department: "EE"},
                 {name: "Prof. Jijina N.", designation: "Assistant Professor,", department: "ECE"},
                 {name: "Prof. Sree Vidhya K S", designation: "Assistant Professor (Adhoc),", department: "CSE"}
-            ]
+            ], convenor: true
         }
 ];
 
