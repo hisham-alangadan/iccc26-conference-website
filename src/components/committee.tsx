@@ -17,12 +17,12 @@ const OrganizingCommittee = () => {
 
                 <h2>Patron</h2>
                 <ul>
-                    <li><strong>Dr. Shalij P. R. <br /> Director of Technical Education, Govt. of Kerala</strong></li>
+                    <li><strong>Dr. Shalij P. R. <br /> Director of Technical Education, <br /> Govt. of Kerala</strong></li>
                 </ul>
 
                 <h2>General Chair</h2>
                 <ul>
-                    <li><strong>Dr. Suresh K. <br /> Principal, College of Engineering Trivandrum</strong></li>
+                    <li><strong>Dr. Suresh K. <br /> Principal,<br /> College of Engineering Trivandrum</strong></li>
                 </ul>
 
                 <h2>Organizing Secretary</h2>
@@ -46,7 +46,7 @@ const OrganizingCommittee = () => {
                         <h3>{committee.name}</h3>
                         <div className="committee-content">
                             <div className="committee-chair">
-                                <p>Chair: {committee.chair.name}<br/>{committee.chair.designation}</p>
+                                <p>Chair: {committee.chair.name}<br/>{committee.chair.designation} Dept. of {committee.chair.department}, CET</p>
                             </div>
                             <div className="committee-co-chair-members">
                             {committee.coChairs && (
@@ -54,7 +54,7 @@ const OrganizingCommittee = () => {
                                     <h4>Co-chairs:</h4>
                                     <ul>
                                         {committee.coChairs.map((coChair:any, coChairIndex:number) => (
-                                            <li key={coChairIndex}><strong>{coChair.name}<br />{coChair.designation}</strong></li>
+                                            <li key={coChairIndex}><strong>{coChair.name}<br />{coChair.designation}<br />Dept. of {coChair.department}, CET</strong></li>
                                         ))}
                                     </ul>
                                 </div>
@@ -63,7 +63,7 @@ const OrganizingCommittee = () => {
                                 <div className="committee-co-chairs">
                                     <h4>Co-chair:</h4>
                                     <ul>
-                                        <li><strong>{committee.coChair.name}<br />{committee.coChair.designation}</strong></li>
+                                        <li><strong>{committee.coChair.name}<br />{committee.coChair.designation}<br />Dept. of {committee.coChair.department}, CET</strong></li>
                                     </ul>
                                 </div>
                             )}
@@ -72,7 +72,7 @@ const OrganizingCommittee = () => {
                                 <h4>Members:</h4>
                                 <ul>
                                     {committee.members.map((member, memberIndex) => (
-                                        <li key={memberIndex}><strong>{member.name}<br/>{member.designation}</strong></li>
+                                        <li key={memberIndex}><strong>{member.name}<br/>{member.designation}<br/>Dept. of {member.department}, CET</strong></li>
                                     ))}
                                 </ul>
                             </div>
@@ -87,35 +87,35 @@ const OrganizingCommittee = () => {
 const committees = [
     {
         name: "Technical Program Committee",
-        chair: {name:"Dr. Jerrin Thomas Panachakel", designation:"Assistant Professor, Dept. of ECE, CET"},
+        chair: {name:"Dr. Jerrin Thomas Panachakel", designation: "Assistant Professor,", department: "ECE"},
         coChairs: [
-            {name: "Dr. Praveen S Babu", designation: "Associate Professor, Dept. of EE, CET"},
-            {name: "Dr. Linu Shine", designation: "Associate Professor, Dept. of ECE, CET"},
-            {name: "Dr. Dhanya S.Pankaj", designation: "Assistant Professor, Dept. of CSE, CET"}
+            {name: "Dr. Praveen S Babu", designation: "Associate Professor,", department: "EE"},
+            {name: "Dr. Linu Shine", designation: "Associate Professor,", department: "ECE"},
+            {name: "Dr. Dhanya S.Pankaj", designation: "Assistant Professor,", department: "CSE"}
         ],
         members: [
-            {name: "Dr. Jayakumar P.", designation:"Associate Professor, Dept. of EE, CET"},
-            {name: "Prof. Sabina.M.A", designation:"Associate Professor, Dept. of MCA, CET"},
-            {name: "Dr. Biju K.S", designation:"Associate Professor, Dept. of ECE, CET"}
+            {name: "Dr. Jayakumar P.", designation: "Associate Professor,", department: "EE"},
+            {name: "Prof. Sabina.M.A", designation: "Associate Professor,", department: "MCA"},
+            {name: "Dr. Biju K.S", designation: "Associate Professor,", department: "ECE"}
         ]
     },
     {
         name: "Finance Committee",
-        chair: {name:"Dr. Mabel Ebenezer", designation:"Professor, Dept. of EE, CET"},
+        chair: {name:"Dr. Mabel Ebenezer", designation: "Professor,", department: "EE"},
         members: [
-            {name: "Dr. Nikhil.M", designation: "Assistant Professor, Dept. of ECE, CET"},
-            {name: "Prof. Rani Koshy", designation: "Assistant Professor, Dept. of CSE, CET"},
-            {name: "Prof. Divya Krishnan", designation: "Assistant Professor, Dept. of EE, CET"}
+            {name: "Dr. Nikhil.M", designation: "Assistant Professor,", department: "ECE"},
+            {name: "Prof. Rani Koshy", designation: "Assistant Professor,", department: "CSE"},
+            {name: "Prof. Divya Krishnan", designation: "Assistant Professor,", department: "EE"}
         ]
     },
     {
         name: "Publication Committee",
-        chair: {name:"Dr. Hari Kumar.R", designation:"Associate Professor, Dept. of EE, CET"},
+        chair: {name:"Dr. Hari Kumar.R", designation: "Associate Professor,", department: "EE"},
         members: [
-            {name: "Dr. Vinod.B.R", designation: "Associate Professor, Dept. of ECE, CET"},
-            {name: "Prof. Deepa M.U", designation: "Assistant Professor, Dept. of EE, CET"},
-            {name: "Prof. Resmi E", designation: "Assistant Professor, Dept. of ECE, CET"},
-            {name: "Prof. Narasimhan T", designation: "Assistant Professor, Dept. of CSE, CET"}
+            {name: "Dr. Vinod.B.R", designation: "Associate Professor,", department: "ECE"},
+            {name: "Prof. Deepa M.U", designation: "Assistant Professor,", department: "EE"},
+            {name: "Prof. Resmi E", designation: "Assistant Professor,", department: "ECE"},
+            {name: "Prof. Narasimhan T", designation: "Assistant Professor,", department: "CSE"}
         ]
     },
     // {
@@ -130,7 +130,7 @@ const committees = [
     // {
     //     name: "Tutorial and Keynote Committee",
     //     chair: "Prof. Leena V.A - Assistant Professor, Dept. of CSE, CET",
-    //     coChair: {name: "Dr. Sreeja. S", designation: "Associate Professor, Dept. of EE, CET"},
+    //     coChair: {name: "Dr. Sreeja. S", designation: "Associate Professor,", department: "EE"},
     //     members: [
     //         "Dr. Reshmi S Bhooshan - Assistant Professor, Dept. of ECE, CET",
     //         "Prof. Haseela H.A - Assistant Professor (Adhoc), Dept. of CSE, CET"
@@ -201,32 +201,32 @@ const committees = [
 
         {
             name: "Website Committee",
-            chair: {name: "Prof. John Prakash Joseph", designation: "Associate Professor, Dept. of EE, CET"},
-            coChair : {name: "Dr. Piyoosh P.", designation: "Assistant Professor, Dept. of CSE, CET"},
+            chair: {name: "Prof. John Prakash Joseph", designation: "Associate Professor,", department: "EE"},
+            coChair : {name: "Dr. Piyoosh P.", designation: "Assistant Professor,", department: "CSE"},
             "members": [
-                // {name: "Dr. Piyoosh P.", designation: "Assistant Professor, Dept. of CSE, CET"},
+                // {name: "Dr. Piyoosh P.", designation: "Assistant Professor,", department: "CSE"},
                 {name: "Prof. Deepa. S.S", designation: "Associate Professor, MCA, CET"},
-                {name: "Prof. Viji. R", designation: "Assistant Professor, Dept. of ECE, CET"}
+                {name: "Prof. Viji. R", designation: "Assistant Professor,", department: "ECE"}
             ]
         },
         {
             name: "Tutorial and Keynote Committee",
-            chair: {name: "Prof. Leena V.A", designation: "Assistant Professor, Dept. of CSE, CET"},
-            "coChair": {name: "Dr. Sreeja. S", designation: "Associate Professor, Dept. of EE, CET"},
+            chair: {name: "Prof. Leena V.A", designation: "Assistant Professor,", department: "CSE"},
+            "coChair": {name: "Dr. Sreeja. S", designation: "Associate Professor,", department: "EE"},
             "members": [
-                {name: "Dr. Reshmi S Bhooshan", designation: "Assistant Professor, Dept. of ECE, CET"},
-                {name: "Prof. Haseela H.A", designation: "Assistant Professor (Adhoc), Dept. of CSE, CET"}
+                {name: "Dr. Reshmi S Bhooshan", designation: "Assistant Professor,", department: "ECE"},
+                {name: "Prof. Haseela H.A", designation: "Assistant Professor (Adhoc),", department: "CSE"}
             ]
         },
         {
             name: "Publicity Committee",
-            chair: {name: "Dr. Pradeep R.", designation: "Professor, Dept. of ECE, CET"},
-            coChair: {name: "Dr. Saritha. R", designation: "Associate Professor, Dept. of CSE, CET"},
+            chair: {name: "Dr. Pradeep R.", designation: "Professor,", department: "ECE"},
+            coChair: {name: "Dr. Saritha. R", designation: "Associate Professor,", department: "CSE"},
             "members": [
-                {name: "Dr. Vivek R.S", designation: "Assistant Professor, Dept. of EE, CET"},
-                {name: "Prof. Sohan Placid John", designation: "Assistant Professor, Dept. of EE, CET"},
-                {name: "Dr. Vinod. B.R", designation: "Associate Professor, Dept. of ECE, CET"}
-                // {name: "Dr. Saritha. R", designation: "Associate Professor, Dept. of CSE, CET"}
+                {name: "Dr. Vivek R.S", designation: "Assistant Professor,", department: "EE"},
+                {name: "Prof. Sohan Placid John", designation: "Assistant Professor,", department: "EE"},
+                {name: "Dr. Vinod. B.R", designation: "Associate Professor,", department: "ECE"}
+                // {name: "Dr. Saritha. R", designation: "Associate Professor,", department: "CSE"}
             ]
         },
         {
@@ -234,52 +234,52 @@ const committees = [
             chair: {name: "Prof. Tonny K B", designation: "Assistant Professor, Dept. of Mathematics"},
             "members": [
                 {name: "Dr. Praveen Kumar T K", designation: "Assistant Professor, Dept. of Physical Education"},
-                {name: "Prof. Akhil. I. R", designation: "Assistant Professor, Dept. of EE, CET"},
-                {name: "Prof. Prajeesh. P. Prabhakaran", designation: "Assistant Professor, Dept. of EE, CET"},
-                {name: "Prof. Adersh V.R", designation: "Assistant Professor, Dept. of ECE, CET"},
-                {name: "Prof. Titto Anujan", designation: "Assistant Professor, Dept. of ECE, CET"},
-                {name: "Prof. Sunitha D", designation: "Assistant Professor (Adhoc), Dept. of CSE, CET"},
-                {name: "Prof. Bincy P. Mathew", designation: "Assistant Professor(Adhoc), Dept. of CSE, CET"}
+                {name: "Prof. Akhil. I. R", designation: "Assistant Professor,", department: "EE"},
+                {name: "Prof. Prajeesh. P. Prabhakaran", designation: "Assistant Professor,", department: "EE"},
+                {name: "Prof. Adersh V.R", designation: "Assistant Professor,", department: "ECE"},
+                {name: "Prof. Titto Anujan", designation: "Assistant Professor,", department: "ECE"},
+                {name: "Prof. Sunitha D", designation: "Assistant Professor (Adhoc),", department: "CSE"},
+                {name: "Prof. Bincy P. Mathew", designation: "Assistant Professor(Adhoc),", department: "CSE"}
             ]
         },
         {
             name: "Venue Management Committee",
-            chair: {name: "Prof. Saina Deepthi", designation: "Associate Professor, Dept. of EE, CET"},
+            chair: {name: "Prof. Saina Deepthi", designation: "Associate Professor,", department: "EE"},
             "members": [
-                {name: "Dr. Lekshmi Mohan", designation: "Associate Professor, Dept. of EE, CET"},
-                {name: "Prof. Smitha K S", designation: "Associate Professor, Dept. of EE, CET"},
-                {name: "Prof. Sudhi S", designation: "Assistant Professor, Dept. of ECE, CET"},
-                {name: "Prof. P G Gigy", designation: "Assistant Professor, Dept. of ECE, CET"},
-                {name: "Prof. Prafulla P", designation: "Assistant Professor, Dept. of CSE, CET"},
-                {name: "Prof. Pooja J. P", designation: "Assistant Professor (Adhoc), Dept. of MCA, CET"},
-                {name: "Prof. M. Roykumar", designation: "Associate Professor, Dept. of EE, CET"}
+                {name: "Dr. Lekshmi Mohan", designation: "Associate Professor,", department: "EE"},
+                {name: "Prof. Smitha K S", designation: "Associate Professor,", department: "EE"},
+                {name: "Prof. Sudhi S", designation: "Assistant Professor,", department: "ECE"},
+                {name: "Prof. P G Gigy", designation: "Assistant Professor,", department: "ECE"},
+                {name: "Prof. Prafulla P", designation: "Assistant Professor,", department: "CSE"},
+                {name: "Prof. Pooja J. P", designation: "Assistant Professor (Adhoc),", department: "MCA"},
+                {name: "Prof. M. Roykumar", designation: "Associate Professor,", department: "EE"}
             ]
         },
         {
             name: "Transportation Committee",
-            chair: {name: "Prof. Sajeev Mohan M.", designation: "Assistant Professor, Dept. of Physics, CET"},
+            chair: {name: "Prof. Sajeev Mohan M.", designation: "Assistant Professor,", department: "Physics"},
             "members": [
-                {name: "Dr. Binu L.S.", designation: "Professor, Dept. of ECE, CET"},
-                {name: "Prof. Sabir V.E.", designation: "Assistant Professor, Dept. of EE, CET"},
-                {name: "Prof. Akhil V.V", designation: "Assistant Professor (Adhoc), Dept. of CSE, CET"}
+                {name: "Dr. Binu L.S.", designation: "Professor,", department: "ECE"},
+                {name: "Prof. Sabir V.E.", designation: "Assistant Professor,", department: "EE"},
+                {name: "Prof. Akhil V.V", designation: "Assistant Professor (Adhoc),", department: "CSE"}
             ]
         },
         {
             name: "Certificate Committee",
-            chair: {name: "Dr. Arlene Davidson R.", designation: "Associate Professor, Dept. of EE, CET"},
+            chair: {name: "Dr. Arlene Davidson R.", designation: "Associate Professor,", department: "EE"},
             "members": [
-                {name: "Dr. Asha Prasad", designation: "Associate Professor, Dept. of ECE, CET"},
-                {name: "Prof. Divya S K", designation: "Assistant Professor (Adhoc), Dept. of CSE, CET"},
-                {name: "Dr. Ann Mary Joshua", designation: "Assistant Professor, Dept. of EE, CET"}
+                {name: "Dr. Asha Prasad", designation: "Associate Professor,", department: "ECE"},
+                {name: "Prof. Divya S K", designation: "Assistant Professor (Adhoc),", department: "CSE"},
+                {name: "Dr. Ann Mary Joshua", designation: "Assistant Professor,", department: "EE"}
             ]
         },
         {
             name: "Registration Committee",
-            chair: {name: "Prof. T. Samina", designation: "Associate Professor, Dept. of EE, CET"},
+            chair: {name: "Prof. T. Samina", designation: "Associate Professor,", department: "EE"},
             "members": [
-                {name: "Prof. Sreedevi G.", designation: "Assistant Professor, Dept. of EE, CET"},
-                {name: "Prof. Jijina N.", designation: "Assistant Professor, Dept. of ECE, CET"},
-                {name: "Prof. Sree Vidhya K S", designation: "Assistant Professor (Adhoc), Dept. of CSE, CET"}
+                {name: "Prof. Sreedevi G.", designation: "Assistant Professor,", department: "EE"},
+                {name: "Prof. Jijina N.", designation: "Assistant Professor,", department: "ECE"},
+                {name: "Prof. Sree Vidhya K S", designation: "Assistant Professor (Adhoc),", department: "CSE"}
             ]
         }
 ];

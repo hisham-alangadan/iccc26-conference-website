@@ -12,7 +12,7 @@ const WelcomePage = () => {
       <div className="welcome-main">
         <main className="welcome-content">
           <h1>Welcome to ICCC 2025</h1>
-          <h2>The 6<sup>th</sup> International Conference on Control, Communication and Computing</h2>
+          <h2>6<sup>th</sup> International Conference on Control, Communication and Computing</h2>
           <p>
             <strong>ICCC 2025</strong> brings together researchers, practicing engineers, faculty, and students to explore the latest advancements in Control, Communication, and Computing. This biennial conference is jointly organized by the Departments of Electrical Engineering, Electronics and Communication Engineering, and Computer Science and Engineering of College of Engineering Trivandrum.
           </p>

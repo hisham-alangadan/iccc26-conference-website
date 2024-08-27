@@ -63,7 +63,7 @@ const AboutCollege = () => {
                         </div>
                         <div className="info-section">
                             <h3>Student Life</h3>
-                            <p>CET is mainly known for its vibrant student community, which infuses the campus with energy and enthusiasm. Various clubs and societies focusing on cultural, technical, and social activities contribute to this lively atmosphere. The College hosts several annual events, including "Drishti" (technical fest) and "Dhwani" (cultural fest). CET strongly emphasizes sports, with facilities for football, basketball, volleyball, cricket, badminton, and more. The College has an active student support wing that represents the student body, organizes events, and addresses student concerns..</p>
+                            <p>CET is mainly known for its vibrant student community, which infuses the campus with energy and enthusiasm. Various clubs and societies focusing on cultural, technical, and social activities contribute to this lively atmosphere. The College hosts several annual events, including "Drishti" (technical fest) and "Dhwani" (cultural fest). CET strongly emphasizes sports, with facilities for football, basketball, volleyball, cricket, badminton, and more. The College has an active student support wing that represents the student body, organizes events, and addresses student concerns.</p>
                         </div>
                         <div className="info-section">
                             <h3>Location and Accessibility</h3>

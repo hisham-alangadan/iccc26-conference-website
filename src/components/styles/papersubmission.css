@@ -92,6 +92,7 @@
 .instructions, .paper-upload {
     font-size: 18px;
     font-weight: 600;
+    text-align: justify;
 }
 
 .paper-submission-container .head {

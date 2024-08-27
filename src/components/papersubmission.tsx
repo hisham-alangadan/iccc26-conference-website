@@ -8,7 +8,7 @@ const PaperSubmissionComponent = () => {
                 <div className="instructions">
                     <h2>Instructions</h2>
                     <ol>
-                        <li>Use only <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE standard two column conference paper template</a>(https://www.ieee.org/conferences/publishing/templates.html).</li>
+                        <li>Use only <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE standard two column conference paper template</a> (https://www.ieee.org/conferences/publishing/templates.html).</li>
                         <li>The maximum length of the paper for review is 6 pages including references. The maximum File Size allowed is 10 MB in PDF format without encryption and/or passwords.</li>
                         <li>Papers having poor quality and/or high similarity index will be desk rejected (without review).</li>
                     </ol>
