@@ -2,7 +2,7 @@
 // import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
 // import logo from '../assets/image.png'
 import logo from '../assets/logo_scrshot_white_alphabg.png'
-// import './styles/navbar.css';
+import ieeelogo from '../assets/ieee mb white png.png'
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
@@ -20,6 +20,7 @@ const Navbar = () => {
       <Link to="/" style={{"textDecoration":"none"}}>
         <div className="logo">
           {/* <h3>ICCC</h3> */}
+          <img className="ieee-logo" src={ieeelogo} alt="IEEE logo" />
           <img src={logo} alt="CET Emblem" />
           <h3> College of Engineering Trivandrum </h3>
         </div>

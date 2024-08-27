@@ -35,7 +35,7 @@ export default function AdvisoryCommittee() {
 
     const advisoryCommitteeMembers = [
         { name: "Prof. (Dr.) Savier J S", designation: "Principal", college: "Govt. Engineering College Idukki" },
-        { name: "Prof. (Dr.) Saji Gopinath", designation: "Vice Chancellor,\nAPJ Abdul Kalam Technological University" },
+        { name: "Prof. (Dr.) Saji Gopinath", designation: "Vice Chancellor", college: "Abdul Kalam Technological University" },
         { name: "Prof. (Dr.) Debapriya Das", designation: "IIT Kharagpur" },
         { name: "Prof. (Dr.) Bhavesh Kumar R. Bhalja", designation: "IIT Roorkee" },
         { name: "Prof. (Dr.) Abhijit Kshirsagar", designation: "IIT Dharwad" },
@@ -79,7 +79,11 @@ export default function AdvisoryCommittee() {
                     <h2>Committee Members</h2>
                     <ul>
                         {advisoryCommitteeMembers.map((member, index) => (
-                            <li key={index}><strong>{member.name}</strong><br />{member.designation}{member.college && ", " + member.college}</li>
+                            <li key={index}>
+                                <strong>{member.name}</strong><br />
+                                {member.designation + (member.college ? "," : "")}<br />
+                                {member.college ? member.college : ""} 
+                            </li>
                         ))}
                     </ul>
                 </section>

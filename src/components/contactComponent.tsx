@@ -10,7 +10,7 @@ const ContactComponent = () => {
       <div className="contact-details">
         <p className='p-loc'><img src={mail} alt="" /> <div className='contact-mail'>iccc2025@cet.ac.in</div></p>
         <p className='p-loc'><img src={phone} alt="" /> <div>
-            <div>+91 9496366697</div> <div>+91 9495135213</div>
+            <div>+91 9496366697</div> <div>+91 9447889009</div> <div>+91 9495135213</div>
         </div></p>
         <p className='p-loc'><div className='loc'><img src={loc} alt=""/></div>
           <div>
