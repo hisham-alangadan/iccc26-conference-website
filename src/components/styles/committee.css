@@ -91,7 +91,7 @@
     background: rgba(0, 50, 170, 0.3);
     color: #333;
     /* padding: 15px; */
-    min-height: 15vh; max-height: 15vh;
+    min-height: 15vh; max-height: 21vh;
     border-radius: 10px;
     transition: all 0.3s ease;
     flex-basis: calc(33.333% - 20px);
