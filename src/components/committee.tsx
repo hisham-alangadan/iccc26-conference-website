@@ -12,7 +12,7 @@ const OrganizingCommittee = () => {
             <section className="main-committee">
                 <h2>Chief Patron</h2>
                 <ul>
-                    <li><strong>Smt. Ishita Roy IAS <br /> Principal Secretary, Higher Education Department, Govt. of Kerala</strong></li>
+                    <li><strong>Smt. Ishita Roy IAS <br /> Principal Secretary,<br /> Higher Education Department, <br /> Govt. of Kerala</strong></li>
                 </ul>
 
                 <h2>Patron</h2>
@@ -157,8 +157,8 @@ const committees = [
                 {name: "Prof. Prajeesh. P. Prabhakaran", designation: "Assistant Professor,", department: "EE"},
                 {name: "Prof. Adersh V.R", designation: "Assistant Professor,", department: "ECE"},
                 {name: "Prof. Titto Anujan", designation: "Assistant Professor,", department: "ECE"},
-                {name: "Prof. Sreekutty M.B", designation: "Assistant Professor,", department: "CSE"},
-                {name: "Prof. Arya S.R", designation: "Assistant Professor,", department: "CSE"}
+                {name: "Prof. Sreekutty M.B", designation: "Assistant Professor (Adhoc),", department: "CSE"},
+                {name: "Prof. Arya S.R", designation: "Assistant Professor (Adhoc),", department: "CSE"}
             ], convenor: true
         },
         {
@@ -180,7 +180,7 @@ const committees = [
             "members": [
                 {name: "Dr. Binu L.S.", designation: "Professor,", department: "ECE"},
                 {name: "Prof. Sabir V.E.", designation: "Assistant Professor,", department: "EE"},
-                {name: "Prof. Jaisiv V", designation: "Assistant Professor,", department: "CSE"}
+                {name: "Prof. Jaisiv V", designation: "Assistant Professor (Adhoc),", department: "CSE"}
             ], convenor: true
         },
         {
