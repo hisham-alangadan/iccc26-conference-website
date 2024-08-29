@@ -91,7 +91,7 @@ const committees = [
         coChairs: [
             {name: "Dr. Praveen S Babu", designation: "Associate Professor,", department: "EE"},
             {name: "Dr. Linu Shine", designation: "Associate Professor,", department: "ECE"},
-            {name: "Dr. Dhanya S.Pankaj", designation: "Assistant Professor,", department: "CSE"}
+            {name: "Prof. Rani Koshy", designation: "Assistant Professor,", department: "CSE"}
         ],
         members: [
             {name: "Dr. Jayakumar P.", designation: "Associate Professor,", department: "EE"},
@@ -104,7 +104,7 @@ const committees = [
         chair: {name:"Dr. Mabel Ebenezer", designation: "Professor,", department: "EE"},
         members: [
             {name: "Dr. Nikhil.M", designation: "Assistant Professor,", department: "ECE"},
-            {name: "Prof. Rani Koshy", designation: "Assistant Professor,", department: "CSE"},
+            {name: "Prof. Baby Syla L", designation: "Assistant Professor,", department: "CSE"},
             {name: "Prof. Divya Krishnan", designation: "Assistant Professor,", department: "EE"}
         ]
     },
@@ -118,94 +118,13 @@ const committees = [
             {name: "Prof. Narasimhan T", designation: "Assistant Professor,", department: "CSE"}
         ]
     },
-    // {
-    //     name: "Website Committee",
-    //     chair: "Prof. John Prakash Joseph - Associate Professor, Dept. of EE, CET",
-    //     members: [
-    //         "Dr. Piyoosh P. - Assistant Professor, Dept. of CSE, CET",
-    //         "Prof. Deepa. S.S - Associate Professor, MCA, CET",
-    //         "Prof. Viji. R - Assistant Professor, Dept. of ECE, CET"
-    //     ]
-    // },
-    // {
-    //     name: "Tutorial and Keynote Committee",
-    //     chair: "Prof. Leena V.A - Assistant Professor, Dept. of CSE, CET",
-    //     coChair: {name: "Dr. Sreeja. S", designation: "Associate Professor,", department: "EE"},
-    //     members: [
-    //         "Dr. Reshmi S Bhooshan - Assistant Professor, Dept. of ECE, CET",
-    //         "Prof. Haseela H.A - Assistant Professor (Adhoc), Dept. of CSE, CET"
-    //     ]
-    // },
-    // {
-    //     name: "Publicity Committee",
-    //     chair: "Dr. Pradeep R. - Professor, Dept. of ECE, CET",
-    //     members: [
-    //         "Dr. Vivek R.S - Assistant Professor, Dept. of EE, CET",
-    //         "Prof. Sohan Placid John - Assistant Professor, Dept. of EE, CET",
-    //         "Dr. Vinod. B.R - Associate Professor, Dept. of ECE, CET",
-    //         "Dr.Saritha.R - Associate Professor, Dept. of CSE, CET"
-    //     ]
-    // },
-    // {
-    //     name: "Food and Accommodation Committee",
-    //     chair: "Prof. Tonny K B - Assistant Professor, Dept. of Mathematics",
-    //     members: [
-    //         "Dr. Praveen Kumar T K - Assistant Professor, Dept. of Physical Education",
-    //         "Prof. Akhil. I. R - Assistant Professor, Dept. of EE, CET",
-    //         "Prof. Prajeesh.P. Prabhakaran - Assistant Professor, Dept. of EE, CET",
-    //         "Prof. Adersh V.R - Assistant Professor, Dept. of ECE, CET",
-    //         "Prof. Titto Anujan - Assistant Professor, Dept. of ECE, CET",
-    //         "Prof. Sunitha D - Assistant Professor (Adhoc), Dept. of CSE, CET",
-    //         "Prof. Bincy.P.Mathew - Assistant Professor(Adhoc), Dept. of CSE,CET"
-    //     ]
-    // },
-    // {
-    //     name: "Venue Management Committee",
-    //     chair: "Prof. Saina Deepthi - Associate Professor, Dept. of EE, CET",
-    //     members: [
-    //         "Dr. Lekshmi Mohan - Associate Professor, Dept. of EE, CET",
-    //         "Prof. Smitha K S - Associate Professor, Dept. of EE, CET",
-    //         "Prof. Sudhi S - Assistant Professor, Dept. of ECE, CET",
-    //         "Prof. P G Gigy - Assistant Professor, Dept. of ECE, CET",
-    //         "Prof. Prafulla P - Assistant Professor, Dept. of CSE, CET",
-    //         "Prof. Pooja J. P - Assistant Professor (Adhoc), Dept. of MCA, CET",
-    //         "Prof. M. Roykumar - Associate Professor, Dept. of EE, CET"
-    //     ]
-    // },
-    // {
-    //     name: "Transportation Committee",
-    //     chair: "Prof. Sajeev Mohan M. - Assistant Professor, Dept. of Physics, CET",
-    //     members: [
-    //         "Dr. Binu L.S. - Professor, Dept. of ECE, CET",
-    //         "Prof. Sabir V.E. - Assistant Professor, Dept. of EE, CET",
-    //         "Prof. Akhil V.V - Assistant Professor (Adhoc), Dept. of CSE, CET"
-    //     ]
-    // },
-    // {
-    //     name: "Certificate Committee",
-    //     chair: "Dr. Arlene Davidson R. - Associate Professor, Dept. of EE, CET",
-    //     members: [
-    //         "Dr. Asha Prasad - Associate Professor, Dept. of ECE, CET",
-    //         "Prof. Divya S K - Assistant Professor (Adhoc), Dept. of CSE, CET",
-    //         "Dr. Ann Mary Joshua - Assistant Professor, Dept. of EE, CET"
-    //     ]
-    // },
-    // {
-    //     name: "Registration Committee",
-    //     chair: "Prof. T. Samina - Associate Professor, Dept. of EE, CET",
-    //     members: [
-    //         "Prof. Sreedevi G. - Assistant Professor, Dept. of EE, CET",
-    //         "Prof. Jijina N. - Assistant Professor, Dept. of ECE, CET",
-    //         "Prof. Sree Vidhya K S - Assistant Professor (Adhoc), Dept. of CSE, CET"
-    //     ]
-
         {
             name: "Website Committee",
             chair: {name: "Prof. John Prakash Joseph", designation: "Associate Professor,", department: "EE"},
             coChair : {name: "Dr. Piyoosh P.", designation: "Assistant Professor,", department: "CSE"},
             "members": [
                 // {name: "Dr. Piyoosh P.", designation: "Assistant Professor,", department: "CSE"},
-                {name: "Prof. Deepa. S.S", designation: "Associate Professor, MCA, CET"},
+                {name: "Prof. Deepa. S.S", designation: "Associate Professor", department: "MCA"},
                 {name: "Prof. Viji. R", designation: "Assistant Professor,", department: "ECE"}
             ]
         },
@@ -231,15 +150,15 @@ const committees = [
         },
         {
             name: "Food and Accommodation Committee",
-            chair: {name: "Prof. Tonny K B", designation: "Assistant Professor, Dept. of Mathematics"},
+            chair: {name: "Prof. Tonny K B", designation: "Assistant Professor,", department: "Mathematics"},
             "members": [
-                {name: "Dr. Praveen Kumar T K", designation: "Assistant Professor, Dept. of Physical Education"},
+                {name: "Dr. Praveen Kumar T K", designation: "Assistant Professor,", department: "Physical Education"},
                 {name: "Prof. Akhil. I. R", designation: "Assistant Professor,", department: "EE"},
                 {name: "Prof. Prajeesh. P. Prabhakaran", designation: "Assistant Professor,", department: "EE"},
                 {name: "Prof. Adersh V.R", designation: "Assistant Professor,", department: "ECE"},
                 {name: "Prof. Titto Anujan", designation: "Assistant Professor,", department: "ECE"},
-                {name: "Prof. Sunitha D", designation: "Assistant Professor (Adhoc),", department: "CSE"},
-                {name: "Prof. Bincy P. Mathew", designation: "Assistant Professor(Adhoc),", department: "CSE"}
+                {name: "Prof. Sreekutty M.B", designation: "Assistant Professor,", department: "CSE"},
+                {name: "Prof. Arya S.R", designation: "Assistant Professor,", department: "CSE"}
             ], convenor: true
         },
         {
@@ -261,7 +180,7 @@ const committees = [
             "members": [
                 {name: "Dr. Binu L.S.", designation: "Professor,", department: "ECE"},
                 {name: "Prof. Sabir V.E.", designation: "Assistant Professor,", department: "EE"},
-                {name: "Prof. Akhil V.V", designation: "Assistant Professor (Adhoc),", department: "CSE"}
+                {name: "Prof. Jaisiv V", designation: "Assistant Professor,", department: "CSE"}
             ], convenor: true
         },
         {

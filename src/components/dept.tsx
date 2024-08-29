@@ -1,7 +1,7 @@
 import './styles/dept.css';
 import CSEDept from '../assets/CSEDept.jpg';
 import ECEDept from '../assets/ECEDept.jpg';
-import EEEDept from '../assets/EEEDept.jpg';
+import EEEDept from '../assets/EEDept.jpg';
 
 const Departments = ({venue}:any) => {
     return(
