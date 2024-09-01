@@ -1,59 +1,84 @@
 .local-stuff-container {
-    margin: 0;
-    padding: 10vh 5vw;
-    min-height: 100vh;
+  margin: 0;
+  padding: 10vh 5vw;
+  min-height: 100vh;
 
-    h2 {
-        font-size: 5vh;
-        color: navy;
-        text-align: center;
-    }
+  h2 {
+    font-size: 5vh;
+    color: navy;
+    text-align: center;
+  }
 
-    h2::after {
-        width: 40%;
-        background-color: navy;
-        height: 4px;
-    }
+  h2::after {
+    width: 40%;
+    background-color: navy;
+    height: 4px;
+  }
 
-    p {
-        font-size: 23px;
-        font-weight: 600;
-        text-align: justify;
-    }
+  p {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: justify;
+  }
 }
 
-
-
 .places {
-    width: 100%;
-    display: flex;
-    align-content: center;
-    place-content: center;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  place-content: center;
 }
 
 .destination {
-    width: 40vh;
-    height: 15vw;
-    padding: 10px;
-    margin: 10px;
-    background-position: center;
+  width: 40vh;
+  height: 15vw;
+  padding: 10px;
+  margin: 10px;
+  background-position: center;
 
-    a {
-        background-color: rgb(255, 255, 255, 0.5);
-        color: black;
-        height: 10%;
-        padding: 3px;
-        text-decoration: none;
-    }
+  a {
+    background-color: rgb(255, 255, 255, 0.5);
+    color: black;
+    height: 10%;
+    padding: 3px;
+    text-decoration: none;
+  }
 
-    font-weight: 900;
-    display: flex;
-    place-content: end;
-    border-radius: 10px;
-    transition: 900ms ease;
+  font-weight: 900;
+  display: flex;
+  place-content: end;
+  border-radius: 10px;
+  transition: 900ms ease;
 }
 
 .destination:hover {
-    width: 42vh;
-    height: 15.75vw;
+  width: 42vh;
+  height: 15.75vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .local-stuff-container {
+    h2 {
+      font-size: 4vh;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+
+  .places {
+    flex-direction: column;
+  }
+
+  .destination {
+    width: 80vw;
+    height: 30vw;
+
+    a {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: rgb(255, 255, 255);
+      padding: 0;
+    }
+  }
 }

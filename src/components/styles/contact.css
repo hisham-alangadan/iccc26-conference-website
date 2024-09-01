@@ -51,3 +51,21 @@
   .loc {
     vertical-align: top;
   }
+
+  @media screen and (max-width: 781px) {
+    .contact-us {
+      padding: 10px;
+    }
+    .contact-us h2 {
+      font-size: 2em;
+    }
+    .contact-details {
+      font-size: 1em;
+    }
+    .contact-details p {
+      margin: 1em 24px;
+    }
+    footer {
+      margin: 1em 24px;
+    }
+  }

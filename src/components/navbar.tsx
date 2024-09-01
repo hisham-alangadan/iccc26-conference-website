@@ -1,12 +1,9 @@
-// import React from 'react';
-// import logo from '../assets/cetLogo.svg'; // Make sure the path to the logo is correct
-// import logo from '../assets/image.png'
-import logo from '../assets/logo_scrshot_white_alphabg.png'
-import ieeelogo from '../assets/logo-ieee-white-transparent.webp'
+import logo from '../assets/logo_scrshot_white_alphabg.png';
+import ieeelogo from '../assets/logo-ieee-white-transparent.webp';
 import './styles/navbar_hisham.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { HashLink } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
@@ -16,18 +13,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar" onClick={toggleClass}>
-      <Link to="/" style={{"textDecoration":"none"}}>
+    <nav className="navbar">
+      <Link to="/" style={{ textDecoration: "none" }}>
         <div className="logo">
-          {/* <h3>ICCC</h3> */}
           <img className="ieee-logo" src={ieeelogo} alt="IEEE logo" />
           <img src={logo} alt="CET Emblem" />
-          <h3> College of Engineering Trivandrum </h3>
+          <h3>College of Engineering Trivandrum</h3>
         </div>
       </Link>
-      <div className="menu-button"><button onClick={toggleClass}>Menu</button></div>
-      <div
-        className={isActive ? "nav-links nav-links-mobile" : "nav-links"}>
+      <div className="menu-button">
+        <button onClick={toggleClass}>Menu</button>
+      </div>
+      <div className={`nav-links ${isActive ? "nav-links-mobile" : ""}`}>
         <div className="nav-link">
           <Link to="/">Home</Link>
         </div>
@@ -35,61 +32,37 @@ const Navbar = () => {
           <Link to="/aboutus">About Us</Link>
         </div>
         <div className="nav-link">
-          {/* <Link to="/committee/organizing">Committee</Link> */}
-          <a>Committee</a>
-          <div className="dropdown dropdown-menu-1">
-            <div className='dropdown-item-1'>
+          <a href="#">Committee</a>
+          <div className="dropdown">
+            <div className='dropdown-item'>
               <Link to="/committee/organizing">Organizing Committee</Link>
             </div>
-            <div className='dropdown-item-2'>
+            <div className='dropdown-item'>
               <Link to="/committee/advisorycommittee">Advisory Committee</Link>
             </div>
-            <div className='dropdown-item-3'>
+            <div className='dropdown-item'>
               <Link to="/committee/steeringcommittee">Steering Committee</Link>
             </div>
           </div>
         </div>
         <div className="nav-link">
-          {/* <Link to="/authors/submission-guidelines">Authors</Link> */}
-          <a>Authors</a>
+          <a href="#">Authors</a>
           <div className="dropdown">
             <div>
               <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
             </div>
-            {/* <div>
-              <Link to="/authors/cameraready-guidelines">Camera Ready Paper Submission</Link>
-            </div> */}
-            {/* <div>
-              <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
-            </div> */}
           </div>
         </div>
         <div className="nav-link">
           <Link to="/registration">Registration</Link>
         </div>
-        {/* <div className="nav-link">
-          <a href="/eventdetails">Event Details</a>
-          <div className="dropdown">
-            <div>
-              <Link to="/keynote">Keynotes</Link>
-            </div>
-            <div>
-              <Link to="/tutorials" >Tutorials</Link>
-            </div>
-            <div>
-              <Link to="/eventschedule">Event Schedule</Link>
-            </div>
-          </div>
-        </div> */}
         <div className="nav-link">
-          {/* <Link to="/tracks">Call for Papers</Link> */}
-          <a>Call for Papers</a>
-          <div className="dropdown dropdown-menu-1">
-            <div className='dropdown-item-1'>
+          <a href="#">Call for Papers</a>
+          <div className="dropdown">
+            <div className='dropdown-item'>
               <Link to="/tracks">Tracks</Link>
             </div>
-            <div className='dropdown-item-2'>
-              {/* <Link to="/imp-dates">Important Dates</Link> */}
+            <div className='dropdown-item'>
               <HashLink smooth to="/#timeline">Important Dates</HashLink>
             </div>
           </div>
@@ -98,8 +71,7 @@ const Navbar = () => {
           <Link to="/speakers">Speakers</Link>
         </div>
         <div className="nav-link">
-          {/* <Link to="/Venue">Venue</Link> */}
-          <a>Venue</a>
+          <a href="#">Venue</a>
           <div className="dropdown">
             <div>
               <Link to="/conferencevenue">Conference Venue</Link>
@@ -107,9 +79,6 @@ const Navbar = () => {
             <div>
               <HashLink smooth to="/venue/howtoreach#top">How to Reach</HashLink>
             </div>
-            {/* <div>
-              <Link to="/accommodation">Accommodation</Link>
-            </div> */}
             <div>
               <Link to="/venue/tourism">Local Attractions</Link>
             </div>
