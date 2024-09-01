@@ -51,6 +51,12 @@ const Navbar = () => {
             <div>
               <Link to="/authors/submission-guidelines">Paper Submission Guidelines</Link>
             </div>
+            <div>
+              <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
+            </div>
+            <div>
+              <Link to="/authors/cameraready-guidelines">Camera Ready Guidelines</Link>
+            </div>
           </div>
         </div>
         <div className="nav-link">
