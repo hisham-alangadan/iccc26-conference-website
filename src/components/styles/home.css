@@ -42,13 +42,6 @@
   text-shadow: 4px 0 #000, -4px 0 #000, 0 4px #000, 0 -4px #000,
              2px 2px #000, -2px -2px #000, 2px -2px #000, -2px 2px #000;
   z-index: 3;
-  @media screen and (max-width: 750px) {
-    /* padding: 0; */
-    text-align: center;
-    * {
-      font-size: 50%;
-    }
-  }
 }
 
 .content h1 {
@@ -57,9 +50,6 @@
   margin-bottom: 1vh;
   color: white;
   font-size: 96px;
-  @media screen and (max-width: 781px) {
-    font-size: 72px;
-  }
 }
 
 h4 {
@@ -102,4 +92,19 @@ h4 {
 .kerala-stuff img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .content {  
+  /* padding: 0; */
+  text-shadow: black 2px 2px 2px;
+    text-align: center;
+    * {
+      font-size: 50%;
+    }
+  }
+
+  .content h1 {
+    font-size: 72px;
+  }
 }

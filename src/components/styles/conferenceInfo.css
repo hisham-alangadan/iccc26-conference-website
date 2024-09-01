@@ -86,7 +86,7 @@
   /* Slightly lighter blue for the cards */
   border-radius: 10px;
   padding: 20px;
-  width: 300px;
+  width: 200px;
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -237,4 +237,38 @@
     font-size: 32px;
     color: navy;
   }
+}
+
+@media screen and (max-width: 781px) {
+  .info-card {
+    width: 90%;
+  }
+
+  .info-cards {
+    gap: 5vh;
+  }
+
+  .carousel-img {
+    height: 30vh;
+  }
+
+  .tracks-card-container, 
+  .ch-speaker-info {
+    height: 50vh;
+  }
+
+  .tracks-table {
+    table {
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
+  
 }

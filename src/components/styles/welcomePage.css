@@ -1,74 +1,92 @@
 .welcome-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    padding: 20px 60px;
-    /* background: linear-gradient(to bottom, #ffffff, #8f8ffa); */
-    min-height: 60vh;
-    box-sizing: border-box;
-    padding-top: 10vh;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 20px 60px;
+  /* background: linear-gradient(to bottom, #ffffff, #8f8ffa); */
+  min-height: 60vh;
+  box-sizing: border-box;
+  padding-top: 10vh;
+}
 
+.welcome-header {
+  display: flex;
+  /* justify-content: flex-end; */
+  width: 100%;
+  /* padding: 10px; */
+}
 
-  .welcome-header {
-    display: flex;
-    /* justify-content: flex-end; */
-    width: 100%;
-    /* padding: 10px; */
-  }
-  
-  .ieee-logo {
-    height: 80px;
-  }
-  
+.ieee-logo {
+  height: 80px;
+}
+
+.welcome-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  gap: 100px;
+}
+
+/* .welcome-content { */
+/* text-align: center; */
+/* max-width: 800px; */
+/* margin: auto; */
+/* } */
+
+.welcome-content {
+  display: block;
+}
+
+.welcome-content > h1 {
+  font-size: 3rem;
+  color: #00008b;
+  margin-bottom: 10px;
+}
+
+.welcome-content h2 {
+  font-size: 2rem;
+  color: #00008b;
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.welcome-content p em {
+  color: #00008b;
+}
+
+.conference-logo {
+  height: 12rem;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 781px) {
   .welcome-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    gap: 100px;
-    @media screen and (max-width: 781px) {
-      flex-direction: column;
-    }
-  }
-
-  /* .welcome-content { */
-    /* text-align: center; */
-    /* max-width: 800px; */
-    /* margin: auto; */
-  /* } */
-  
-  .welcome-content {
-    display: block;
+    flex-direction: column;
   }
 
   .welcome-content > h1 {
-    font-size: 3rem;
-    color: #00008B;
-    margin-bottom: 10px;
+    font-size: 2.4rem;
   }
   
   .welcome-content h2 {
-    font-size: 2rem;
-    color: #00008B;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
   }
   
   .welcome-content p {
-    font-size: 1.5rem;
-    color: #000;
-    margin-bottom: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 0px;
   }
-  
-  .welcome-content p em {
-    color: #00008B;
+
+  .conference-logo{
+    margin-top: 0px;
   }
-  
-  .conference-logo {
-    height: 12rem;
-    margin-top: 20px;
-  }
-  
+}

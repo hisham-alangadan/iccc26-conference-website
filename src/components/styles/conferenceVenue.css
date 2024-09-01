@@ -26,12 +26,12 @@
             flex-direction: column;
         }
         .about-text {
-            width: 50%;
+            width: 100%;
             font-size: 1.2rem;
             text-align: justify;
         }
         .conf-venue-image-container {
-            width: 50%;
+            width: 100%;
             img {
                 width: 95%;
                 margin: 0 0 0 5vw;

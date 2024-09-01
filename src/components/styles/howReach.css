@@ -62,10 +62,47 @@
 
 .journeyinfo {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: justify;
 }
 
 .navy {
     font-size: 5vh;
+}
+
+@media screen and (max-width: 1280px) {
+    .how-reach-container {
+        padding: 10px;
+        margin: 0 0 15em 0;
+    }
+}
+
+@media screen and (max-width: 781px) {
+    .how-reach-container {
+        padding: 10px;
+        margin: 0 0 32em 0;
+    }
+
+    .how-reach-container h2 {
+        font-size: 2em;
+    }
+
+    .how-reach-container .journeyinfo {
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .how-reach-container p {
+        margin: 1em 24px;
+    }
+
+    .journeyinfo-box {
+        margin-top: 30em;
+        width: 80vw;
+    }
+
+    .journeyinfo {
+        font-weight: 400;
+    }
+    
 }

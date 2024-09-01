@@ -9,7 +9,7 @@
 // import papersIcon from '../assets/papers-icon-2.png';
 import './styles/KeynoteSpeakers.css';
 import './styles/conferenceInfo.css';
-import "../components/styles/tracks.css"
+import "./styles/tracks.css"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { HashLink } from 'react-router-hash-link';
@@ -99,7 +99,7 @@ const ConferenceHighlights = () => {
             <h2>Technical Tracks</h2>
           </div>
         </HashLink> */}
-        <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true} showStatus={false} className='carousel'>
+        <Carousel interval={7000} showThumbs={false} autoPlay={true} infiniteLoop={true} showStatus={false} className='carousel'>
           <HashLink to="/speakers#speaker0">
             <div className="speaker-card ch-speaker-card" >
               <div className="speaker-image">
@@ -167,7 +167,7 @@ const ConferenceHighlights = () => {
                 <tr>
                 <th>Acoustic and Audio Signal Processing </th>
                 <th>Biomedical Signal Processing </th>
-                <th>Instrumentation and Control </th>
+                <th>Instrument- ation and Control </th>
                 </tr>
                   <tr>
                 <th>MEMS/NEMS </th>

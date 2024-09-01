@@ -2,38 +2,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  background-color: rgba(20, 115, 137, 0.7); /* Sir's teal color */
+  padding: 1vh;
+  background-color: rgba(20, 115, 137, 0.7);
   backdrop-filter: blur(8px);
   position: fixed;
   height: 5vh;
   width: 100%;
   z-index: 10;
-  
-  @media screen and (max-width: 781px) {
-    height: 10vh;
-  }
 }
 
 .logo {
   display: flex;
-  /* font-size: vh; */
-  place-content: center;
   align-items: center;
-
-  opacity: 1;
-  backdrop-filter: none;
 }
 
 .logo img {
   height: 7vh;
   padding-left: 0.9vh;
-
-  @media screen and (max-width: 781px) {
-    height: 10vh;
-  }
-
 }
 
 .logo h3 {
@@ -42,30 +27,26 @@
   line-height: 1.3;
 }
 
+.menu-button button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.6vh;
+  cursor: pointer;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
   font-size: 1.6vw;
-  margin-right: 3vh;
   gap: 2em;
-  @media (max-aspect-ratio: 3/4) {
-    gap: 1em;
-  }
   height: 100%;
-  vertical-align:middle;
   align-items: center;
-
-  @media screen and (max-width: 781px) {
-    display: none;
-  }
+  margin-right: 3vh;
 }
 
 .nav-links .nav-link {
-  vertical-align: center;
-  height: 100%;
-  /* border: 1px solid red; */
   padding-top: 2.5vh;
-  overflow: hidden;
 }
 
 .nav-links .nav-link a {
@@ -74,9 +55,6 @@
   font-size: 2vh;
   font-weight: bold;
   transition: color 0.3s;
-  /* border: 1px solid red; */
-  align-items: center;
-  height: 100%;
 }
 
 .nav-links .nav-link a:hover {
@@ -88,72 +66,60 @@
   background-color: rgba(20, 115, 137, 0.7);
   backdrop-filter: blur(8px);
   padding: 1vh;
-  position: fixed;
-  margin-top: 1.8vh;
-  color: white;
-
-  div {
-    padding: 1vh;
-  }
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 70vh; /* Adjust max-height for scrolling */
+  overflow-y: auto; /* Add vertical scrolling if needed */
+  box-sizing: border-box;
 }
 
-.nav-link:hover,
-.nav-link>a:hover {
-  .dropdown {
-    display: block;
-    /* flex-direction: column; */
-  }
-}
-
-.dropdown:hover {
+.nav-link:hover .dropdown {
   display: block;
 }
 
+.dropdown .dropdown-item {
+  padding: 1vh;
+}
+
 @media screen and (max-width: 781px) {
+  .navbar {
+    height: 10vh;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
   .nav-links-mobile {
     display: flex;
     background: inherit;
-    /* backdrop-filter: blur(20px); */
     position: fixed;
-    margin-top: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     flex-direction: column;
-    height: 70vh;
-    .nav-link {
-      padding: 2.5px 10px;
-    }
+    align-items: center;
+    padding: 2vh 0;
+    overflow-y: auto; /* Add vertical scrolling if needed */
   }
 
-  .navbar button {
-    visibility: visible;
+  .nav-links-mobile .nav-link {
+    padding: 1vh;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  /* Adjust dropdown positioning on mobile */
+  .dropdown {
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-height: none; /* Remove max-height on mobile */
+    overflow: auto; /* Ensure scrolling if needed */
   }
 }
-
-
-/* Dropdown Animation */
-/* .dropdown-menu-1 
-  for num in (1..2)
-    .dropdown-item-{num}
-      transform-origin: top center
-      animation: rotateZ 300ms (nums * 60ms) ease-in-out forwards */
-
-/* .dropdown-menu-1 .dropdown-item-1, .dropdown-menu-1 .dropdown-item-1 {
-  transform-origin: top center;
-  animation: rotateZ 300ms (2 * 60ms) ease-in-out forwards;
-}
-
-
-@keyframes rotateZ {
-  0% {
-    opacity: 0;
-    transform: translateZ(290px);
-  }
-  
-  80% {
-    transform: translateZ(10px);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateZ(0);
-  }
-} */
