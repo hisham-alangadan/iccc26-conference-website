@@ -51,7 +51,7 @@ const PaperSubmissionComponent = () => {
                 <br /> <br />
                 <h2>Procedure for Uploading Papers</h2>
                 <ol>
-                    <li>Go to the paper submission website: <a href="https://cmt3.research.microsoft.com">https://cmt3.research.microsoft.com</a></li>
+                    <li>Go to the paper submission website: <a href="https://cmt3.research.microsoft.com/ICCCconf2025">https://cmt3.research.microsoft.com/ICCCconf2025</a></li>
                     <li>You will see a dialog box below with the ICCC 2025 emblem on the page. If you are new to the system, please choose "Register" at the bottom of the dialog box</li>
                     <li>Follow the wizard to finish the registration. Upon finishing, you'll have an account in the system with user ID and Password.</li>
                     <li>Again, log into the system using your login account info (email address and password). From the drop down menu, select the track to which you want to send the papers. It is the responsibility of the author to send his/her paper to the most appropriate track. Otherwise it may be difficult to get proper review of the papers. Make sure that you are submitting the paper to only one track. Otherwise, your paper will be rejected.</li>
