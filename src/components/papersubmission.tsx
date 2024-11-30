@@ -20,24 +20,24 @@ const PaperSubmissionComponent = () => {
                             <th>Event</th>
                             <th>Date</th>
                         </tr>
-                        <tr className="highlighted">
+                        <tr>
                             <td>Paper Submission Opening Date</td>
                             <td>1<sup>st</sup> Sep 2024</td>
                         </tr>
-                        <tr>
-                            <td>Paper Submission Due Date</td>
-                            <td>30<sup>th</sup> Nov 2024</td>
+                        <tr className="highlighted">
+                            <td>Paper Submission Deadline</td>
+                            <td>31<sup>st</sup> Dec 2024</td>
                         </tr>
                         <tr>
-                            <td>Notification of Acceptance</td>
-                            <td>15<sup>th</sup> Jan 2025</td>
+                            <td>Notification to Authors</td>
+                            <td>15<sup>th</sup> Feb 2025 <div>(Rolling Reviews)</div></td>
                         </tr>
                         <tr>
-                            <td>Registration Starts</td>
-                            <td>15<sup>th</sup> Jan 2025</td>
+                            <td>Registration Opens</td>
+                            <td>15<sup>th</sup> Feb 2025</td>
                         </tr>
                         <tr>
-                            <td>Final Camera-ready Paper</td>
+                            <td>Camera-Ready Submission Deadline</td>
                             <td>30<sup>th</sup> March 2025</td>
                         </tr>
                         <tr>
@@ -45,6 +45,7 @@ const PaperSubmissionComponent = () => {
                             <td>23<sup>rd</sup> - 25<sup>th</sup> May 2025</td>
                         </tr>
                     </table>
+                    <div className="paper-ist">*All deadlines are in Indian Standard Time (IST)</div>
                 </div>
             </div>
             <div className="paper-upload">

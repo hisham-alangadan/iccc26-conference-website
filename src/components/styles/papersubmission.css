@@ -102,5 +102,10 @@
 }
 
 .highlighted {
-    color: rgb(0, 207, 0);
+    color: rgba(255, 0, 0, 0.89);;
+}
+
+.paper-ist {
+    font-size: 1.1rem;
+    margin: 1rem 0 0 0;
 }
