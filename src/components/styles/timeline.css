@@ -88,7 +88,7 @@ ul li .date {
 }
 
 ul li .title {
-  color: rgb(0, 207, 0);
+  color: rgba(255, 0, 0, 0.89);
   text-align: center;
   font-size: 2rem; /* Adjusted for responsiveness */
 }

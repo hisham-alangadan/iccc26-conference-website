@@ -17,7 +17,7 @@ export default function Timeline() {
                 </li>
                 <li className='ulli'>
                     <div className="date">Notification to Authors</div>
-                    <div className="title black"><div className='due-date-text'>Rolling Reviews, Final Notification by</div>15<sup>th</sup> Feb. 2025</div>
+                    <div className="title black"><div className='due-date-text'>Rolling Reviews <br></br> Final Notification by</div>15<sup>th</sup> Feb. 2025</div>
                 </li>
                 <li className='ulli ulli-2'>
                     <div className="date">Registration Opens</div>
@@ -28,7 +28,7 @@ export default function Timeline() {
                     <div className="title black">30<sup>th</sup> March 2025</div>
                 </li>
             </ul>
-            <div className='ist'> All deadlines are in Indian Standard Time (IST)</div>
+            <div className='ist'> *All deadlines are in Indian Standard Time (IST)</div>
         </div>
     )
 }
