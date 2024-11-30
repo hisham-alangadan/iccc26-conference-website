@@ -36,6 +36,7 @@ export default function AdvisoryCommittee() {
     const advisoryCommitteeMembers = [
         { name: "Prof. (Dr.) Savier J S", designation: "Principal", college: "Govt. Engineering College Idukki" },
         { name: "Prof. (Dr.) Saji Gopinath", designation: "Vice Chancellor", college: "APJ Abdul Kalam Technological University" },
+        { name: "Prof. Muhammed Kasim S", designation: "Chair, IEEE Kerala Section" },  
         { name: "Prof. (Dr.) Debapriya Das", designation: "IIT Kharagpur" },
         { name: "Prof. (Dr.) Bhavesh Kumar R. Bhalja", designation: "IIT Roorkee" },
         { name: "Prof. (Dr.) Abhijit Kshirsagar", designation: "IIT Dharwad" },
