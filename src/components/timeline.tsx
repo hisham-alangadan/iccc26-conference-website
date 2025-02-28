@@ -12,7 +12,7 @@ export default function Timeline() {
                 </li>
                 <li className='ulli ulli-2'>
                     <div className="date">Paper Submission Deadline</div>
-                    <div className="title">31<sup>st</sup> Dec. 2024</div>
+                    <div className="title black">31<sup>st</sup> Dec. 2024</div>
                     {/* <div className="descr">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos adipisci nobis nostrum vero nihil veniam.</div> */}
                 </li>
                 <li className='ulli'>
@@ -21,7 +21,7 @@ export default function Timeline() {
                 </li>
                 <li className='ulli ulli-2'>
                     <div className="date">Registration Opens</div>
-                    <div className="title black">15<sup>th</sup> Feb. 2025</div>
+                    <div className="title">5<sup>th</sup> Mar. 2025</div>
                 </li>
                 <li className='ulli'>
                     <div className="date" id="crsd">Camera-Ready Submission Deadline</div>
