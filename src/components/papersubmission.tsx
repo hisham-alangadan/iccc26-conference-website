@@ -30,11 +30,11 @@ const PaperSubmissionComponent = () => {
                         </tr>
                         <tr>
                             <td>Notification to Authors</td>
-                            <td>15<sup>th</sup> Feb 2025 <div>(Rolling Reviews)</div></td>
+                            <td>28<sup>th</sup> Feb 2025 <div>(Rolling Reviews)</div></td>
                         </tr>
                         <tr>
                             <td className="highlighted">Registration Opens</td>
-                            <td>5<sup>th</sup> Mar 2025</td>
+                            <td>5<sup>th</sup> March 2025</td>
                         </tr>
                         <tr>
                             <td>Camera-Ready Submission Deadline</td>
