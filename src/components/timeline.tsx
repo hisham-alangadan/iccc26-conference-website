@@ -17,11 +17,11 @@ export default function Timeline() {
                 </li>
                 <li className='ulli'>
                     <div className="date">Notification to Authors</div>
-                    <div className="title black"><div className='due-date-text'>Rolling Reviews <br></br> Final Notification by</div>15<sup>th</sup> Feb. 2025</div>
+                    <div className="title black"><div className='due-date-text'>Rolling Reviews <br></br> Final Notification by</div>28<sup>th</sup> Feb. 2025</div>
                 </li>
                 <li className='ulli ulli-2'>
                     <div className="date">Registration Opens</div>
-                    <div className="title">5<sup>th</sup> Mar. 2025</div>
+                    <div className="title">5<sup>th</sup> March 2025</div>
                 </li>
                 <li className='ulli'>
                     <div className="date" id="crsd">Camera-Ready Submission Deadline</div>
