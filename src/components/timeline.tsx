@@ -25,7 +25,7 @@ export default function Timeline() {
                 </li>
                 <li className='ulli'>
                     <div className="date" id="crsd">Camera-Ready Submission Deadline</div>
-                    <div className="title black">30<sup>th</sup> March 2025</div>
+                    <div className="title black">5<sup>th</sup> April 2025</div>
                 </li>
             </ul>
             <div className='ist'> *All deadlines are in Indian Standard Time (IST)</div>

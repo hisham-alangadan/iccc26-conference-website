@@ -4,9 +4,9 @@ const RegistrationComponent = () => {
     return (
         <div className="registration-container">
             <h2 className="navy">REGISTRATION GUIDELINES</h2>
-            <p>At least one of the authors of each accepted paper must register for the conference for the paper to be included in the conference proceedings and published through IEEE Xplore. Registration fee covers conference proceedings, conference kit, coffee breaks, working lunch and banquet dinner. <br /> <br />
-            Full registration includes the registration of one paper. Additional papers for a single registration come with an additional fee. The maximum length of the paper is 6 pages including references. <br /> <br />
-            A fee of Rs.1000 will be applied for each additional page (with a maximum of 2 pages). <br /> <br />
+            <p>At least one of the authors of each accepted paper must register for the conference for the paper to be included in the conference proceedings and published through IEEE Xplore. Registration fee covers conference proceedings, conference kit, coffee breaks, working lunch and banquet dinner.<br /> <br />
+            A full registration covers the registration of one paper. You may register an additional paper for a fee of ₹2,000 or $50. Please note that while the additional paper will be included in the conference proceedings and presentation certificates will be issued, it will not be submitted to IEEE Xplore for possible publication. Only papers associated with a full author registration will be eligible for possible publication in IEEE Xplore.<br /> <br />
+            The maximum length of the paper is 6 pages including references. A fee of ₹1,000 or $25 will be applied for each additional page (with a maximum of 2 pages).<br /> <br />
             Accepted and presented papers of ICCC 2025 will be submitted for possible publication in the IEEE Xplore® Digital Library.</p>
 
             <h3>Registration Fee</h3>

@@ -38,7 +38,7 @@ const PaperSubmissionComponent = () => {
                         </tr>
                         <tr>
                             <td>Camera-Ready Submission Deadline</td>
-                            <td>30<sup>th</sup> March 2025</td>
+                            <td>5<sup>th</sup> April 2025</td>
                         </tr>
                         <tr>
                             <td>Date of Conference</td>

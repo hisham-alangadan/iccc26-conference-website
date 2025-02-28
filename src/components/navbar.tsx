@@ -56,7 +56,7 @@ const Navbar = () => {
             {/* <div>
               <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
             </div> */}
-            <div>
+            {/* <div>
               <Link to="/authors/cameraready-guidelines">
                 Camera Ready Guidelines
               </Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
               >
                 NEW
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="nav-link">
