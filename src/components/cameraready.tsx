@@ -1,41 +1,73 @@
-import "./styles/cameraready.css"
-
+import "./styles/cameraready.css";
 
 const CameraReadyComponent = () => {
     return (
         <div className="cameraready-container">
-            <h2 className="navy">CAMERA READY PAPER SUBMISSION GUIDELINES</h2>
-            <p>Camera Ready Paper Submission Deadline: March 30, 2025.</p>
-            <p>For camera ready submission, no change in title of the paper and authors are allowed.</p>
-
-            <h3>Step 1: Final Camera Ready Paper and Reviewer Response Preparation</h3>
+            <h2 className="navy">CAMERA-READY PAPER SUBMISSION GUIDELINES</h2>
+            <p>The authors need to submit the following files in the Camera-Ready Submission section:</p>
             <ol>
-                <li>Please follow IEEE two column A4 size standard conference format for preparing your final manuscript. For more details please visit: <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE Templates page</a>.</li>
-                <li>Revised Version: Revise your paper based on reviewers' comments/suggestions (if any). The reviewer's comments are available in the same Microsoft Conference Management Toolkit (CMT) site.</li>
-                <li>The maximum page limit is six pages including references. No author biography at the end.</li>
-                <li>Similarity with other papers should be low (a similarity index below 30% is acceptable for publication). Maximum File Size allowed is 3 MB and the file format is Adobe PDF (.pdf) without any encryption and/or passwords.</li>
-                <li>The authors are expected to make sure that the comments of the reviewers/meta-reviewers have been addressed in the final manuscript.</li>
-                <li>A separate file for the response of reviewer comments needs to be uploaded in Microsoft CMT.</li>
-                <li>Naming of files - Example if Paper ID is 1:
-                    <ul>
-                        <li>Camera ready paper: PID_001</li>
-                        <li>Reviewer Response: Review Response_001</li>
-                    </ul>
-                </li>
-                <li>The final manuscript should have the copyright clearance code notice at the bottom of the first page in latex/word template provided here: <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE Templates page</a>, replace the dummy code (XXX-X-XXXX-XXXX-X/XX/$XX.00 ©20XX IEEE) at the footnote of the first page in bottom with this code:</li>
+                <li>Camera-Ready Paper (Paper must be renamed with PID_paper ID. Example: Paper ID 1 → PID_001)</li>
+                <li>Reviewer Response (Paper must be renamed with ReviewResponse_paper ID. Example: Paper ID 1 → ReviewResponse_001)</li>
             </ol>
 
-            <h3>Step 2: PDF eXpress Check</h3>
-            <p>After you have appropriately revised your paper, pass your revised paper through PDF eXpress using conference ID (57789X) by going to the URL <a href="https://www.pdf-express.org">PDF eXpress</a>. If you do not have an account in PDF eXpress, click on the link "New Users - Click here" and fill in your information (email address and password). If you are not familiar with PDF eXpress you can get detailed instructions on using IEEE PDF eXpress at: <a href="https://www.pdf-express.org/frhelpnologin.asp">PDF eXpress Help</a>.</p>
+            <p>At least one author must register and present the selected paper at ICCC 2025 for the paper to be considered for inclusion in IEEE Xplore. Registration link: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdF6fYmjisCrN3LkX96UskaDnbTOCe8yZHoViM8fiiDBHTxQ/viewform?usp=dialog">ICCC 2025 Registration</a></p>
 
-            <h3>Step 3: Paper Submission</h3>
-            <p>Submit the final version of the paper (after passing it through PDF eXpress check) through the author console in CMT. Please change the file name of the PDF eXpress checked camera ready paper to PID_xxx (where xxx is your paper ID in CMT) before submission to CMT. Please note that authors are expected to retain the title of the original paper in the final paper. Also, the author list in the original paper cannot be changed in the final manuscript.</p>
+            <h3>Camera-Ready Submission Instructions</h3>
+            <p>Authors must submit the camera-ready version as per the guidelines given on the conference website and below, on or before April 05, 2025. The last date for registration is April 10, 2025.</p>
+            <p>For any queries, contact Dr. Jerrin Thomas Panachakel at <a href="mailto:jerrin.panachakel@cet.ac.in">jerrin.panachakel@cet.ac.in</a>.</p>
 
-            <h3>Step 4: Submission of the Copyright Form</h3>
-            <p>After uploading the final camera ready paper (the paper must have passed PDF Check in IEEE PDF eXpress), click on 'Submit IEEE Copyright Form' link to enter the IEEE Copyright Form Submission CMT page. Click on the IEEE copyright website link. Now, the author will be redirected to IEEE eCF site to submit the copyright form. After filling out the IEEE copyright form and copyright agreements, there is an option to download the completed IEEE Copyright Form in PDF (The corresponding author would have received the copyright form through email also). Please upload it (or 'drop files here' menu) on the same page in CMT. Please note that the corresponding author can submit the copyright form for all the authors.</p>
+            <h3>Before submitting the camera-ready paper, ensure that:</h3>
+            <ul>
+                <li>The manuscript has plagiarism below 30%, checked using standard plagiarism detection software.</li>
+                <li>Reviewers' comments have been incorporated into the revised submission.</li>
+                <li>The camera-ready submission strictly follows the IEEE Template available at <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE Templates</a>.</li>
+                <li>The Final Camera-Ready Paper must be within six pages. Papers not meeting these requirements will not be submitted to IEEE Xplore.</li>
+                <li>The final manuscript must include the copyright clearance code notice at the bottom of the first page. Replace the default copyright code with the appropriate one:</li>
+            </ul>
 
-            <h3>Step 5: Conference Registration</h3>
-            <p>A full conference registration is mandatory to have the paper included in the conference program and the proceedings. Registration portal will be opened soon. Please check the website regularly for updates.</p>
+            <h4>Copyright Clearance Code</h4>
+            <ul>
+                <li>US Government employees: U.S. Government work not protected by U.S. copyright</li>
+                <li>UK, Canada, and Australia Government employees: 979-8-3503-3412-8/23/$31.00 ©2025 Crown</li>
+                <li>European Union employees: 979-8-3503-3412-8/23/$31.00 ©2025 European Union</li>
+                <li>All other authors: 979-8-3503-3412-8/23/$31.00 ©2025</li>
+            </ul>
+
+            <p>Authors must format their Camera-Ready Paper using IEEE PDF eXpress and upload the IEEE-compliant PDF.</p>
+
+            <h3>IEEE PDF eXpress Instructions</h3>
+            <ul>
+                <li>Login to <a href="https://ieee-pdf-express.org/">IEEE PDF eXpress</a>.</li>
+                <li>First-time users:
+                    <ul>
+                        <li>Click <strong>New Users – Click Here</strong></li>
+                        <li>Enter <strong>64910X</strong> as the Conference ID</li>
+                        <li>Enter your email address and a password</li>
+                        <li>Follow the prompts to complete the setup</li>
+                    </ul>
+                </li>
+                <li>Returning users should use the same account from previous conferences. Verify your contact information is correct.</li>
+                <li>Download the PDF-compliant file from IEEE PDF eXpress and upload it via the CMT Camera-Ready Paper Submission Portal: <a href="https://cmt3.research.microsoft.com/ICCCconf2025">CMT Submission Portal</a></li>
+            </ul>
+
+            <h3>IEEE Copyright Transfer Submission</h3>
+            <p>To have your paper included in IEEE Xplore, the corresponding/submitting author must transfer the copyright to IEEE. The IEEE eCF (Electronic Copyright Form) submission is mandatory.</p>
+
+            <h4>Steps to complete IEEE eCF submission:</h4>
+            <ul>
+                <li>Login to <a href="https://cmt3.research.microsoft.com/ICCCconf2025">CMT Paper Submission Portal</a></li>
+                <li>Click on IEEE Copyright Link → Redirects to the IEEE Copyright Form Submission Page</li>
+                <li>Click "Click here to redirect to the IEEE copyright website"</li>
+                <li>Complete the steps (Step 1 to Step 5) to transfer copyright</li>
+                <li>At the end of Step 5, download the completed IEEE Copyright Form (PDF)</li>
+                <li>Upload this PDF file of the Copyright Form back to CMT</li>
+                <li>This completes the IEEE Copyright Transfer. A separate copyright transfer is required for each accepted paper.</li>
+            </ul>
+
+            <h3>Important Formatting Instruction</h3>
+            <p>Do not include "1st", "2nd", etc., with author names. These are placeholders from the IEEE template and should not appear in the final submission.</p>
+
+            <p><strong>Failure to comply with the above instructions may result in rejection from IEEE Xplore.</strong></p>
         </div>
     );
 };
