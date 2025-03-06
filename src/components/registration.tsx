@@ -9,6 +9,9 @@ const RegistrationComponent = () => {
             The maximum length of the paper is 6 pages including references. A fee of ₹1,000 or $25 will be applied for each additional page (with a maximum of 2 pages).<br /> <br />
             Accepted and presented papers of ICCC 2025 will be submitted for possible publication in the IEEE Xplore® Digital Library.</p>
 
+            <h3>Registration Payment Link</h3>
+            <p>Please pay the registration fee through the payment link: <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?saralID=-911830842">Payment Link</a></p>
+
             <h3>Registration Fee</h3>
             <table>
                 <thead>

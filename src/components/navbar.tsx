@@ -69,7 +69,7 @@ const Navbar = () => {
                   padding: "2px 6px",
                   margin: "0 5px",
                   borderRadius: "4px",
-                  height: "50%",
+                  height: "30%",
                   verticalAlign: "middle",
                 }}
               >
@@ -79,7 +79,22 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-link">
-          <Link to="/registration">Registration</Link>
+          <Link to="/registration">Registration<span
+                style={{
+                  backgroundColor: "red",
+                  color: "white",
+                  fontSize: "12px",
+                  fontWeight: "bold",
+                  padding: "2px 6px",
+                  margin: "0 5px",
+                  borderRadius: "4px",
+                  height: "35%",
+                  verticalAlign: "middle",
+                }}
+              >
+                NEW
+              </span></Link>
+          
         </div>
         <div className="nav-link">
           <a href="#">Call for Papers</a>
