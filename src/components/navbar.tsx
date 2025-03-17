@@ -91,6 +91,7 @@ const Navbar = () => {
                   height: "35%",
                   verticalAlign: "middle",
                 }}
+                className = "mobile-hidden"
               >
                 NEW
               </span></Link>
