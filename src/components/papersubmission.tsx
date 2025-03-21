@@ -33,11 +33,15 @@ const PaperSubmissionComponent = () => {
                             <td>28<sup>th</sup> Feb 2025 <div>(Rolling Reviews)</div></td>
                         </tr>
                         <tr>
-                            <td className="highlighted">Registration Opens</td>
+                            <td>Registration Opens</td>
                             <td>5<sup>th</sup> March 2025</td>
                         </tr>
                         <tr>
                             <td>Camera-Ready Submission Deadline</td>
+                            <td>5<sup>th</sup> April 2025</td>
+                        </tr>
+                        <tr>
+                            <td className="highlighted">Registration Ends</td>
                             <td>5<sup>th</sup> April 2025</td>
                         </tr>
                         <tr>
