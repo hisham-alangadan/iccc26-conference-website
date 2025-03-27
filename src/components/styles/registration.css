@@ -13,6 +13,10 @@
         padding-top: 15vh;
     }
 
+    .reg-ends-date {
+        color: red;
+    }
+
     table {
         text-align: left;
         /* border: 1px white solid; */
