@@ -27,10 +27,10 @@ const CameraReadyComponent = () => {
 
             <h4>Copyright Clearance Code</h4>
             <ul>
-                <li>US Government employees: U.S. Government work not protected by U.S. copyright</li>
-                <li>UK, Canada, and Australia Government employees: 979-8-3503-3412-8/23/$31.00 ©2025 Crown</li>
-                <li>European Union employees: 979-8-3503-3412-8/23/$31.00 ©2025 European Union</li>
-                <li>All other authors: 979-8-3503-3412-8/23/$31.00 ©2025</li>
+                <li>For papers in which all authors are employed by the US government, the copyright notice is: <b>U.S. Government work not protected by U.S. copyright</b></li>
+                <li>For papers in which all authors are employed by a Crown government (UK, Canada, and Australia), the copyright notice is: <b>979-8-3315-1949-0/25/$31.00 ©2025 Crown</b></li>
+                <li>For papers in which all authors are employed by the European Union, the copyright notice is: <b>979-8-3315-1949-0/25/$31.00 ©2025 European Union</b></li>
+                <li>For all other papers the copyright notice is: <b>979-8-3315-1949-0/25/$31.00 ©2025 IEEE</b></li>
             </ul>
 
             <p>Authors must format their Camera-Ready Paper using IEEE PDF eXpress and upload the IEEE-compliant PDF.</p>
