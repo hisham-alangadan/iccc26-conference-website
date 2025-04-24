@@ -8,3 +8,21 @@
     text-align: center;
     font-size: 10vh;
 }
+
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.instructions-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.instructions-table th, .instructions-table td {
+    white-space: nowrap;
+    padding: 1vh 1vw;
+    border: 1px solid black;
+    text-align: left;
+}
