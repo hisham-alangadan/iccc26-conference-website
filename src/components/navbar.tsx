@@ -76,7 +76,22 @@ const Navbar = () => {
           </div>
         </div> */}
         <div className="nav-link">
-          <a href="#">Schedule</a>
+          <a href="#">Schedule<span
+              style={{
+                backgroundColor: "red",
+                color: "white",
+                fontSize: "12px",
+                fontWeight: "bold",
+                padding: "2px 6px",
+                margin: "0 5px",
+                borderRadius: "4px",
+                height: "35%",
+                verticalAlign: "middle",
+              }}
+              className="mobile-hidden"
+            >
+              NEW
+            </span></a>
           <div className="dropdown">
             <div className="dropdown-item">
               <Link to="/schedule/track1">Track 1</Link>
