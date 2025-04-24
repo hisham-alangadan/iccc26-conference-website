@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="nav-link">
+        {/* <div className="nav-link">
           <a href="#">Authors</a>
           <div className="dropdown">
             <div>
@@ -53,9 +53,6 @@ const Navbar = () => {
                 Paper Submission Guidelines
               </Link>
             </div>
-            {/* <div>
-              <Link to="/authors/presentation-guidelines">Presentation Guidelines</Link>
-            </div> */}
             <div>
               <Link to="/authors/cameraready-guidelines">
                 Camera Ready Guidelines
@@ -77,25 +74,56 @@ const Navbar = () => {
               </span>
             </div>
           </div>
+        </div> */}
+        <div className="nav-link">
+          <a href="#">Schedule<span
+              style={{
+                backgroundColor: "red",
+                color: "white",
+                fontSize: "12px",
+                fontWeight: "bold",
+                padding: "2px 6px",
+                margin: "0 5px",
+                borderRadius: "4px",
+                height: "35%",
+                verticalAlign: "middle",
+              }}
+              className="mobile-hidden"
+            >
+              NEW
+            </span></a>
+          <div className="dropdown">
+            <div className="dropdown-item">
+              <Link to="/schedule/track1">Track 1</Link>
+            </div>
+            <div className="dropdown-item">
+              <Link to="/schedule/track2">Track 2</Link>
+            </div>
+            <div className="dropdown-item">
+              <Link to="/schedule/track3">Track 3</Link>
+            </div>
+          </div>
         </div>
         <div className="nav-link">
-          <Link to="/registration">Registration<span
-                style={{
-                  backgroundColor: "red",
-                  color: "white",
-                  fontSize: "12px",
-                  fontWeight: "bold",
-                  padding: "2px 6px",
-                  margin: "0 5px",
-                  borderRadius: "4px",
-                  height: "35%",
-                  verticalAlign: "middle",
-                }}
-                className = "mobile-hidden"
-              >
-                NEW
-              </span></Link>
-          
+          <Link to="/registration">
+            Registration
+            <span
+              style={{
+                backgroundColor: "red",
+                color: "white",
+                fontSize: "12px",
+                fontWeight: "bold",
+                padding: "2px 6px",
+                margin: "0 5px",
+                borderRadius: "4px",
+                height: "35%",
+                verticalAlign: "middle",
+              }}
+              className="mobile-hidden"
+            >
+              NEW
+            </span>
+          </Link>
         </div>
         <div className="nav-link">
           <a href="#">Call for Papers</a>
@@ -126,6 +154,9 @@ const Navbar = () => {
             </div>
             <div>
               <Link to="/venue/tourism">Local Attractions</Link>
+            </div>
+            <div>
+              <Link to="/venue/accommodation">Accommodation</Link>
             </div>
           </div>
         </div>

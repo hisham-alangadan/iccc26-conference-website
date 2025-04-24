@@ -24,12 +24,14 @@ import LocalStuff from "./pages/LocalStuff.tsx";
 import Keynote from "./pages/Keynote.tsx";
 import Tutorials from "./pages/Tutorials.tsx";
 import EventSchedule from "./pages/EventSchedule.tsx";
-import Accomodation from "./pages/Accommodation.tsx";
+// import Accomodation from "./pages/Accommodation.tsx";
 import HowReach from "./pages/HowReach.tsx";
 import Accommodation from "./components/Accomodation.tsx";
 import ConferenceVenue from "./pages/ConferenceVenue.tsx";
 import AdvisoryCommitte from "./pages/AdvisoryCommittee.tsx";
 import SteeringCommittee from "./pages/SteeringCommittee.tsx";
+import Schedule from "./pages/Schedule.tsx";
+// import ScheduleTable from "./components/scheduleTable.tsx";
 // import LocalStuff from "./pages/LocalStuff.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
 import "./App.css"
@@ -60,16 +62,17 @@ function App() {
         <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>
         <Route path="/speakers" element={<KeySpeakers/>}></Route>
         <Route path="/registration" element={<Registration />}></Route>
+        <Route path="/schedule/:track" element={<Schedule />} />
         {/* <Route path="/eventdetails" element={<EventDetails />}></Route> */}
         <Route path="/venue/conference" element={<AboutUs venue={true} />}></Route>
-        <Route path="/venue/accomodation" element={<Accomodation />}></Route>
+        {/* <Route path="/venue/accomodation" element={<Accomodation />}></Route> */}
         <Route path="/venue/howtoreach" element={<HowReach />}></Route>
         <Route path="/venue/tourism" element={<LocalStuff />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/keynote" element={<Keynote />}></Route>
         <Route path="/tutorials" element={<Tutorials />}></Route>
         <Route path="/eventschedule" element={<EventSchedule />}></Route>
-        <Route path="/accommodation" element={<Accommodation/>}></Route>
+        <Route path="/venue/accommodation" element={<Accommodation/>}></Route>
         <Route path="/conferencevenue" element={<ConferenceVenue />}></Route>
         <Route path="/committee/advisorycommittee" element={<AdvisoryCommitte />}></Route>
         <Route path="/committee/steeringcommittee" element={<SteeringCommittee />}></Route>

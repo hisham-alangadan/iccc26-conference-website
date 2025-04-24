@@ -15,10 +15,19 @@ import { Carousel } from 'react-responsive-carousel';
 import { HashLink } from 'react-router-hash-link';
 import DrTessy from '../assets/DrTessy.png';
 import DrSaji from '../assets/DrSaji_cropped.png';
+import DrSugiyama from "../assets/sugiyama.jpg";
 // import trax1 from '../assets/trax1.png';
 // import trakcs from '../assets/tracks.png'
 
 const speakers = [
+  {
+    name: "Dr. Akihiko Sugiyama",
+    title: "Senior Researcher, Yahoo JAPAN, IEEE Fellow",
+    image: DrSugiyama, // Replace with actual image when available
+    bio: `Dr. Sugiyama is currently affiliated with Yahoo JAPAN Research, where he continues to lead cutting-edge research in audio coding, speech enhancement, and interference/noise control. His illustrious career began at NEC Central Research Laboratories, where he served as a principal research engineer for several decades. His innovative work has led to 217 registered patents, with more pending, and contributions to 17 book chapters, reflecting the depth and breadth of his expertise. He is widely recognized for his leadership in the global research community, having served in numerous influential roles within the IEEE Signal Processing Society (SPS).
+Dr. Sugiyama has delivered 169 invited talks in 87 cities across 30 countries. His speaking credentials are further affirmed by his past roles as a Distinguished Lecturer for both SPS and the IEEE Consumer Technology Society (CTS). His exceptional contributions have earned him 20 prestigious awards, including the IEICE Best Paper Award (2002), IEICE Achievement Awards (2006 & 2018), the Ichimura Industry Award (2013), and the IEICE Distinguished Achievement and Contribution Award (2021).
+Among his recent works are influential papers on adaptive noise cancellation algorithms, speech enhancement technologies, and the interplay between innovation and standardization in media signal processing. His insights continue to shape the future of audio and acoustic signal processing. Dr. Sugiyama brings not only technical brilliance but also a rare blend of academic depth, industry insight, and global vision.`,
+  },
   {
     name: "Dr. Tessy Thomas",
     title: "Distinguished Scientist, Director General (Former) Aeronautical Systems",
@@ -123,6 +132,19 @@ const ConferenceHighlights = () => {
                 <h2 className='speaker-name'>{speakers[1].name}</h2>
                 <h3><strong>{speakers[1].title}</strong></h3>
                 <p className="speaker-bio">{speakers[1].bio}</p>
+              </div>
+            </div>
+          </HashLink>
+          <HashLink to="/speakers#speaker2">
+            <div className="speaker-card ch-speaker-card">
+              <div className="speaker-image">
+                <img src={speakers[2].image} alt={speakers[2].name} />
+              </div>
+              <div className="speaker-info ch-speaker-info">
+                <h2 className='keynote-speaker-card-heading' style={{"color":"navy"}}><strong>KEYNOTE SPEAKER</strong></h2>
+                <h2 className='speaker-name'>{speakers[2].name}</h2>
+                <h3><strong>{speakers[2].title}</strong></h3>
+                <p className="speaker-bio">{speakers[2].bio}</p>
               </div>
             </div>
           </HashLink>
