@@ -238,7 +238,7 @@ export const track3Schedule = [
     ],
   },
   {
-    sessionTitle: "Technical Session 3 - TRACK 3 (COMPUTING) CG 5",
+    sessionTitle: "Technical Session 13 - TRACK 3 (COMPUTING) CG 5",
     date: "24-05-2025",
     timing: "9.30 am - 11.00 am",
     papers: [
@@ -279,20 +279,20 @@ export const track3Schedule = [
       {
         slno: 5,
         sessionId: "CG 5.5",
-        paperId: "595",
+        paperId: "630",
         title:
-          "AI-assisted Automation of Document Processing in Government Services",
+          "A3VS: Automated Authenticated AI-based Vulnerability Scanner for Ethical Security Auditing",
         authors:
-          "Rajan Kumar; Shashank Kumar (Indian Institute of Technology Guwahati)",
+          "Durbadal Chattaraj*; Shashank B S ; G Venkat Vatsav ; Sahana G J (; Indushree M (Dayananda Sagar University)",
       },
       {
         slno: 6,
         sessionId: "CG 5.6",
-        paperId: "602",
+        paperId: "639",
         title:
-          "Privacy-preserving Federated Learning for Medical Data Analysis",
+          "Dynamic Partial Reconfiguration for adaptive QKD key distillation process on FPGA ",
         authors:
-          "Harini Chandra; Prashant Verma (National Institute of Technology Warangal)",
+          "Manjith Baby Sarojam Chellam (Indian Institute of Information Technology Kottayam)*; Saptarsi Halder (Sapienza university of Rome)",
       },
     ],
   },
