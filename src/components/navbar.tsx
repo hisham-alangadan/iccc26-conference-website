@@ -107,22 +107,6 @@ const Navbar = () => {
         <div className="nav-link">
           <Link to="/registration">
             Registration
-            <span
-              style={{
-                backgroundColor: "red",
-                color: "white",
-                fontSize: "12px",
-                fontWeight: "bold",
-                padding: "2px 6px",
-                margin: "0 5px",
-                borderRadius: "4px",
-                height: "35%",
-                verticalAlign: "middle",
-              }}
-              className="mobile-hidden"
-            >
-              NEW
-            </span>
           </Link>
         </div>
         <div className="nav-link">
