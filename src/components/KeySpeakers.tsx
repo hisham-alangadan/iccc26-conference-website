@@ -3,42 +3,34 @@ import "./styles/KeynoteSpeakers.css";
 import DrTessy from "../assets/DrTessy.png";
 import DrSaji from "../assets/DrSaji_cropped.png";
 import DrSugiyama from "../assets/sugiyama.jpg";
+import uprajeev from "../assets/uprajeev.jpg";
 
 const speakers = [
   {
     name: "Dr. Akihiko Sugiyama",
     title: "Senior Researcher, Yahoo JAPAN, IEEE Fellow",
     image: DrSugiyama, // Replace with actual image when available
+    datetime: "24th May 2025, 10:30 AM - 11:30 AM",
+    topic: "In Search of a Better Solution with a Technology Logic Triangle and the Toyota Production System",
     bio: `Dr. Sugiyama is currently affiliated with Yahoo JAPAN Research, where he continues to lead cutting-edge research in audio coding, speech enhancement, and interference/noise control. His illustrious career began at NEC Central Research Laboratories, where he served as a principal research engineer for several decades. His innovative work has led to 217 registered patents, with more pending, and contributions to 17 book chapters, reflecting the depth and breadth of his expertise. He is widely recognized for his leadership in the global research community, having served in numerous influential roles within the IEEE Signal Processing Society (SPS).
 Dr. Sugiyama has delivered 169 invited talks in 87 cities across 30 countries. His speaking credentials are further affirmed by his past roles as a Distinguished Lecturer for both SPS and the IEEE Consumer Technology Society (CTS). His exceptional contributions have earned him 20 prestigious awards, including the IEICE Best Paper Award (2002), IEICE Achievement Awards (2006 & 2018), the Ichimura Industry Award (2013), and the IEICE Distinguished Achievement and Contribution Award (2021).
 Among his recent works are influential papers on adaptive noise cancellation algorithms, speech enhancement technologies, and the interplay between innovation and standardization in media signal processing. His insights continue to shape the future of audio and acoustic signal processing. Dr. Sugiyama brings not only technical brilliance but also a rare blend of academic depth, industry insight, and global vision.`,
   },
   {
-    name: "Dr. Tessy Thomas",
+    name: "Dr. U P Rajeev",
     title:
-      "Distinguished Scientist, Director General (Former) Aeronautical Systems",
-    image: DrTessy, // Replace with actual image when available
-    bio: `Dr. Tessy Thomas, Distinguished Scientist, Director General Aeronautical Systems obtained her
-BTech in Electrical Engineering from Calicut University in 1985 and ME in Guided Missiles from the
-Institute of Armament Technology, Pune in 1986 and PhD in Missile Guidance from Jawaharlal Nehru
-Technological University (JNTU), Hyderabad in 2014. She obtained MBA in Operations Management
-from Indira Gandhi National Open University (IGNOU), New Delhi, in 2007. She joined IAT, Pune as
-a faculty member in Guided Missiles in 1986. She joined the Inertial Navigation group as Scientist 'B'
-1988 at Hyderabad. She has been associated with the Agni Programme since its developmental flights.
-She has designed the guidance scheme for long-range missile systems, which is used in all Agni
-missiles. An energy management guidance scheme was designed and developed for the first time in
-the country for an all–solid propelled long-range system, for which she was conferred the Agni Self
-Reliance Award in 2001. She led a major project, AGNI-4, as Project Director for a state-of-the-art
-system with many new technologies for the first time, which was successfully flight-tested and proven.
-She was also Project Director (Mission) for the long-range AGNI-5 system, which was successfully
-flight-tested and proven. As Director of the Advanced Systems Laboratory, DRDO, she held
-multidimensional roles and responsibilities and led the development of a strategic system. Presently,
-she is leading the Aeronautical Systems Cluster Laboratories as Director General.`,
+      "Programme Director, Space Transportation System, VSSC",
+    image: uprajeev,
+    datetime: "24th May 2025, 11:30 AM - 12:30 PM",
+    topic: "Interplanetary Superhighway - Redefining Interplanetary Travel",
+    bio: ``,
   },
   {
     name: "Saji S",
     title: "Senior Vice President, HVDC Hitachi Energy India",
     image: DrSaji, // Replace with actual image when available
+    datetime: "25th May 2025, 9:30 AM - 10:30 AM",
+    topic: "Advanced Control & Computing System for Enabling Energy Transition",
     bio: `Saji S is Hitachi Energy's HUB Manager HVDC & HVDC Service India. He joined the technology
 pioneer in 1995 and led some of its milestone and most ambitious power-linking projects in India.
 Hitachi Energy is the global leader in HVDC technology and has installed around half of the
@@ -84,6 +76,8 @@ const KeynoteSpeakers: React.FC = () => {
               <h3>
                 <strong>{speaker.title}</strong>
               </h3>
+              <p className="speaker-datetime"><strong>Date & Time:</strong> {speaker.datetime}</p>
+              <p className="speaker-topic"><strong>Topic:</strong> {speaker.topic}</p>
               <p className="speaker-bio">{speaker.bio}</p>
             </div>
           </div>
