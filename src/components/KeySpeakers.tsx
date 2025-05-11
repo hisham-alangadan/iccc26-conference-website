@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/KeynoteSpeakers.css";
-import DrTessy from "../assets/DrTessy.png";
+// import DrTessy from "../assets/DrTessy.png";
 import DrSaji from "../assets/DrSaji_cropped.png";
 import DrSugiyama from "../assets/sugiyama.jpg";
 import uprajeev from "../assets/uprajeev.jpg";
