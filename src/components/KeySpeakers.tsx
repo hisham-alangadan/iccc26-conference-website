@@ -23,7 +23,15 @@ Among his recent works are influential papers on adaptive noise cancellation alg
     image: uprajeev,
     datetime: "24th May 2025, 11:30 AM - 12:30 PM",
     topic: "Interplanetary Superhighway - Redefining Interplanetary Travel",
-    bio: ``,
+    bio: `Dr. U. P. Rajeev
+Programme Director, Space Transportation System
+Indian Space Research Organisation (ISRO)
+
+Dr. U. P. Rajeev is an eminent aerospace scientist currently serving as the Programme Director of the Space Transportation System at the Indian Space Research Organisation (ISRO). With decades of experience in the field of space mission design, guidance, and control, Dr. Rajeev has significantly contributed to India's space launch capabilities. Prior to his current role, he was the Group Director for Control, Guidance, and Mission Simulations.
+
+Dr. Rajeev's expertise lies in mission design, trajectory optimization, control law development, and real-time guidance algorithms for launch vehicles and re-entry systems. He has played a pivotal role in the development of robust trajectory optimization methods, including self-starting guidance algorithms capable of handling complex constraints such as heat flux, impact zones, and path limitations. His work has direct implications for increasing payload efficiency and mission safety in multistage launch vehicles.
+
+He has authored and co-authored numerous peer-reviewed articles in reputed journals such as Journal of Spacecraft and Rockets and IFAC-PapersOnLine. His research spans across trajectory optimization, launch vehicle dynamics, re-entry control systems, reusable launch vehicle development, and Mars landing guidance systems.`,
   },
   {
     name: "Saji S",
