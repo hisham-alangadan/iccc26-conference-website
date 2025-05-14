@@ -38,11 +38,13 @@ Among his recent works are influential papers on adaptive noise cancellation alg
     image: uprajeev,
     datetime: "24th May 2025, 11:30 AM - 12:30 PM",
     topic: "Interplanetary Superhighway - Redefining Interplanetary Travel",
-    bio: `Dr. U. P. Rajeev is an eminent aerospace scientist currently serving as the Programme Director of the Space Transportation System at the Indian Space Research Organisation (ISRO). With decades of experience in the field of space mission design, guidance, and control, Dr. Rajeev has significantly contributed to India's space launch capabilities. Prior to his current role, he was the Group Director for Control, Guidance, and Mission Simulations.
+    bio: `Dr. U. P. Rajeev currently serves as the Program Director of Space Transportation Systems at the Vikram Sarabhai Space Centre (VSSC), Indian Space Research Organisation (ISRO). A distinguished alumnus of the College of Engineering Trivandrum (CET), he holds a doctorate in Aerospace Engineering and began his career at VSSC in 1994.
 
-Dr. Rajeev's expertise lies in mission design, trajectory optimization, control law development, and real-time guidance algorithms for launch vehicles and re-entry systems. He has played a pivotal role in the development of robust trajectory optimization methods, including self-starting guidance algorithms capable of handling complex constraints such as heat flux, impact zones, and path limitations. His work has direct implications for increasing payload efficiency and mission safety in multistage launch vehicles.
+With over two decades of experience, Dr. Rajeev has played a pivotal role in the development of guidance algorithms for all of ISRO’s current expendable launch vehicles. His leadership has been instrumental in shaping the control and guidance strategies for key national missions, including Chandrayaan and Gaganyaan.
 
-He has authored and co-authored numerous peer-reviewed articles in reputed journals such as Journal of Spacecraft and Rockets and IFAC-PapersOnLine. His research spans across trajectory optimization, launch vehicle dynamics, re-entry control systems, reusable launch vehicle development, and Mars landing guidance systems.`,
+He has previously headed the Control and Guidance Design Group and the Advanced Space Transportation Systems division, contributing significantly to India’s space program. Alongside his professional responsibilities, Dr. Rajeev is also actively involved in academia, serving as a visiting professor at the Indian Institute of Space Science and Technology (IIST) and IIT Bombay. He mentors numerous undergraduate, postgraduate, and doctoral students, and regularly publishes in reputed technical journals and conferences.
+
+Dr. Rajeev is a life member of several esteemed professional bodies and continues to inspire the next generation of engineers and scientists.`,
   },
   {
     name: "Saji S",
