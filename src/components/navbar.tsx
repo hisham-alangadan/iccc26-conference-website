@@ -76,7 +76,9 @@ const Navbar = () => {
           </div>
         </div> */}
         <div className="nav-link">
-          <a href="#">Schedule<span
+          <a href="#">
+            Schedule
+            <span
               style={{
                 backgroundColor: "red",
                 color: "white",
@@ -91,23 +93,40 @@ const Navbar = () => {
               className="mobile-hidden"
             >
               NEW
-            </span></a>
+            </span>
+          </a>
           <div className="dropdown">
             <div className="dropdown-item">
-              <Link to="/schedule/track1">Track 1</Link>
+              <a
+                href="https://docs.google.com/document/d/1wa1QsETsDaHDLKGvJOw8_7CqVSxdsmUo/edit?usp=sharing&ouid=108372692201678093263&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Track 1
+              </a>
             </div>
             <div className="dropdown-item">
-              <Link to="/schedule/track2">Track 2</Link>
+              <a
+                href="https://docs.google.com/document/d/1PYsXa02h0mtlMWeB6urZYo45-rB-snwk/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Track 2
+              </a>
             </div>
             <div className="dropdown-item">
-              <Link to="/schedule/track3">Track 3</Link>
+              <a
+                href="https://docs.google.com/document/d/1aSdtvuhelCqF6l-rBePH3xMXCCIsI6Z7/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Track 3
+              </a>
             </div>
           </div>
         </div>
         <div className="nav-link">
-          <Link to="/registration">
-            Registration
-          </Link>
+          <Link to="/registration">Registration</Link>
         </div>
         <div className="nav-link">
           <a href="#">Call for Papers</a>
