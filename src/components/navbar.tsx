@@ -7,6 +7,7 @@ import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
+  const [scheduleView, setScheduleView] = useState("main"); // "main" or "track"
 
   const toggleClass = () => {
     setActive(!isActive);
@@ -76,55 +77,80 @@ const Navbar = () => {
           </div>
         </div> */}
         <div className="nav-link">
-          <a href="#">
+          <button
+            className="dropdown-toggle"
+            onClick={() => setScheduleView("main")}
+          >
             Schedule
-            <span
-              style={{
-                backgroundColor: "red",
-                color: "white",
-                fontSize: "12px",
-                fontWeight: "bold",
-                padding: "2px 6px",
-                margin: "0 5px",
-                borderRadius: "4px",
-                height: "35%",
-                verticalAlign: "middle",
-              }}
-              className="mobile-hidden"
-            >
-              NEW
-            </span>
-          </a>
+          </button>
           <div className="dropdown">
-            <div className="dropdown-item">
-              <a
-                href="https://docs.google.com/document/d/1wa1QsETsDaHDLKGvJOw8_7CqVSxdsmUo/edit?usp=sharing&ouid=108372692201678093263&rtpof=true&sd=true"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Track 1
-              </a>
-            </div>
-            <div className="dropdown-item">
-              <a
-                href="https://docs.google.com/document/d/1PYsXa02h0mtlMWeB6urZYo45-rB-snwk/edit"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Track 2
-              </a>
-            </div>
-            <div className="dropdown-item">
-              <a
-                href="https://docs.google.com/document/d/1aSdtvuhelCqF6l-rBePH3xMXCCIsI6Z7/edit"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Track 3
-              </a>
-            </div>
+            {scheduleView === "main" && (
+              <>
+                <div className="dropdown-item">
+                  <Link to="/schedule/inaugural">Inaugural Schedule</Link>
+                </div>
+                <div className="dropdown-item">
+                  <Link to="/schedule/program">Program Schedule</Link>
+                </div>
+                <div className="dropdown-item">
+                  <button
+                    className="nested-toggle"
+                    onClick={(e) => {
+                      e.stopPropagation(); // 🛑 Prevents closing due to bubbling
+                      setScheduleView("track");
+                    }}
+                  >
+                    Track Schedule
+                  </button>
+                </div>
+              </>
+            )}
+
+            {scheduleView === "track" && (
+              <>
+                <div className="dropdown-item">
+                  <button
+                    className="back-button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setScheduleView("main");
+                    }}
+                  >
+                    ← Back
+                  </button>
+                </div>
+                <div className="dropdown-item">
+                  <a
+                    href="https://docs.google.com/document/d/1wa1QsETsDaHDLKGvJOw8_7CqVSxdsmUo/edit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Track 1
+                  </a>
+                </div>
+                <div className="dropdown-item">
+                  <a
+                    href="https://docs.google.com/document/d/1PYsXa02h0mtlMWeB6urZYo45-rB-snwk/edit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Track 2
+                  </a>
+                </div>
+                <div className="dropdown-item">
+                  <a
+                    href="https://docs.google.com/document/d/1aSdtvuhelCqF6l-rBePH3xMXCCIsI6Z7/edit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Track 3
+                  </a>
+                </div>
+              </>
+            )}
           </div>
         </div>
+
         <div className="nav-link">
           <Link to="/registration">Registration</Link>
         </div>
