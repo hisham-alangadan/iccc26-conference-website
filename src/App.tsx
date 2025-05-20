@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import WelcomePage from "./components/welcomePage";
@@ -8,10 +8,10 @@ import ConferenceHighlights from "./components/conferenceHighlights";
 // import ContactUs from "./components/ContactUs.tsx";
 import Footer from "./components/Footer.tsx";
 // import Venue from './pages/Venue';
-import AboutUs from './pages/AboutUs';
-import OrgCommittee from './pages/Committee.tsx';
-import Tracks from './pages/Tracks.tsx';
-import ImpDates from './pages/ImpDates.tsx';
+import AboutUs from "./pages/AboutUs";
+import OrgCommittee from "./pages/Committee.tsx";
+import Tracks from "./pages/Tracks.tsx";
+import ImpDates from "./pages/ImpDates.tsx";
 import PaperSubmission from "./pages/PaperSubmission.tsx";
 import Presentation from "./pages/Presentation.tsx";
 import KeySpeakers from "./pages/KeynoteSpeakers.tsx";
@@ -31,40 +31,62 @@ import ConferenceVenue from "./pages/ConferenceVenue.tsx";
 import AdvisoryCommitte from "./pages/AdvisoryCommittee.tsx";
 import SteeringCommittee from "./pages/SteeringCommittee.tsx";
 import Schedule from "./pages/Schedule.tsx";
+import InauguralSchedule from "./components/inauguralSchedule.tsx";
+import ProgramSchedule from "./components/programSchedule.tsx";
 // import ScheduleTable from "./components/scheduleTable.tsx";
 // import LocalStuff from "./pages/LocalStuff.tsx";
 // import ImageCarousel from "./components/Carousel.tsx";
-import "./App.css"
+import "./App.css";
 
 function App() {
-
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<>
-          <Navbar />
-          <Home />
-          {/* <ImageCarousel /> */}
-          <WelcomePage />
-          <ConferenceHighlights />
-          <Timeline />
-          {/* <ConferenceInfo /> */}
-          {/* Vasanti's footer */}
-          <Footer />
-          </>}></Route>
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Home />
+              {/* <ImageCarousel /> */}
+              <WelcomePage />
+              <ConferenceHighlights />
+              <Timeline />
+              {/* <ConferenceInfo /> */}
+              {/* Vasanti's footer */}
+              <Footer />
+            </>
+          }
+        ></Route>
         {/* <Route path="/venue" element={<Venue/>}></Route> */}
         <Route path="/aboutus" element={<AboutUs venue={false} />}></Route>
-        <Route path="/committee/organizing" element={<OrgCommittee/>}></Route>
-        <Route path="/tracks" element={<Tracks/>}></Route>
-        <Route path="/imp-dates" element={<ImpDates/>}></Route>
-        <Route path="/authors/submission-guidelines" element={<PaperSubmission />}></Route>
-        <Route path="/authors/presentation-guidelines" element={<Presentation/>}> </Route>
-        <Route path="/authors/cameraready-guidelines" element={<CameraReady />}></Route>
-        <Route path="/speakers" element={<KeySpeakers/>}></Route>
+        <Route path="/committee/organizing" element={<OrgCommittee />}></Route>
+        <Route path="/tracks" element={<Tracks />}></Route>
+        <Route path="/imp-dates" element={<ImpDates />}></Route>
+        <Route
+          path="/authors/submission-guidelines"
+          element={<PaperSubmission />}
+        ></Route>
+        <Route
+          path="/authors/presentation-guidelines"
+          element={<Presentation />}
+        >
+          {" "}
+        </Route>
+        <Route
+          path="/authors/cameraready-guidelines"
+          element={<CameraReady />}
+        ></Route>
+        <Route path="/speakers" element={<KeySpeakers />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
         <Route path="/schedule/:track" element={<Schedule />} />
+        <Route path="/schedule/inaugural" element={<InauguralSchedule />} />
+        <Route path="/schedule/program" element={<ProgramSchedule />} />
         {/* <Route path="/eventdetails" element={<EventDetails />}></Route> */}
-        <Route path="/venue/conference" element={<AboutUs venue={true} />}></Route>
+        <Route
+          path="/venue/conference"
+          element={<AboutUs venue={true} />}
+        ></Route>
         {/* <Route path="/venue/accomodation" element={<Accomodation />}></Route> */}
         <Route path="/venue/howtoreach" element={<HowReach />}></Route>
         <Route path="/venue/tourism" element={<LocalStuff />}></Route>
@@ -72,13 +94,19 @@ function App() {
         <Route path="/keynote" element={<Keynote />}></Route>
         <Route path="/tutorials" element={<Tutorials />}></Route>
         <Route path="/eventschedule" element={<EventSchedule />}></Route>
-        <Route path="/venue/accommodation" element={<Accommodation/>}></Route>
+        <Route path="/venue/accommodation" element={<Accommodation />}></Route>
         <Route path="/conferencevenue" element={<ConferenceVenue />}></Route>
-        <Route path="/committee/advisorycommittee" element={<AdvisoryCommitte />}></Route>
-        <Route path="/committee/steeringcommittee" element={<SteeringCommittee />}></Route>
+        <Route
+          path="/committee/advisorycommittee"
+          element={<AdvisoryCommitte />}
+        ></Route>
+        <Route
+          path="/committee/steeringcommittee"
+          element={<SteeringCommittee />}
+        ></Route>
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
